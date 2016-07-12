@@ -1,6 +1,5 @@
-<h1>Editing content_image</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @content_image %> |
-<%= link_to 'Back', content_images_path %>
+<%- model_class = ContentImage -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => ContentImage %></h1>
+</div>
+<%= render :partial => 'form' %>
