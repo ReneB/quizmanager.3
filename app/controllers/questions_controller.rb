@@ -15,10 +15,15 @@ class QuestionsController < ApplicationController
   # GET /questions/new
   def new
     @question = Question.new
+
+    4.times do @question.answers.build end
   end
 
   # GET /questions/1/edit
   def edit
+    (4 - @question.answers.count).times do
+      @question.answers.build
+    end
   end
 
   # POST /questions
@@ -69,6 +74,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:user_id)
+      params.require(:question).permit(:question_text, answers_attributes: [:content, :id])
     end
 end
