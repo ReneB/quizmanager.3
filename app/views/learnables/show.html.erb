@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @learnable.name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @learnable.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @learnable.body %>
+</p>
+
+<%= link_to 'Edit', edit_learnable_path(@learnable) %> |
+<%= link_to 'Back', learnables_path %>
