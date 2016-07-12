@@ -1,0 +1,29 @@
+<h1>Listing content_images</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Answer</th>
+      <th>File path</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @content_images.each do |content_image| %>
+      <tr>
+        <td><%= content_image.question %></td>
+        <td><%= content_image.answer %></td>
+        <td><%= content_image.file_path %></td>
+        <td><%= link_to 'Show', content_image %></td>
+        <td><%= link_to 'Edit', edit_content_image_path(content_image) %></td>
+        <td><%= link_to 'Destroy', content_image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Content image', new_content_image_path %>

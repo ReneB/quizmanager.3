@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @content_image.question %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @content_image.answer %>
+</p>
+
+<p>
+  <strong>File path:</strong>
+  <%= @content_image.file_path %>
+</p>
+
+<%= link_to 'Edit', edit_content_image_path(@content_image) %> |
+<%= link_to 'Back', content_images_path %>
