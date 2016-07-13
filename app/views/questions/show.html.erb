@@ -5,6 +5,14 @@
 
 <div class="fieldset">
   <dl>
+    <dt class="label label-default"><%= model_class.human_attribute_name(:question_text) %></dt>
+    <dd><%= @question.question_text %></dd>
+    <dt class="label label-default"><%= model_class.human_attribute_name(:answers) %></dt>
+    <dd>
+    <% @question.answers.each do |answer| %>
+      <%= render answer %>
+    <% end %>
+    </dd>
   </dl>
 </div>
 

@@ -1,14 +1,14 @@
 <%= form_for @question, :html => { :class => 'form-horizontal form-model' } do |f| %>
 
   <div class="form-group">
-    <%= f.label :question_text, :class => 'control-label col-md-2' %>
-    <div class="col-md-10">
-      <%= f.text_area :question_text, :class => 'text-area form-control' %>
+    <div>
+      <%= f.label :question_text, :class => 'control-label' %>
     </div>
+    <%= f.text_area :question_text, :class => 'text-area form-control' %>
   </div>
 
   <div class="form-group">
-    <%= f.fields_for :answers do |builder| %>
+    <%= f.simple_fields_for :answers do |builder| %>
       <%= render "answers/form_fields", :f => builder %>
     <% end %>
   </div>

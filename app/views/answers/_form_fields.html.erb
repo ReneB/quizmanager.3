@@ -3,4 +3,10 @@
   <div class="col-md-10">
     <%= f.text_field :content, :class => 'text-field form-control' %>
   </div>
+  <span class="col-md-2">
+    <%= f.label :is_correct?, :class => 'control-label' %>
+    <div>
+      <%= f.radio_button :is_correct?, f.object.id, name: "question[correct_answer_id]", value: f.object.id, checked: f.object.is_correct? %>
+    </div>
+  </span>
 </div>

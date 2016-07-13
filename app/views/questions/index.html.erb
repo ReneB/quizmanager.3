@@ -19,9 +19,8 @@
             <summary>
               <%= question.question_text %>
             </summary>
-            <ul>
             <% question.answers.each do |answer| %>
-              <li><%= answer.content %></li>
+              <%= render answer %>
             <% end %>
           </details>
         </td>
