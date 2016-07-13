@@ -42,3 +42,13 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.glyphicon {
+  &-ok {
+    color: green;
+  }
+
+  &-remove {
+    color: red;
+  }
+}
+
