@@ -14,5 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
+//= require bootstrap-multiselect
 
 //= require_tree .
+
+document.addEventListener("page:change", function() {
+  jQuery('[data-multi-select=dropdown]').multiselect();
+});

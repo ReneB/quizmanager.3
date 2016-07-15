@@ -50,6 +50,7 @@ gem 'activeadmin', github: 'activeadmin/activeadmin'
 gem 'rails_config'
 gem 'bootstrap-sass'
 gem 'bootstrap-sass-extras'
+gem 'bootstrap-multiselect-rails', github: 'benjamincanac/bootstrap-multiselect-rails'
 
 # Only for activeadmin, remove ASAP
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'

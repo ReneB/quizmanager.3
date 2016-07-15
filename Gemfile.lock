@@ -28,6 +28,13 @@ GIT
       responders
 
 GIT
+  remote: git://github.com/benjamincanac/bootstrap-multiselect-rails.git
+  revision: ca0293693becf136579c5e5de57d9dc82193f7c1
+  specs:
+    bootstrap-multiselect-rails (0.9.13)
+      rails (>= 4.0.0)
+
+GIT
   remote: git://github.com/plataformatec/devise.git
   revision: bcdd54cc5ebd3413eeb3d17e3b634e8ace0d09f3
   specs:
@@ -311,6 +318,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  bootstrap-multiselect-rails!
   bootstrap-sass
   bootstrap-sass-extras
   bundler
