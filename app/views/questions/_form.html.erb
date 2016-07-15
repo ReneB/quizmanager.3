@@ -1,32 +1,35 @@
 <%= form_for @question, :html => { :class => 'form-horizontal form-model' } do |f| %>
-
-  <div class="form-group">
-    <div class="row">
-      <%= f.label :question_text, :class => 'col-md-10' %>
-      <%= f.label :topics, :class => 'col-md-2' %>
-    </div>
-
-    <div class="row">
-      <span class='col-md-10'>
+  <div class="row">
+    <div class='col-md-10'>
+      <div class='form-group'>
+        <%= f.label :question_text, class: 'control-label' %>
         <%= f.text_area :question_text, :class => 'text-area form-control' %>
-      </span>
-      <span class='col-md-2'>
-        <%= category_dropdown(f) %>
-      </span>
+      </div>
+    </div>
+
+    <% validation_error_class = f.object.errors[:categories].any? ? 'has-error' : '' %>
+
+    <%= content_tag(:div, class: ['col-md-2', validation_error_class].join(' ')) do %>
+      <%= f.label(:topics, class: 'control-label') %>
+      <%= category_dropdown(f) %>
+    <% end -%>
+  </div>
+
+  <div class="row">
+    <div class="form-group">
+      <%= f.fields_for :answers do |builder| %>
+        <%= render "answers/form_fields", :f => builder %>
+    <% end %>
     </div>
   </div>
 
-  <div class="form-group">
-    <%= f.fields_for :answers do |builder| %>
-      <%= render "answers/form_fields", :f => builder %>
-    <% end %>
-  </div>
-
-  <div class="form-group">
-    <div class='col-md-offset-2 col-md-10'>
-      <%= f.submit nil, :class => 'btn btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                  questions_path, :class => 'btn btn-default' %>
+  <div class="row">
+    <div class="form-group">
+      <div class='col-md-offset-2 col-md-10'>
+        <%= f.submit nil, :class => 'btn btn-primary' %>
+        <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+          questions_path, :class => 'btn btn-default' %>
+      </div>
     </div>
   </div>
 <% end %>

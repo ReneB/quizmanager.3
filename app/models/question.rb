@@ -23,6 +23,6 @@ class Question < ActiveRecord::Base
 
 private
   def has_categories?
-    categories.present? || errors.add(:base, 'Must have at least one category')
+    categories.present? || errors.add(:categories, 'Must have at least one category')
   end
 end
