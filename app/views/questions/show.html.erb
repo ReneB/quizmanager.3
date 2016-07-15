@@ -4,15 +4,29 @@
 </div>
 
 <div class="fieldset">
-  <dl>
-    <dt class="label label-default"><%= model_class.human_attribute_name(:question_text) %></dt>
-    <dd><%= @question.question_text %></dd>
-    <dt class="label label-default"><%= model_class.human_attribute_name(:answers) %></dt>
-    <dd>
-    <% @question.answers.each do |answer| %>
-      <%= render answer %>
-    <% end %>
-    </dd>
+  <dl class="dl-horizontal">
+    <div class='well'>
+      <dt><%= model_class.human_attribute_name(:question_text) %></dt>
+      <dd><%= @question.question_text %></dd>
+    </div>
+    <div class='well'>
+      <dt><%= model_class.human_attribute_name(:answers) %></dt>
+      <dd>
+      <% @question.answers.each do |answer| %>
+        <%= render answer %>
+      <% end %>
+      </dd>
+    </div>
+    <div class='well'>
+      <dt><%= model_class.human_attribute_name(:topics) %></dt>
+      <dd>
+        <ul class='list-unstyled'>
+        <% @question.categories.each do |category| -%>
+          <li><%= category.title %></li>
+        <% end -%>
+        </ul>
+      </dd>
+    </div>
   </dl>
 </div>
 

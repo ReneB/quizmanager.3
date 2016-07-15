@@ -1,10 +1,19 @@
 <%= form_for @question, :html => { :class => 'form-horizontal form-model' } do |f| %>
 
   <div class="form-group">
-    <div>
-      <%= f.label :question_text, :class => 'control-label' %>
+    <div class="row">
+      <%= f.label :question_text, :class => 'col-md-10' %>
+      <%= f.label :topics, :class => 'col-md-2' %>
     </div>
-    <%= f.text_area :question_text, :class => 'text-area form-control' %>
+
+    <div class="row">
+      <span class='col-md-10'>
+        <%= f.text_area :question_text, :class => 'text-area form-control' %>
+      </span>
+      <span class='col-md-2'>
+        <%= category_dropdown(f) %>
+      </span>
+    </div>
   </div>
 
   <div class="form-group">
