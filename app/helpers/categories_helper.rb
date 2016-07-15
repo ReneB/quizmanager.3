@@ -8,7 +8,7 @@ module CategoriesHelper
       Category.all,
       :id,
       :title,
-      { include_hidden: false }, {
+      { }, {
         multiple: true,
         data: { "multi-select" => 'dropdown' }
       }

@@ -17,4 +17,12 @@ class Question < ActiveRecord::Base
       save
     end
   end
+
+  validate :has_categories?
+  validates :answers, presence: true, length: { is: 4 }
+
+private
+  def has_categories?
+    categories.present? || errors.add(:base, 'Must have at least one category')
+  end
 end
