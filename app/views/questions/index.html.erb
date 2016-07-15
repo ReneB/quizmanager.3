@@ -19,9 +19,24 @@
             <%= question.question_text %>
           <% end %>
           <%= content_tag :div, class: :collapse, id: "answers_for_question_#{question.id}" do %>
-            <% question.answers.each do |answer| %>
-              <%= render answer %>
-            <% end %>
+            <div class='row'>
+              <div class='col-md-6'>
+                <dl>
+                  <dt>Answers</dt>
+                  <% question.answers.each do |answer| %>
+                    <dd><%= render answer %></dd>
+                  <% end %>
+                </dl>
+              </div>
+              <div class='col-md-6'>
+                <dl>
+                  <dt>Topics</dt>
+                  <% question.categories.each do |category| %>
+                    <dd><%= category.title %></dd>
+                  <% end %>
+                </dl>
+              </div>
+            </div>
           <% end %>
         </td>
         <td>
