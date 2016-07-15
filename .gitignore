@@ -22,3 +22,4 @@
 #->Prelang (env_variables:dotenv)
 # Ignore .env file so sensitive environment variables are not checked into Git.
 .env
+.byebug_history
