@@ -1,6 +1,9 @@
 <%- model_class = Learnable -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => [:'helpers.titles.new', 'New %{model}'], :model => Learnable %></h1>
-</div>
-<%= render :partial => 'form' %>
+
+<%= container do %>
+  <div class="page-header">
+    <h1><%=t '.title', :default => [:'helpers.titles.new', 'New %{model}'], :model => Learnable %></h1>
+  </div>
+  <%= render :partial => 'form' %>
+<% end %>
 
