@@ -3,7 +3,10 @@
   <h1><%=t '.title', :default => Question %></h1>
 </div>
 <div id='questions' class="col-md-9">
-  <input type='text' class="search" />
+  <div class='form-group'>
+    <label for='search' class="control-label">Search: </label>
+    <%= search_field '', '', class: 'search form-control', placeholder: "Type your search text here" %>
+  </div>
   <table class="table table-striped">
     <thead>
       <tr>
