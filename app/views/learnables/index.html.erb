@@ -2,39 +2,71 @@
 <div class="page-header">
   <h1><%=t '.title', :default => Learnable %></h1>
 </div>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th><%= model_class.human_attribute_name(:name) %></th>
-      <th><%= model_class.human_attribute_name(:title) %></th>
-      <th><%= model_class.human_attribute_name(:body) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
-      <th><%=t '.actions', :default => t("helpers.actions") %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @learnables.each do |learnable| %>
+<div id='learnables'>
+  <div class='form-group'>
+    <label for='search' class="control-label">Search: </label>
+    <%= search_field '', '', class: 'search form-control', placeholder: "Type your search text here" %>
+  </div>
+  <table class="table table-striped table-hover">
+    <thead>
       <tr>
-        <td><%= learnable.id %></td>
-        <td><%= learnable.name %></td>
-        <td><%= learnable.title %></td>
-        <td><%= learnable.body %></td>
-        <td><%=l learnable.created_at, format: :long %></td>
-        <td>
-          <%= link_to learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do %>
-            <%= glyph 'info-sign' %>
-            <%= glyph 'pencil' %>
-          <%- end -%>
-          <%= link_to learnable_path(learnable), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-xs', :title => "#{ t('.destroy', :default => t('helpers.links.destroy')) }" do %>
-            <%= glyph 'remove' %>
-          <%- end -%>
-        </td>
+        <th class='sort' data-sort="id">
+          <%= model_class.human_attribute_name :id %>
+          <%= sorting_icons(:attributes) %>
+        </th>
+        <th class='sort' data-sort="name">
+          <%= model_class.human_attribute_name(:name) %>
+          <%= sorting_icons(:alphabet) %>
+        </th>
+        <th class='sort' data-sort="title">
+          <%= model_class.human_attribute_name(:title) %>
+          <%= sorting_icons(:alphabet) %>
+        </th>
+        <th class='sort' data-sort="body">
+          <%= model_class.human_attribute_name(:body) %>
+          <%= sorting_icons(:alphabet) %>
+        </th>
+        <th><%=t '.actions', :default => t("helpers.actions") %></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+    <tbody class="list">
+      <% @learnables.each do |learnable| %>
+        <tr>
+          <td class='id'><%= learnable.id %></td>
+          <td class='name'><%= learnable.name %></td>
+          <td class='title'><%= learnable.title %></td>
+          <td class='body'><%= learnable.body %></td>
+          <td class='actions'>
+            <%= link_to learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do %>
+              <%= glyph 'info-sign' %>
+            <% end %>
+            <%= link_to edit_learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.edit', :default => t('helpers.links.edit')) }" do %>
+              <%= glyph 'pencil' %>
+            <%- end -%>
+            <%= link_to learnable_path(learnable), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-xs', :title => "#{ t('.destroy', :default => t('helpers.links.destroy')) }" do %>
+              <%= glyph 'remove' %>
+            <%- end -%>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
-            new_learnable_path,
-            :class => 'btn btn-primary' %>
+  new_learnable_path,
+  :class => 'btn btn-primary' %>
+
+<%= javascript_tag do %>
+  document.addEventListener("page:change", buildLearnableList);
+
+  function buildLearnableList() {
+    document.removeEventListener("page:change", buildLearnableList);
+
+    var options = {
+      valueNames: ['id', 'name', 'title', 'body']
+    };
+
+    new List('learnables', options);
+  }
+<% end %>
