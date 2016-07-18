@@ -26,7 +26,9 @@
         <tr>
           <td class='id'><%= question.id %></td>
           <td>
-            <%= link_to 'javascript:void(0);', class: 'text', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
+            <%= content_tag :div, class: 'text collapsed', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
+              <%= glyph('triangle-right') %>
+              <%= glyph('triangle-bottom') %>
               <%= question.question_text %>
             <% end %>
             <%= content_tag :div, class: :collapse, id: "answers_for_question_#{question.id}" do %>
