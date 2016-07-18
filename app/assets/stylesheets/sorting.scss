@@ -1,4 +1,6 @@
 .sort {
+  white-space: nowrap;
+
   .glyphicon {
     &-sort-by-alphabet, &-sort-by-attributes, &-sort-by-order {
       display: none;
