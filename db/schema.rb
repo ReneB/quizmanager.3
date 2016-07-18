@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160718150929) do
+ActiveRecord::Schema.define(version: 20160718151809) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -99,6 +99,8 @@ ActiveRecord::Schema.define(version: 20160718150929) do
     t.text     "question_text"
     t.integer  "correct_answer_id"
     t.integer  "learnable_id"
+    t.integer  "content_image_id"
+    t.index ["content_image_id"], name: "index_questions_on_content_image_id", using: :btree
     t.index ["user_id"], name: "index_questions_on_user_id", using: :btree
   end
 
@@ -120,5 +122,6 @@ ActiveRecord::Schema.define(version: 20160718150929) do
   end
 
   add_foreign_key "questions", "answers", column: "correct_answer_id"
+  add_foreign_key "questions", "content_images"
   add_foreign_key "questions", "learnables"
 end

@@ -1,7 +1,7 @@
 class Question < ActiveRecord::Base
   belongs_to :user
-
   belongs_to :learnable
+  belongs_to :content_image
 
   has_many :answers
   belongs_to :correct_answer, class_name: Answer
