@@ -2,20 +2,27 @@
 <div class="page-header">
   <h1><%=t '.title', :default => Question %></h1>
 </div>
-<div class="col-md-9">
+<div id='questions' class="col-md-9">
+  <input type='text' class="search" />
   <table class="table table-striped">
     <thead>
       <tr>
-        <th>ID</th>
-        <th><%= model_class.human_attribute_name(:question_text) %></th>
+        <th class='sort' data-sort="id">
+          ID
+          <%= sorting_icons(:attributes) %>
+        </th>
+        <th class='sort' data-sort="text">
+          <%= model_class.human_attribute_name(:question_text) -%>
+          <%= sorting_icons(:alphabet) %>
+        </th>
         <th><%=t '.actions', :default => t("helpers.actions") %></th>
       </tr>
     </thead>
-    <tbody>
+    <tbody class="list">
       <% @questions.each do |question| %>
         <tr>
-          <td><%= question.id %></td>
-          <td>
+          <td class='id'><%= question.id %></td>
+          <td class='text'>
             <%= link_to '#', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
               <%= question.question_text %>
             <% end %>
@@ -73,3 +80,16 @@
   </div>
 </div>
 
+<%= javascript_tag do %>
+  document.addEventListener("page:change", buildQuestionList);
+
+  function buildQuestionList() {
+    document.removeEventListener("page:change", buildQuestionList);
+
+    var options = {
+      valueNames: ['id', 'text']
+    };
+
+    new List('questions', options);
+  }
+<% end %>

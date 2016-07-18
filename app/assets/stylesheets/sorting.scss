@@ -1,0 +1,36 @@
+.sort {
+  .glyphicon {
+    &-sort-by-alphabet, &-sort-by-attributes, &-sort-by-order {
+      display: none;
+
+      &-alt {
+        display: none;
+      }
+    }
+  }
+
+  &.asc {
+    .glyphicon {
+      &-sort {
+        display: none;
+
+        &-by-alphabet, &-by-attributes, &-by-order {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  &.desc {
+    .glyphicon {
+      &-sort {
+        display: none;
+
+        &-by-alphabet-alt, &-by-attributes-alt, &-by-order-alt {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
