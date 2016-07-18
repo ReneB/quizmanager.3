@@ -25,23 +25,23 @@
       <% @questions.each do |question| %>
         <tr>
           <td class='id'><%= question.id %></td>
-          <td class='text'>
-            <%= link_to 'javascript:void(0);', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
+          <td>
+            <%= link_to 'javascript:void(0);', class: 'text', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
               <%= question.question_text %>
             <% end %>
             <%= content_tag :div, class: :collapse, id: "answers_for_question_#{question.id}" do %>
               <div class='row'>
                 <div class='col-md-6'>
-                  <dl>
-                    <dt>Answers</dt>
+                  <h4>Answers</h4>
+                  <dl class="answers">
                     <% question.answers.each do |answer| %>
                       <dd><%= render answer %></dd>
                     <% end %>
                   </dl>
                 </div>
                 <div class='col-md-6'>
-                  <dl>
-                    <dt>Topics</dt>
+                  <h4>Topics</h4>
+                  <dl class="topics">
                     <% question.categories.each do |category| %>
                       <dd><%= category.title %></dd>
                     <% end %>
@@ -90,7 +90,7 @@
     document.removeEventListener("page:change", buildQuestionList);
 
     var options = {
-      valueNames: ['id', 'text']
+      valueNames: ['id', 'text', 'answers', 'topics']
     };
 
     new List('questions', options);
