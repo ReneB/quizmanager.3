@@ -3,6 +3,8 @@ class Question < ActiveRecord::Base
   has_many :content_images
   has_one :content_image
 
+  belongs_to :learnable
+
   has_many :answers
   belongs_to :correct_answer, class_name: Answer
 
