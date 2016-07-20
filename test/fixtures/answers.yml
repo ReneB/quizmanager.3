@@ -1,0 +1,4315 @@
+question_1_A:
+  content: Friendship
+  question: question_1
+question_1_B:
+  content: Playfulness
+  question: question_1
+question_1_C:
+  content: Intensity
+  question: question_1
+question_1_D:
+  content: Authenticity
+  question: question_1
+
+question_2_A:
+  content: Developing B2B BlockBusters
+  question: question_2
+question_2_B:
+  content: Mainly investing in B2C games
+  question: question_2
+question_2_C:
+  content: Investing in our brand, marketing and communication
+  question: question_2
+question_2_D:
+  content: Opening 5 new offices abroad
+  question: question_2
+
+question_3_A:
+  content: Design user interface
+  question: question_3
+question_3_B:
+  content: Release the game
+  question: question_3
+question_3_C:
+  content: Verify security issues with the game
+  question: question_3
+question_3_D:
+  content: Determine supported devices on which the game can be played
+  question: question_3
+
+question_4_A:
+  content: Estonian
+  question: question_4
+question_4_B:
+  content: Japanese
+  question: question_4
+question_4_C:
+  content: Turkish
+  question: question_4
+question_4_D:
+  content: Spanish
+  question: question_4
+
+question_5_A:
+  content: Being open, interested and giving feedback.
+  question: question_5
+question_5_B:
+  content: Being open-minded towards others
+  question: question_5
+question_5_C:
+  content: Giving your unfiltered opinion
+  question: question_5
+question_5_D:
+  content: Your friends can always count on you
+  question: question_5
+
+question_6_A:
+  content: Common values
+  question: question_6
+question_6_B:
+  content: Facebook
+  question: question_6
+question_6_C:
+  content: Always sharing the same opinions
+  question: question_6
+question_6_D:
+  content: Having a good time together
+  question: question_6
+
+question_7_A:
+  content: Steering product direction
+  question: question_7
+question_7_B:
+  content: Buying the product
+  question: question_7
+question_7_C:
+  content: Storing and backup up the product files
+  question: question_7
+question_7_D:
+  content: Selling the product
+  question: question_7
+
+question_8_A:
+  content: An agile method focused on flow
+  question: question_8
+question_8_B:
+  content: The official name for scrum
+  question: question_8
+question_8_C:
+  content: A theory about learning and behavior
+  question: question_8
+question_8_D:
+  content: Software for tracking expenses
+  question: question_8
+
+question_9_A:
+  content: Minimum Viable Product
+  question: question_9
+question_9_B:
+  content: Most Valuable Programmer
+  question: question_9
+question_9_C:
+  content: Model View Presenter
+  question: question_9
+question_9_D:
+  content: Minimum Valid Product
+  question: question_9
+
+question_10_A:
+  content: Passion and the drive to excel
+  question: question_10
+question_10_B:
+  content: Being yourself
+  question: question_10
+question_10_C:
+  content: Crunching and working late
+  question: question_10
+question_10_D:
+  content: Creativity and fun
+  question: question_10
+
+question_11_A:
+  content: Chain Management Game
+  question: question_11
+question_11_B:
+  content: J&J game 1st
+  question: question_11
+question_11_C:
+  content: DAF Excellerate
+  question: question_11
+question_11_D:
+  content: Fashion Factor
+  question: question_11
+
+question_12_A:
+  content: An agile project method
+  question: question_12
+question_12_B:
+  content: A programming language
+  question: question_12
+question_12_C:
+  content: A game design framework
+  question: question_12
+question_12_D:
+  content: A weekly planning session
+  question: question_12
+
+question_13_A:
+  content: In 2020, 20 million end users play our games
+  question: question_13
+question_13_B:
+  content: In 2030 10 million people play our games
+  question: question_13
+question_13_C:
+  content: In 2015 15 million players use our games
+  question: question_13
+question_13_D:
+  content: In 2020 lots of people play our games
+  question: question_13
+
+question_14_A:
+  content: Together we build a brighter future
+  question: question_14
+question_14_B:
+  content: Together we build a better tomorrow
+  question: question_14
+question_14_C:
+  content: We build a brighter future
+  question: question_14
+question_14_D:
+  content: We build a better tomorrow
+  question: question_14
+
+question_15_A:
+  content: People
+  question: question_15
+question_15_B:
+  content: Clients
+  question: question_15
+question_15_C:
+  content: Product
+  question: question_15
+question_15_D:
+  content: Profit
+  question: question_15
+
+question_16_A:
+  content: A bill board in South Africa
+  question: question_16
+question_16_B:
+  content: A 90's video game
+  question: question_16
+question_16_C:
+  content: A quote by Mahatma Gandhi
+  question: question_16
+question_16_D:
+  content: A book by Richard Branson
+  question: question_16
+
+question_17_A:
+  content: Managing Director
+  question: question_17
+question_17_B:
+  content: Project lead
+  question: question_17
+question_17_C:
+  content: Creative Director
+  question: question_17
+question_17_D:
+  content: Office Manager
+  question: question_17
+
+question_18_A:
+  content: Fishbowl
+  question: question_18
+question_18_B:
+  content: learning afternoon
+  question: question_18
+question_18_C:
+  content: Millennials Weekend
+  question: question_18
+question_18_D:
+  content: MT Meeting
+  question: question_18
+
+question_19_A:
+  content: Transparency about strategy and management
+  question: question_19
+question_19_B:
+  content: Showing company performance and sales
+  question: question_19
+question_19_C:
+  content: An opportunity to socialize
+  question: question_19
+question_19_D:
+  content: Settings tasks for employees
+  question: question_19
+
+question_20_A:
+  content: Being transparent, seeing what's inside
+  question: question_20
+question_20_B:
+  content: All being in the same space
+  question: question_20
+question_20_C:
+  content: Fishes all swimming together in sync
+  question: question_20
+question_20_D:
+  content: Drowning out disagreeing voices
+  question: question_20
+
+question_21_A:
+  content: Michael Bas
+  question: question_21
+question_21_B:
+  content: Rens van Slagmaat
+  question: question_21
+question_21_C:
+  content: GAF van Baalen
+  question: question_21
+question_21_D:
+  content: Lonneke Nouwens
+  question: question_21
+
+question_22_A:
+  content: Rens van Slagmaat
+  question: question_22
+question_22_B:
+  content: Lonneke Nouwens
+  question: question_22
+question_22_C:
+  content: Miranda Plomp
+  question: question_22
+question_22_D:
+  content: Bruno Jordaan
+  question: question_22
+
+question_23_A:
+  content: Your people leader
+  question: question_23
+question_23_B:
+  content: Your team leader
+  question: question_23
+question_23_C:
+  content: The studio manager
+  question: question_23
+question_23_D:
+  content: The HR manager
+  question: question_23
+
+question_24_A:
+  content: Helping employees achieve learning goals
+  question: question_24
+question_24_B:
+  content: Tracking your hours
+  question: question_24
+question_24_C:
+  content: Salary negotiations
+  question: question_24
+question_24_D:
+  content: Removing impediments
+  question: question_24
+
+question_25_A:
+  content: Thursday Borrel
+  question: question_25
+question_25_B:
+  content: Casual Friday
+  question: question_25
+question_25_C:
+  content: Demo Day
+  question: question_25
+question_25_D:
+  content: Many Meetings Monday
+  question: question_25
+
+question_26_A:
+  content: Thursday
+  question: question_26
+question_26_B:
+  content: Release day
+  question: question_26
+question_26_C:
+  content: New year's day
+  question: question_26
+question_26_D:
+  content: Friday
+  question: question_26
+
+question_27_A:
+  content: Make it personal
+  question: question_27
+question_27_B:
+  content: Tell the other how you feel about it
+  question: question_27
+question_27_C:
+  content: Use facts and observations
+  question: question_27
+question_27_D:
+  content: Be to the point
+  question: question_27
+
+question_28_A:
+  content: Meditation workshop
+  question: question_28
+question_28_B:
+  content: Millennials weekend
+  question: question_28
+question_28_C:
+  content: Integrating great people
+  question: question_28
+question_28_D:
+  content: MBTI course
+  question: question_28
+
+question_29_A:
+  content: Does not build a better world
+  question: question_29
+question_29_B:
+  content: We want a higher price
+  question: question_29
+question_29_C:
+  content: We don't like the scope
+  question: question_29
+question_29_D:
+  content: Project is not scalable
+  question: question_29
+
+question_30_A:
+  content: Positive, Play
+  question: question_30
+question_30_B:
+  content: Positive, Playfulness
+  question: question_30
+question_30_C:
+  content: Playful, Game thinking
+  question: question_30
+question_30_D:
+  content: Effective, Play
+  question: question_30
+
+question_31_A:
+  content: Tell them ways to improve it
+  question: question_31
+question_31_B:
+  content: Tell them that they need to improve it
+  question: question_31
+question_31_C:
+  content: Tell them that they did a bad job
+  question: question_31
+question_31_D:
+  content: Ask them to start over
+  question: question_31
+
+question_32_A:
+  content: Corporate training
+  question: question_32
+question_32_B:
+  content: Health
+  question: question_32
+question_32_C:
+  content: Education
+  question: question_32
+question_32_D:
+  content: Advertising
+  question: question_32
+
+question_33_A:
+  content: There is no dress code
+  question: question_33
+question_33_B:
+  content: Business casual
+  question: question_33
+question_33_C:
+  content: Casual
+  question: question_33
+question_33_D:
+  content: Black tie
+  question: question_33
+
+question_34_A:
+  content: HTML 5
+  question: question_34
+question_34_B:
+  content: Flash
+  question: question_34
+question_34_C:
+  content: Microsoft XNA
+  question: question_34
+question_34_D:
+  content: Silverlight
+  question: question_34
+
+question_35_A:
+  content: They place their photo on the wall.
+  question: question_35
+question_35_B:
+  content: They write their names in the wall.
+  question: question_35
+question_35_C:
+  content: They are imprisoned in the basement.
+  question: question_35
+question_35_D:
+  content: They leave a blood finger print in the wall.
+  question: question_35
+
+question_36_A:
+  content: Around 400
+  question: question_36
+question_36_B:
+  content: Around 200
+  question: question_36
+question_36_C:
+  content: Around 600
+  question: question_36
+question_36_D:
+  content: Around 800
+  question: question_36
+
+question_37_A:
+  content: The Oculus Rift
+  question: question_37
+question_37_B:
+  content: The Optical haze
+  question: question_37
+question_37_C:
+  content: The Holo Headache
+  question: question_37
+question_37_D:
+  content: The HTC Vive
+  question: question_37
+
+question_38_A:
+  content: Isometric World Editor
+  question: question_38
+question_38_B:
+  content: Puppet master tool
+  question: question_38
+question_38_C:
+  content: Story Engine
+  question: question_38
+question_38_D:
+  content: Dialog Editor
+  question: question_38
+
+question_39_A:
+  content: The sauna
+  question: question_39
+question_39_B:
+  content: The freezer
+  question: question_39
+question_39_C:
+  content: The library
+  question: question_39
+question_39_D:
+  content: The woodshed
+  question: question_39
+
+question_40_A:
+  content: Easy fun
+  question: question_40
+question_40_B:
+  content: People fun
+  question: question_40
+question_40_C:
+  content: Serious fun
+  question: question_40
+question_40_D:
+  content: Hard fun
+  question: question_40
+
+question_41_A:
+  content: Paul
+  question: question_41
+question_41_B:
+  content: Dennis
+  question: question_41
+question_41_C:
+  content: Rob
+  question: question_41
+question_41_D:
+  content: Peter
+  question: question_41
+
+question_42_A:
+  content: Scaling to the masses
+  question: question_42
+question_42_B:
+  content: Creativity
+  question: question_42
+question_42_C:
+  content: Game thinking
+  question: question_42
+question_42_D:
+  content: Behavioral change
+  question: question_42
+
+question_43_A:
+  content: Tobacco industry
+  question: question_43
+question_43_B:
+  content: Oil industry
+  question: question_43
+question_43_C:
+  content: Army
+  question: question_43
+question_43_D:
+  content: Meat industry
+  question: question_43
+
+question_44_A:
+  content: Safety
+  question: question_44
+question_44_B:
+  content: Social
+  question: question_44
+question_44_C:
+  content: Critical
+  question: question_44
+question_44_D:
+  content: Focus on people
+  question: question_44
+
+question_45_A:
+  content: Kika and Bob
+  question: question_45
+question_45_B:
+  content: Plan-it Commander
+  question: question_45
+question_45_C:
+  content: &Vision
+  question: question_45
+question_45_D:
+  content: HCC experience
+  question: question_45
+
+question_46_A:
+  content: Tourism
+  question: question_46
+question_46_B:
+  content: Healthcare
+  question: question_46
+question_46_C:
+  content: Corporate training
+  question: question_46
+question_46_D:
+  content: Recruitment
+  question: question_46
+
+question_47_A:
+  content: Smart Game
+  question: question_47
+question_47_B:
+  content: Changing the Dialog
+  question: question_47
+question_47_C:
+  content: Alternate Reality
+  question: question_47
+question_47_D:
+  content: Interactive Case Study
+  question: question_47
+
+question_48_A:
+  content: Decorate the person's chair
+  question: question_48
+question_48_B:
+  content: Sing Happy Birthday
+  question: question_48
+question_48_C:
+  content: Eat cake
+  question: question_48
+question_48_D:
+  content: Give a present
+  question: question_48
+
+question_49_A:
+  content: Motion capturing
+  question: question_49
+question_49_B:
+  content: Audio editing
+  question: question_49
+question_49_C:
+  content: 3D animation
+  question: question_49
+question_49_D:
+  content: Green screen recording
+  question: question_49
+
+question_50_A:
+  content: Scaling to the masses
+  question: question_50
+question_50_B:
+  content: Playfulness
+  question: question_50
+question_50_C:
+  content: Intensity
+  question: question_50
+question_50_D:
+  content: Friendship
+  question: question_50
+
+question_51_A:
+  content: Roman
+  question: question_51
+question_51_B:
+  content: Anique
+  question: question_51
+question_51_C:
+  content: Rene
+  question: question_51
+question_51_D:
+  content: Niek
+  question: question_51
+
+question_52_A:
+  content: Eva
+  question: question_52
+question_52_B:
+  content: Miranda
+  question: question_52
+question_52_C:
+  content: Saskia
+  question: question_52
+question_52_D:
+  content: Michael
+  question: question_52
+
+question_53_A:
+  content: GAF van Baalen
+  question: question_53
+question_53_B:
+  content: Michael Bas
+  question: question_53
+question_53_C:
+  content: Marcus Vlaar
+  question: question_53
+question_53_D:
+  content: Eva de Winkel
+  question: question_53
+
+question_54_A:
+  content: Realistic Job Preview
+  question: question_54
+question_54_B:
+  content: Ranj Job Project
+  question: question_54
+question_54_C:
+  content: Realistic Job Project
+  question: question_54
+question_54_D:
+  content: Ranj Job Preview
+  question: question_54
+
+question_55_A:
+  content: Balloons attached to his/her monitor
+  question: question_55
+question_55_B:
+  content: A decorated office chair
+  question: question_55
+question_55_C:
+  content: A little birthday hat
+  question: question_55
+question_55_D:
+  content: A message on Slack
+  question: question_55
+
+question_56_A:
+  content: Hand out cake
+  question: question_56
+question_56_B:
+  content: Throw a party
+  question: question_56
+question_56_C:
+  content: Take the day off
+  question: question_56
+question_56_D:
+  content: Sing a song
+  question: question_56
+
+question_57_A:
+  content: The Christmas party
+  question: question_57
+question_57_B:
+  content: The summer party
+  question: question_57
+question_57_C:
+  content: The new years reception
+  question: question_57
+question_57_D:
+  content: Each fishbowl
+  question: question_57
+
+question_58_A:
+  content: Christmas and summer
+  question: question_58
+question_58_B:
+  content: New year and summer
+  question: question_58
+question_58_C:
+  content: Spring and autumn
+  question: question_58
+question_58_D:
+  content: Each quarter
+  question: question_58
+
+question_59_A:
+  content: In a yellow bear suit
+  question: question_59
+question_59_B:
+  content: By giving a one hour speech
+  question: question_59
+question_59_C:
+  content: By shooting them with a water gun
+  question: question_59
+question_59_D:
+  content: By singing them a personal song
+  question: question_59
+
+question_60_A:
+  content: Hamburg
+  question: question_60
+question_60_B:
+  content: Berlin
+  question: question_60
+question_60_C:
+  content: Frankfurt
+  question: question_60
+question_60_D:
+  content: Munich
+  question: question_60
+
+question_61_A:
+  content: Thai
+  question: question_61
+question_61_B:
+  content: Korean
+  question: question_61
+question_61_C:
+  content: Greek
+  question: question_61
+question_61_D:
+  content: Japanese
+  question: question_61
+
+question_62_A:
+  content: Sydney, Madrid, Los Angeles, Athens
+  question: question_62
+question_62_B:
+  content: Sydney, Berlin, London, New York
+  question: question_62
+question_62_C:
+  content: New York, Munich, Madrid, Maastricht
+  question: question_62
+question_62_D:
+  content: Athens, Vatican City, Los Angeles, London
+  question: question_62
+
+question_63_A:
+  content: In-game workspace
+  question: question_63
+question_63_B:
+  content: Dialogs with believable characters
+  question: question_63
+question_63_C:
+  content: Unlockable tips & tricks
+  question: question_63
+question_63_D:
+  content: Key moment feedback
+  question: question_63
+
+question_64_A:
+  content: Being the boss
+  question: question_64
+question_64_B:
+  content: Challenging the team
+  question: question_64
+question_64_C:
+  content: Representing stakeholders
+  question: question_64
+question_64_D:
+  content: Having a vision and setting priorities
+  question: question_64
+
+question_65_A:
+  content: Playful is not bound to rules as gaming is
+  question: question_65
+question_65_B:
+  content: Gaming is digital and playful isn't
+  question: question_65
+question_65_C:
+  content: Gaming is necessary for playfulness
+  question: question_65
+question_65_D:
+  content: Both are the same
+  question: question_65
+
+question_66_A:
+  content: Motivation
+  question: question_66
+question_66_B:
+  content: Flow
+  question: question_66
+question_66_C:
+  content: Behavioral change
+  question: question_66
+question_66_D:
+  content: Mindfulness
+  question: question_66
+
+question_67_A:
+  content: KLM
+  question: question_67
+question_67_B:
+  content: Shell
+  question: question_67
+question_67_C:
+  content: Siemens
+  question: question_67
+question_67_D:
+  content: Bosch
+  question: question_67
+
+question_68_A:
+  content: Friendship
+  question: question_68
+question_68_B:
+  content: Authenticity
+  question: question_68
+question_68_C:
+  content: Playfulness
+  question: question_68
+question_68_D:
+  content: Intensity
+  question: question_68
+
+question_69_A:
+  content: Friendship
+  question: question_69
+question_69_B:
+  content: Authenticity
+  question: question_69
+question_69_C:
+  content: Playfulness
+  question: question_69
+question_69_D:
+  content: Intensity
+  question: question_69
+
+question_70_A:
+  content: Friendship
+  question: question_70
+question_70_B:
+  content: Authenticity
+  question: question_70
+question_70_C:
+  content: Playfulness
+  question: question_70
+question_70_D:
+  content: Intensity
+  question: question_70
+
+question_71_A:
+  content: Authenticity
+  question: question_71
+question_71_B:
+  content: Friendship
+  question: question_71
+question_71_C:
+  content: Playfulness
+  question: question_71
+question_71_D:
+  content: Intensity
+  question: question_71
+
+question_72_A:
+  content: Authenticity
+  question: question_72
+question_72_B:
+  content: Friendship
+  question: question_72
+question_72_C:
+  content: Playfulness
+  question: question_72
+question_72_D:
+  content: Intensity
+  question: question_72
+
+question_73_A:
+  content: Authenticity
+  question: question_73
+question_73_B:
+  content: Friendship
+  question: question_73
+question_73_C:
+  content: Playfulness
+  question: question_73
+question_73_D:
+  content: Intensity
+  question: question_73
+
+question_74_A:
+  content: Playfulness
+  question: question_74
+question_74_B:
+  content: Game thinking
+  question: question_74
+question_74_C:
+  content: Creativity
+  question: question_74
+question_74_D:
+  content: Intensity
+  question: question_74
+
+question_75_A:
+  content: Playfulness
+  question: question_75
+question_75_B:
+  content: Authenticity
+  question: question_75
+question_75_C:
+  content: Friendship
+  question: question_75
+question_75_D:
+  content: Intensity
+  question: question_75
+
+question_76_A:
+  content: Playfulness
+  question: question_76
+question_76_B:
+  content: Authenticity
+  question: question_76
+question_76_C:
+  content: Behavioral change
+  question: question_76
+question_76_D:
+  content: Intensity
+  question: question_76
+
+question_77_A:
+  content: Intensity
+  question: question_77
+question_77_B:
+  content: Authenticity
+  question: question_77
+question_77_C:
+  content: Playfulness
+  question: question_77
+question_77_D:
+  content: Friendship
+  question: question_77
+
+question_78_A:
+  content: Intensity
+  question: question_78
+question_78_B:
+  content: Authenticity
+  question: question_78
+question_78_C:
+  content: Playfulness
+  question: question_78
+question_78_D:
+  content: None of the above
+  question: question_78
+
+question_79_A:
+  content: Intensity
+  question: question_79
+question_79_B:
+  content: Authenticity
+  question: question_79
+question_79_C:
+  content: Playfulness
+  question: question_79
+question_79_D:
+  content: Friendship
+  question: question_79
+
+question_80_A:
+  content: See things differently, as a game
+  question: question_80
+question_80_B:
+  content: Dare to be out of the ordinary
+  question: question_80
+question_80_C:
+  content: Inspire and connect
+  question: question_80
+question_80_D:
+  content: Strive to be the best
+  question: question_80
+
+question_81_A:
+  content: Be fun and good humored
+  question: question_81
+question_81_B:
+  content: Dare to be out of the ordinary
+  question: question_81
+question_81_C:
+  content: Believe in the power of diversity
+  question: question_81
+question_81_D:
+  content: "\"We're in it together\""
+  question: question_81
+
+question_82_A:
+  content: Dare to fail and learn
+  question: question_82
+question_82_B:
+  content: Dare to be out of the ordinary
+  question: question_82
+question_82_C:
+  content: Be yourself and know yourself
+  question: question_82
+question_82_D:
+  content: Inspire and connect
+  question: question_82
+
+question_83_A:
+  content: Strive to be the best
+  question: question_83
+question_83_B:
+  content: Dare to fail and learn
+  question: question_83
+question_83_C:
+  content: "\"We're in it together\""
+  question: question_83
+question_83_D:
+  content: Dare to be out of the ordinary
+  question: question_83
+
+question_84_A:
+  content: Can-do mentality
+  question: question_84
+question_84_B:
+  content: Dare to fail and learn
+  question: question_84
+question_84_C:
+  content: Inspire and connect
+  question: question_84
+question_84_D:
+  content: Be yourself and know yourself
+  question: question_84
+
+question_85_A:
+  content: Manage your energy
+  question: question_85
+question_85_B:
+  content: Dare to fail and learn
+  question: question_85
+question_85_C:
+  content: Be yourself and know yourself
+  question: question_85
+question_85_D:
+  content: See things differently, as a game
+  question: question_85
+
+question_86_A:
+  content: Be yourself and know yourself
+  question: question_86
+question_86_B:
+  content: Dare to fail and learn
+  question: question_86
+question_86_C:
+  content: Strive to be the best
+  question: question_86
+question_86_D:
+  content: "\"We're in it together\""
+  question: question_86
+
+question_87_A:
+  content: Dare to be out of the ordinary
+  question: question_87
+question_87_B:
+  content: Strive to be the best
+  question: question_87
+question_87_C:
+  content: Be honest and approachable
+  question: question_87
+question_87_D:
+  content: Always give compliments
+  question: question_87
+
+question_88_A:
+  content: Believe in the power of diversity
+  question: question_88
+question_88_B:
+  content: "\"We're in it together\""
+  question: question_88
+question_88_C:
+  content: Be fun and good humored
+  question: question_88
+question_88_D:
+  content: Can-do mentality
+  question: question_88
+
+question_89_A:
+  content: Be honest and approachable, give feedback
+  question: question_89
+question_89_B:
+  content: Be yourself and know yourself
+  question: question_89
+question_89_C:
+  content: Be fun and good humored
+  question: question_89
+question_89_D:
+  content: Strive to be the best
+  question: question_89
+
+question_90_A:
+  content: Inspire and connect
+  question: question_90
+question_90_B:
+  content: Dare to be out of the ordinary
+  question: question_90
+question_90_C:
+  content: Believe in the power of diversity
+  question: question_90
+question_90_D:
+  content: Can-do mentality
+  question: question_90
+
+question_91_A:
+  content: "\"We're in it together\""
+  question: question_91
+question_91_B:
+  content: Dare to fail and learn
+  question: question_91
+question_91_C:
+  content: Believe in the power of diversity
+  question: question_91
+question_91_D:
+  content: Dare to be out of the ordinary
+  question: question_91
+
+question_92_A:
+  content: Game thinking
+  question: question_92
+question_92_B:
+  content: Intensity
+  question: question_92
+question_92_C:
+  content: Authenticity
+  question: question_92
+question_92_D:
+  content: Friendship
+  question: question_92
+
+question_93_A:
+  content: Creativity
+  question: question_93
+question_93_B:
+  content: Playfulness
+  question: question_93
+question_93_C:
+  content: Intensity
+  question: question_93
+question_93_D:
+  content: Friendship
+  question: question_93
+
+question_94_A:
+  content: Play
+  question: question_94
+question_94_B:
+  content: Playfulness
+  question: question_94
+question_94_C:
+  content: Authenticity
+  question: question_94
+question_94_D:
+  content: Friendship
+  question: question_94
+
+question_95_A:
+  content: Positive behavioral change
+  question: question_95
+question_95_B:
+  content: Intensity
+  question: question_95
+question_95_C:
+  content: Authenticity
+  question: question_95
+question_95_D:
+  content: Friendship
+  question: question_95
+
+question_96_A:
+  content: Growing people
+  question: question_96
+question_96_B:
+  content: Playfulness
+  question: question_96
+question_96_C:
+  content: Authenticity
+  question: question_96
+question_96_D:
+  content: Intensity
+  question: question_96
+
+question_97_A:
+  content: Playfulness
+  question: question_97
+question_97_B:
+  content: Game thinking
+  question: question_97
+question_97_C:
+  content: Scaling to the masses
+  question: question_97
+question_97_D:
+  content: Behavioral change
+  question: question_97
+
+question_98_A:
+  content: Intensity
+  question: question_98
+question_98_B:
+  content: State-of-the-art technology
+  question: question_98
+question_98_C:
+  content: Game thinking
+  question: question_98
+question_98_D:
+  content: Creativity
+  question: question_98
+
+question_99_A:
+  content: Growing people
+  question: question_99
+question_99_B:
+  content: Game thinking
+  question: question_99
+question_99_C:
+  content: Creativity
+  question: question_99
+question_99_D:
+  content: Behavioral change
+  question: question_99
+
+question_100_A:
+  content: Scalable sales
+  question: question_100
+question_100_B:
+  content: State-of-the-art technology
+  question: question_100
+question_100_C:
+  content: Scaling to the masses
+  question: question_100
+question_100_D:
+  content: Creativity
+  question: question_100
+
+question_101_A:
+  content: &ranj way of working
+  question: question_101
+question_101_B:
+  content: Game thinking
+  question: question_101
+question_101_C:
+  content: Behavioral change
+  question: question_101
+question_101_D:
+  content: Creativity
+  question: question_101
+
+question_102_A:
+  content: Blockbusters
+  question: question_102
+question_102_B:
+  content: Scalable sales
+  question: question_102
+question_102_C:
+  content: Growing people
+  question: question_102
+question_102_D:
+  content: Playful company
+  question: question_102
+
+question_103_A:
+  content: Scaling to the masses
+  question: question_103
+question_103_B:
+  content: &ranj way of working
+  question: question_103
+question_103_C:
+  content: Technology
+  question: question_103
+question_103_D:
+  content: Growing people
+  question: question_103
+
+question_104_A:
+  content: Game thinking
+  question: question_104
+question_104_B:
+  content: Scalable sales
+  question: question_104
+question_104_C:
+  content: Growing people
+  question: question_104
+question_104_D:
+  content: Playful company
+  question: question_104
+
+question_105_A:
+  content: Behavioral change
+  question: question_105
+question_105_B:
+  content: &ranj way of working
+  question: question_105
+question_105_C:
+  content: Technology
+  question: question_105
+question_105_D:
+  content: Growing people
+  question: question_105
+
+question_106_A:
+  content: Custom projects
+  question: question_106
+question_106_B:
+  content: Scalable sales
+  question: question_106
+question_106_C:
+  content: Growing people
+  question: question_106
+question_106_D:
+  content: Playful company
+  question: question_106
+
+question_107_A:
+  content: A good-looking UI
+  question: question_107
+question_107_B:
+  content: A testable UI
+  question: question_107
+question_107_C:
+  content: An easy workflow
+  question: question_107
+question_107_D:
+  content: Converting tasks to screens
+  question: question_107
+
+question_108_A:
+  content: Recording/synthesizing audio
+  question: question_108
+question_108_B:
+  content: Setting a direction for audio design
+  question: question_108
+question_108_C:
+  content: Testing audio on users
+  question: question_108
+question_108_D:
+  content: Identifying audio needs
+  question: question_108
+
+question_109_A:
+  content: Prioritizing features to build
+  question: question_109
+question_109_B:
+  content: Suggesting features to build
+  question: question_109
+question_109_C:
+  content: Evaluating the feature's effect
+  question: question_109
+question_109_D:
+  content: Giving a feature a detailed design
+  question: question_109
+
+question_110_A:
+  content: Developing a 'seed' or metaphor
+  question: question_110
+question_110_B:
+  content: Asset production
+  question: question_110
+question_110_C:
+  content: Setting a visual style
+  question: question_110
+question_110_D:
+  content: Placement and alignment
+  question: question_110
+
+question_111_A:
+  content: Game designer
+  question: question_111
+question_111_B:
+  content: Project manager
+  question: question_111
+question_111_C:
+  content: Visual designer
+  question: question_111
+question_111_D:
+  content: Programmer
+  question: question_111
+
+question_112_A:
+  content: Visual designer
+  question: question_112
+question_112_B:
+  content: Game designer
+  question: question_112
+question_112_C:
+  content: Programmer
+  question: question_112
+question_112_D:
+  content: Project manager
+  question: question_112
+
+question_113_A:
+  content: Project manager/Product owner
+  question: question_113
+question_113_B:
+  content: Lead designer
+  question: question_113
+question_113_C:
+  content: Creative director
+  question: question_113
+question_113_D:
+  content: Agile coach
+  question: question_113
+
+question_114_A:
+  content: Lead developer
+  question: question_114
+question_114_B:
+  content: Interior designer
+  question: question_114
+question_114_C:
+  content: Level designer
+  question: question_114
+question_114_D:
+  content: Visual designer
+  question: question_114
+
+question_115_A:
+  content: Project manager
+  question: question_115
+question_115_B:
+  content: Creative director
+  question: question_115
+question_115_C:
+  content: Lead designer
+  question: question_115
+question_115_D:
+  content: Studio manager
+  question: question_115
+
+question_116_A:
+  content: Product owner
+  question: question_116
+question_116_B:
+  content: Agile coach
+  question: question_116
+question_116_C:
+  content: Salesperson
+  question: question_116
+question_116_D:
+  content: Client representative
+  question: question_116
+
+question_117_A:
+  content: Agile coach
+  question: question_117
+question_117_B:
+  content: Product owner
+  question: question_117
+question_117_C:
+  content: Studio manager
+  question: question_117
+question_117_D:
+  content: The team's members
+  question: question_117
+
+question_118_A:
+  content: MVP
+  question: question_118
+question_118_B:
+  content: MTB
+  question: question_118
+question_118_C:
+  content: Beta
+  question: question_118
+question_118_D:
+  content: Pilot
+  question: question_118
+
+question_119_A:
+  content: Model-View-Controller
+  question: question_119
+question_119_B:
+  content: Most valuable concept
+  question: question_119
+question_119_C:
+  content: Master value chain
+  question: question_119
+question_119_D:
+  content: Mini virtual compiler
+  question: question_119
+
+question_120_A:
+  content: Realistic Job Preview
+  question: question_120
+question_120_B:
+  content: Rate your Job Partner
+  question: question_120
+question_120_C:
+  content: Reassign junior programmer
+  question: question_120
+question_120_D:
+  content: Rock and Jazz Performer
+  question: question_120
+
+question_121_A:
+  content: Subject Matter Expert
+  question: question_121
+question_121_B:
+  content: Set Manager Expectations
+  question: question_121
+question_121_C:
+  content: Social eMpathy and Extroversion
+  question: question_121
+question_121_D:
+  content: Small/Medium Enterprise
+  question: question_121
+
+question_122_A:
+  content: User story
+  question: question_122
+question_122_B:
+  content: Value proposition
+  question: question_122
+question_122_C:
+  content: Persona
+  question: question_122
+question_122_D:
+  content: Chore
+  question: question_122
+
+question_123_A:
+  content: Sprint planning
+  question: question_123
+question_123_B:
+  content: Backlog
+  question: question_123
+question_123_C:
+  content: Epic
+  question: question_123
+question_123_D:
+  content: Burndown
+  question: question_123
+
+question_124_A:
+  content: Trello
+  question: question_124
+question_124_B:
+  content: Harvest
+  question: question_124
+question_124_C:
+  content: Conceptboard
+  question: question_124
+question_124_D:
+  content: Bitbucket
+  question: question_124
+
+question_125_A:
+  content: 365 Days feedback tool
+  question: question_125
+question_125_B:
+  content: Harvest
+  question: question_125
+question_125_C:
+  content: Bitbucket
+  question: question_125
+question_125_D:
+  content: Engager
+  question: question_125
+
+question_126_A:
+  content: Kanban
+  question: question_126
+question_126_B:
+  content: XP
+  question: question_126
+question_126_C:
+  content: Scrum
+  question: question_126
+question_126_D:
+  content: Waterfall
+  question: question_126
+
+question_127_A:
+  content: Scrum
+  question: question_127
+question_127_B:
+  content: Kanban
+  question: question_127
+question_127_C:
+  content: XP
+  question: question_127
+question_127_D:
+  content: Iterative design
+  question: question_127
+
+question_128_A:
+  content: Story Editor
+  question: question_128
+question_128_B:
+  content: Dialog Editor
+  question: question_128
+question_128_C:
+  content: OzScript™
+  question: question_128
+question_128_D:
+  content: Puppet Master
+  question: question_128
+
+question_129_A:
+  content: Rapid Design Session
+  question: question_129
+question_129_B:
+  content: Brainstorm
+  question: question_129
+question_129_C:
+  content: Sprint planning
+  question: question_129
+question_129_D:
+  content: Beta test
+  question: question_129
+
+question_130_A:
+  content: The Fishbowl
+  question: question_130
+question_130_B:
+  content: MT Meeting
+  question: question_130
+question_130_C:
+  content: Lunch League
+  question: question_130
+question_130_D:
+  content: Learning Afternoon
+  question: question_130
+
+question_131_A:
+  content: Millennials weekend
+  question: question_131
+question_131_B:
+  content: Employee Survey
+  question: question_131
+question_131_C:
+  content: 365 Days feedback tool
+  question: question_131
+question_131_D:
+  content: Lunch Meetings
+  question: question_131
+
+question_132_A:
+  content: Personal backlog
+  question: question_132
+question_132_B:
+  content: Employee Contract
+  question: question_132
+question_132_C:
+  content: Personal evaluation
+  question: question_132
+question_132_D:
+  content: Studio Planning
+  question: question_132
+
+question_133_A:
+  content: Sprint definition
+  question: question_133
+question_133_B:
+  content: Backlog definition
+  question: question_133
+question_133_C:
+  content: Definition of done
+  question: question_133
+question_133_D:
+  content: Personal contract
+  question: question_133
+
+question_134_A:
+  content: Sprint retrospective
+  question: question_134
+question_134_B:
+  content: Postmortem
+  question: question_134
+question_134_C:
+  content: Personal evaluation
+  question: question_134
+question_134_D:
+  content: Backlog negotiation
+  question: question_134
+
+question_135_A:
+  content: Learning afternoon
+  question: question_135
+question_135_B:
+  content: Team meetings
+  question: question_135
+question_135_C:
+  content: GD/VD/Tech meetings
+  question: question_135
+question_135_D:
+  content: Retrospective
+  question: question_135
+
+question_136_A:
+  content: Concept document
+  question: question_136
+question_136_B:
+  content: Sales pitch
+  question: question_136
+question_136_C:
+  content: Code documentation
+  question: question_136
+question_136_D:
+  content: Wireframes
+  question: question_136
+
+question_137_A:
+  content: Script
+  question: question_137
+question_137_B:
+  content: Storyboard
+  question: question_137
+question_137_C:
+  content: Concept document
+  question: question_137
+question_137_D:
+  content: Rapid Dialog Screenplay
+  question: question_137
+
+question_138_A:
+  content: Moodboard
+  question: question_138
+question_138_B:
+  content: Style guide
+  question: question_138
+question_138_C:
+  content: Mockup
+  question: question_138
+question_138_D:
+  content: Wireframe
+  question: question_138
+
+question_139_A:
+  content: Style guide
+  question: question_139
+question_139_B:
+  content: Moodboard
+  question: question_139
+question_139_C:
+  content: Prototype
+  question: question_139
+question_139_D:
+  content: Conceptboard
+  question: question_139
+
+question_140_A:
+  content: Wireframes
+  question: question_140
+question_140_B:
+  content: Mockups
+  question: question_140
+question_140_C:
+  content: Flowcharts
+  question: question_140
+question_140_D:
+  content: Moodboard
+  question: question_140
+
+question_141_A:
+  content: Mockup
+  question: question_141
+question_141_B:
+  content: Paper prototype
+  question: question_141
+question_141_C:
+  content: Screenflow
+  question: question_141
+question_141_D:
+  content: Storyboard
+  question: question_141
+
+question_142_A:
+  content: Alpha
+  question: question_142
+question_142_B:
+  content: Beta
+  question: question_142
+question_142_C:
+  content: Gamma
+  question: question_142
+question_142_D:
+  content: Pilot
+  question: question_142
+
+question_143_A:
+  content: Pilot
+  question: question_143
+question_143_B:
+  content: Beta
+  question: question_143
+question_143_C:
+  content: Tech demo
+  question: question_143
+question_143_D:
+  content: RDS
+  question: question_143
+
+question_144_A:
+  content: Post-it notes
+  question: question_144
+question_144_B:
+  content: Statement card
+  question: question_144
+question_144_C:
+  content: Business card
+  question: question_144
+question_144_D:
+  content: Email
+  question: question_144
+
+question_145_A:
+  content: Changing the dialog
+  question: question_145
+question_145_B:
+  content: Realistic Job Preview
+  question: question_145
+question_145_C:
+  content: Interactive Case Study
+  question: question_145
+question_145_D:
+  content: "Format C:"
+  question: question_145
+
+question_146_A:
+  content: Realistic Job Preview
+  question: question_146
+question_146_B:
+  content: Interactive Case Study
+  question: question_146
+question_146_C:
+  content: Format follows Function
+  question: question_146
+question_146_D:
+  content: Changing the Dialog
+  question: question_146
+
+question_147_A:
+  content: Interactive Case Study
+  question: question_147
+question_147_B:
+  content: Realistic Job Preview
+  question: question_147
+question_147_C:
+  content: Engineering the Future
+  question: question_147
+question_147_D:
+  content: Changing the Dialog
+  question: question_147
+
+question_148_A:
+  content: Monster Zoo
+  question: question_148
+question_148_B:
+  content: Engager
+  question: question_148
+question_148_C:
+  content: Sharkworld
+  question: question_148
+question_148_D:
+  content: Tech-Ed
+  question: question_148
+
+question_149_A:
+  content: The Journey
+  question: question_149
+question_149_B:
+  content: Room of your own
+  question: question_149
+question_149_C:
+  content: Kick-ass
+  question: question_149
+question_149_D:
+  content: De Night Of…
+  question: question_149
+
+question_150_A:
+  content: Wuppermann
+  question: question_150
+question_150_B:
+  content: Value Concept
+  question: question_150
+question_150_C:
+  content: Shell Explorer Game
+  question: question_150
+question_150_D:
+  content: Houthoff Buruma
+  question: question_150
+
+question_151_A:
+  content: DEX platform
+  question: question_151
+question_151_B:
+  content: Shell Explorer Game
+  question: question_151
+question_151_C:
+  content: LifeTrek
+  question: question_151
+question_151_D:
+  content: Engager
+  question: question_151
+
+question_152_A:
+  content: Fashion Factor
+  question: question_152
+question_152_B:
+  content: LifeTrek
+  question: question_152
+question_152_C:
+  content: Shell Explorer Game
+  question: question_152
+question_152_D:
+  content: Engager
+  question: question_152
+
+question_153_A:
+  content: The Night Of …
+  question: question_153
+question_153_B:
+  content: Heartware
+  question: question_153
+question_153_C:
+  content: Kick-ass
+  question: question_153
+question_153_D:
+  content: Wuppermann
+  question: question_153
+
+question_154_A:
+  content: Heartware
+  question: question_154
+question_154_B:
+  content: Fashion Factor
+  question: question_154
+question_154_C:
+  content: Engager
+  question: question_154
+question_154_D:
+  content: Wuppermann
+  question: question_154
+
+question_155_A:
+  content: The Great Flu
+  question: question_155
+question_155_B:
+  content: Sharkworld
+  question: question_155
+question_155_C:
+  content: Pandemic
+  question: question_155
+question_155_D:
+  content: LifeTrek
+  question: question_155
+
+question_156_A:
+  content: VoxVenti
+  question: question_156
+question_156_B:
+  content: Shell Explorer Game
+  question: question_156
+question_156_C:
+  content: Fashion Factor
+  question: question_156
+question_156_D:
+  content: The Wind Waker
+  question: question_156
+
+question_157_A:
+  content: Gamestorming kit
+  question: question_157
+question_157_B:
+  content: A standard deck of cards
+  question: question_157
+question_157_C:
+  content: Dixit Cards
+  question: question_157
+question_157_D:
+  content: Business Cards
+  question: question_157
+
+question_158_A:
+  content: Rapid Design Sessions
+  question: question_158
+question_158_B:
+  content: Pictures of Super Mario in emails
+  question: question_158
+question_158_C:
+  content: Concept Documents
+  question: question_158
+question_158_D:
+  content: Our email signature
+  question: question_158
+
+question_159_A:
+  content: They are quicker to produce
+  question: question_159
+question_159_B:
+  content: They are easier to produce
+  question: question_159
+question_159_C:
+  content: They are high-end
+  question: question_159
+question_159_D:
+  content: They cater to every user
+  question: question_159
+
+question_160_A:
+  content: Intensity
+  question: question_160
+question_160_B:
+  content: Creativity
+  question: question_160
+question_160_C:
+  content: Authenticity
+  question: question_160
+question_160_D:
+  content: Dedication
+  question: question_160
+
+question_161_A:
+  content: Six Thinking Hats
+  question: question_161
+question_161_B:
+  content: Brainwriting
+  question: question_161
+question_161_C:
+  content: 5x5
+  question: question_161
+question_161_D:
+  content: Co-creation
+  question: question_161
+
+question_162_A:
+  content: Mind Mapping
+  question: question_162
+question_162_B:
+  content: Context Mapping
+  question: question_162
+question_162_C:
+  content: Fly-on-the-wall observation
+  question: question_162
+question_162_D:
+  content: Think Aloud Testing
+  question: question_162
+
+question_163_A:
+  content: Enhancing
+  question: question_163
+question_163_B:
+  content: Pair programming
+  question: question_163
+question_163_C:
+  content: Rubber ducking
+  question: question_163
+question_163_D:
+  content: Refactoring
+  question: question_163
+
+question_164_A:
+  content: Urban Terror
+  question: question_164
+question_164_B:
+  content: Tetris
+  question: question_164
+question_164_C:
+  content: Sharkworld
+  question: question_164
+question_164_D:
+  content: World of Warcraft
+  question: question_164
+
+question_165_A:
+  content: India
+  question: question_165
+question_165_B:
+  content: Canada
+  question: question_165
+question_165_C:
+  content: Estonia
+  question: question_165
+question_165_D:
+  content: Amsterdam
+  question: question_165
+
+question_166_A:
+  content: Building high-impact, scalable games
+  question: question_166
+question_166_B:
+  content: Making a profit
+  question: question_166
+question_166_C:
+  content: Exploring, generating knowledge
+  question: question_166
+question_166_D:
+  content: Playing with Lego
+  question: question_166
+
+question_167_A:
+  content: Scalable Sales, White-label games
+  question: question_167
+question_167_B:
+  content: Profit, White-label games
+  question: question_167
+question_167_C:
+  content: Scalable sales, Mobile
+  question: question_167
+question_167_D:
+  content: Profit, Mobile
+  question: question_167
+
+question_168_A:
+  content: Friendship
+  question: question_168
+question_168_B:
+  content: Authenticity
+  question: question_168
+question_168_C:
+  content: Intensity
+  question: question_168
+question_168_D:
+  content: Directness
+  question: question_168
+
+question_169_A:
+  content: It doesn't respond to new insights
+  question: question_169
+question_169_B:
+  content: It doesn't allow for testing
+  question: question_169
+question_169_C:
+  content: It demotivates the team
+  question: question_169
+question_169_D:
+  content: It is hard to predict progress.
+  question: question_169
+
+question_170_A:
+  content: Kick-ass
+  question: question_170
+question_170_B:
+  content: Engagement game
+  question: question_170
+question_170_C:
+  content: Tech-Ed
+  question: question_170
+question_170_D:
+  content: Help! Ik heb geld
+  question: question_170
+
+question_171_A:
+  content: Engager
+  question: question_171
+question_171_B:
+  content: Wuppermann
+  question: question_171
+question_171_C:
+  content: Powerplay
+  question: question_171
+question_171_D:
+  content: Hows
+  question: question_171
+
+question_172_A:
+  content: Sharkworld
+  question: question_172
+question_172_B:
+  content: Voxventi
+  question: question_172
+question_172_C:
+  content: Monster Zoo
+  question: question_172
+question_172_D:
+  content: Engager
+  question: question_172
+
+question_173_A:
+  content: Previous interns
+  question: question_173
+question_173_B:
+  content: Previous employees
+  question: question_173
+question_173_C:
+  content: Investors
+  question: question_173
+question_173_D:
+  content: Clients and SMEs
+  question: question_173
+
+question_174_A:
+  content: Room of my own
+  question: question_174
+question_174_B:
+  content: Engager
+  question: question_174
+question_174_C:
+  content: Kick-ass
+  question: question_174
+question_174_D:
+  content: Sharkworld
+  question: question_174
+
+question_175_A:
+  content: A white ampersand
+  question: question_175
+question_175_B:
+  content: An orange ball
+  question: question_175
+question_175_C:
+  content: A different font
+  question: question_175
+question_175_D:
+  content: An apostrophe
+  question: question_175
+
+question_176_A:
+  content: Giselle Segura Gelink
+  question: question_176
+question_176_B:
+  content: Remref
+  question: question_176
+question_176_C:
+  content: Eddard Stark
+  question: question_176
+question_176_D:
+  content: Pieter de Vries
+  question: question_176
+
+question_177_A:
+  content: A request for your input
+  question: question_177
+question_177_B:
+  content: A duty to speak up
+  question: question_177
+question_177_C:
+  content: A vote for your opinion
+  question: question_177
+question_177_D:
+  content: A challenge
+  question: question_177
+
+question_178_A:
+  content: An ampersand
+  question: question_178
+question_178_B:
+  content: A question mark
+  question: question_178
+question_178_C:
+  content: An apostrophe
+  question: question_178
+question_178_D:
+  content: An exlamation point
+  question: question_178
+
+question_179_A:
+  content: Food products
+  question: question_179
+question_179_B:
+  content: Bicycles
+  question: question_179
+question_179_C:
+  content: American Football
+  question: question_179
+question_179_D:
+  content: Tourism
+  question: question_179
+
+question_180_A:
+  content: Sanskrit
+  question: question_180
+question_180_B:
+  content: American
+  question: question_180
+question_180_C:
+  content: Japanese
+  question: question_180
+question_180_D:
+  content: Spanish
+  question: question_180
+
+question_181_A:
+  content: Entertainment of the mind
+  question: question_181
+question_181_B:
+  content: Entertainment of the soul
+  question: question_181
+question_181_C:
+  content: Pleasure will come
+  question: question_181
+question_181_D:
+  content: Learning by doing
+  question: question_181
+
+question_182_A:
+  content: Together we build a brighter future
+  question: question_182
+question_182_B:
+  content: Together we build a playful future
+  question: question_182
+question_182_C:
+  content: 20 Million end users by 2020
+  question: question_182
+question_182_D:
+  content: 15 Million end users by 2020
+  question: question_182
+
+question_183_A:
+  content: Proposal
+  question: question_183
+question_183_B:
+  content: Powerpoint
+  question: question_183
+question_183_C:
+  content: Performance
+  question: question_183
+question_183_D:
+  content: Payoff
+  question: question_183
+
+question_184_A:
+  content: Loud music and a speech
+  question: question_184
+question_184_B:
+  content: A lap through the office on a Segway
+  question: question_184
+question_184_C:
+  content: Champagne
+  question: question_184
+question_184_D:
+  content: Cake at the coffee machines
+  question: question_184
+
+question_185_A:
+  content: Energy
+  question: question_185
+question_185_B:
+  content: Insurance
+  question: question_185
+question_185_C:
+  content: Government
+  question: question_185
+question_185_D:
+  content: Healthcare
+  question: question_185
+
+question_186_A:
+  content: All of these
+  question: question_186
+question_186_B:
+  content: Sense of excitement
+  question: question_186
+question_186_C:
+  content: Vision
+  question: question_186
+question_186_D:
+  content: Sense of urgency
+  question: question_186
+
+question_187_A:
+  content: People Equity
+  question: question_187
+question_187_B:
+  content: Private Equity
+  question: question_187
+question_187_C:
+  content: Pro Evidence
+  question: question_187
+question_187_D:
+  content: Per Eenheid
+  question: question_187
+
+question_188_A:
+  content: Icare
+  question: question_188
+question_188_B:
+  content: Dela
+  question: question_188
+question_188_C:
+  content: Albert Heyn
+  question: question_188
+question_188_D:
+  content: Döhler
+  question: question_188
+
+question_189_A:
+  content: Dela
+  question: question_189
+question_189_B:
+  content: PGGM
+  question: question_189
+question_189_C:
+  content: Achmea IT
+  question: question_189
+question_189_D:
+  content: Microsoft
+  question: question_189
+
+question_190_A:
+  content: DSM
+  question: question_190
+question_190_B:
+  content: Icare
+  question: question_190
+question_190_C:
+  content: TNT
+  question: question_190
+question_190_D:
+  content: Achmea
+  question: question_190
+
+question_191_A:
+  content: Usual / unusual approach
+  question: question_191
+question_191_B:
+  content: Creative forms of work
+  question: question_191
+question_191_C:
+  content: Innovative ideas
+  question: question_191
+question_191_D:
+  content: Good value for money
+  question: question_191
+
+question_192_A:
+  content: An assault course
+  question: question_192
+question_192_B:
+  content: Cutting knots with an axe
+  question: question_192
+question_192_C:
+  content: Singing lessons in a church
+  question: question_192
+question_192_D:
+  content: Bungee jumping
+  question: question_192
+
+question_193_A:
+  content: Berlin
+  question: question_193
+question_193_B:
+  content: Amsterdam
+  question: question_193
+question_193_C:
+  content: Kuala Lumpur
+  question: question_193
+question_193_D:
+  content: Düsseldorf
+  question: question_193
+
+question_194_A:
+  content: Elephant, lion, sheep
+  question: question_194
+question_194_B:
+  content: Prey, Sheep, Wolf
+  question: question_194
+question_194_C:
+  content: Elephant, wolf, horse
+  question: question_194
+question_194_D:
+  content: Lion, horse, rabbit
+  question: question_194
+
+question_195_A:
+  content: Homework assistance
+  question: question_195
+question_195_B:
+  content: Landscape architecture
+  question: question_195
+question_195_C:
+  content: Search engines
+  question: question_195
+question_195_D:
+  content: Recruitment and selection
+  question: question_195
+
+question_196_A:
+  content: Rapping the core values
+  question: question_196
+question_196_B:
+  content: Tattooing core values onto a CEO
+  question: question_196
+question_196_C:
+  content: Lion and cub on a stage
+  question: question_196
+question_196_D:
+  content: Swimming with clients
+  question: question_196
+
+question_197_A:
+  content: Shell
+  question: question_197
+question_197_B:
+  content: Achmea
+  question: question_197
+question_197_C:
+  content: Heineken
+  question: question_197
+question_197_D:
+  content: KLM-Air France
+  question: question_197
+
+question_198_A:
+  content: &samhoud
+  question: question_198
+question_198_B:
+  content: &samhoed
+  question: question_198
+question_198_C:
+  content: andsamhowd
+  question: question_198
+question_198_D:
+  content: Ampersandhoud
+  question: question_198
+
+question_199_A:
+  content: Close to 11 million
+  question: question_199
+question_199_B:
+  content: 9 Million
+  question: question_199
+question_199_C:
+  content: 10 Million
+  question: question_199
+question_199_D:
+  content: 13 Million
+  question: question_199
+
+question_200_A:
+  content: 2010
+  question: question_200
+question_200_B:
+  content: 2015
+  question: question_200
+question_200_C:
+  content: 2010
+  question: question_200
+question_200_D:
+  content: 2012
+  question: question_200
+
+question_201_A:
+  content: Philips
+  question: question_201
+question_201_B:
+  content: McKinsey
+  question: question_201
+question_201_C:
+  content: Government institutions
+  question: question_201
+question_201_D:
+  content: ASML
+  question: question_201
+
+question_202_A:
+  content: Johannesburg
+  question: question_202
+question_202_B:
+  content: Almere
+  question: question_202
+question_202_C:
+  content: Kaapstad
+  question: question_202
+question_202_D:
+  content: Nairobi
+  question: question_202
+
+question_203_A:
+  content: All of these
+  question: question_203
+question_203_B:
+  content: FEBO
+  question: question_203
+question_203_C:
+  content: Artis
+  question: question_203
+question_203_D:
+  content: Hema
+  question: question_203
+
+question_204_A:
+  content: Subway
+  question: question_204
+question_204_B:
+  content: Albert Heijn
+  question: question_204
+question_204_C:
+  content: Kwalitaria
+  question: question_204
+question_204_D:
+  content: FEBO
+  question: question_204
+
+question_205_A:
+  content: Skirt
+  question: question_205
+question_205_B:
+  content: Tank top
+  question: question_205
+question_205_C:
+  content: Ski underclothing
+  question: question_205
+question_205_D:
+  content: Sweater
+  question: question_205
+
+question_206_A:
+  content: Henk Schiffmacher's tattoos
+  question: question_206
+question_206_B:
+  content: Hot air balloon sailing
+  question: question_206
+question_206_C:
+  content: A show with birds of prey
+  question: question_206
+question_206_D:
+  content: Bungee jumping
+  question: question_206
+
+question_207_A:
+  content: Cat
+  question: question_207
+question_207_B:
+  content: Horse
+  question: question_207
+question_207_C:
+  content: Lion
+  question: question_207
+question_207_D:
+  content: Sheep
+  question: question_207
+
+question_208_A:
+  content: Achmea
+  question: question_208
+question_208_B:
+  content: Albert Heijn
+  question: question_208
+question_208_C:
+  content: RWS
+  question: question_208
+question_208_D:
+  content: Philips
+  question: question_208
+
+question_209_A:
+  content: Kickoff of the African Nations Cup with a blue ball
+  question: question_209
+question_209_B:
+  content: The Hofvijver full of blue balls
+  question: question_209
+question_209_C:
+  content: 15 000 balls spread over 14 metropoles
+  question: question_209
+question_209_D:
+  content: A banner under Sneeks famous bridge during Sneekweek
+  question: question_209
+
+question_210_A:
+  content: Juniors, Leadership team, Student Trainees
+  question: question_210
+question_210_B:
+  content: Juniors, Seniors, Student Trainees
+  question: question_210
+question_210_C:
+  content: Juniors, Mediors, Seniors
+  question: question_210
+question_210_D:
+  content: Juniors, Leadership team, Seniors
+  question: question_210
+
+question_211_A:
+  content: 2 months
+  question: question_211
+question_211_B:
+  content: 14 days
+  question: question_211
+question_211_C:
+  content: 1 month
+  question: question_211
+question_211_D:
+  content: 2 days
+  question: question_211
+
+question_212_A:
+  content: Make a reservation
+  question: question_212
+question_212_B:
+  content: Ask a colleague
+  question: question_212
+question_212_C:
+  content: Just park the car
+  question: question_212
+question_212_D:
+  content: Control a parking license
+  question: question_212
+
+question_213_A:
+  content: Don't lose the Schuttevaer pass
+  question: question_213
+question_213_B:
+  content: Have personal parcels delivered at work
+  question: question_213
+question_213_C:
+  content: Lose the parking card
+  question: question_213
+question_213_D:
+  content: Don't refill the water tank when the coffee machine is empty
+  question: question_213
+
+question_214_A:
+  content: Whatsapp
+  question: question_214
+question_214_B:
+  content: Yammer
+  question: question_214
+question_214_C:
+  content: Sharepoint
+  question: question_214
+question_214_D:
+  content: Slack
+  question: question_214
+
+question_215_A:
+  content: You open the door yourself
+  question: question_215
+question_215_B:
+  content: You're not expecting anyone - ignore it
+  question: question_215
+question_215_C:
+  content: You wait for someone from reception to act
+  question: question_215
+question_215_D:
+  content: You delegate to someone
+  question: question_215
+
+question_216_A:
+  content: A homemade gift and a 'serious' gift
+  question: question_216
+question_216_B:
+  content: A voucher (kadobon)
+  question: question_216
+question_216_C:
+  content: A speech and flowers
+  question: question_216
+question_216_D:
+  content: A lottery ticket and a gift card
+  question: question_216
+
+question_217_A:
+  content: Sharepoint
+  question: question_217
+question_217_B:
+  content: Skype for business
+  question: question_217
+question_217_C:
+  content: Yammer
+  question: question_217
+question_217_D:
+  content: Email
+  question: question_217
+
+question_218_A:
+  content: Between 200 and 225
+  question: question_218
+question_218_B:
+  content: Between 175 and 200
+  question: question_218
+question_218_C:
+  content: Between 150 and 175
+  question: question_218
+question_218_D:
+  content: Between 225 and 250
+  question: question_218
+
+question_219_A:
+  content: Edwin Winter
+  question: question_219
+question_219_B:
+  content: Jeroen Geelhoed
+  question: question_219
+question_219_C:
+  content: Anneke Gortemulder
+  question: question_219
+question_219_D:
+  content: Rob van de Blaak
+  question: question_219
+
+question_220_A:
+  content: More focus on the & of connection
+  question: question_220
+question_220_B:
+  content: Prevent associations with NS
+  question: question_220
+question_220_C:
+  content: To refresh the brand
+  question: question_220
+question_220_D:
+  content: It happened by accident
+  question: question_220
+
+question_221_A:
+  content: Magnet Me!
+  question: question_221
+question_221_B:
+  content: 365 Tool
+  question: question_221
+question_221_C:
+  content: Skype for business
+  question: question_221
+question_221_D:
+  content: Yammer
+  question: question_221
+
+question_222_A:
+  content: Tracking job openings
+  question: question_222
+question_222_B:
+  content: Communication with colleagues
+  question: question_222
+question_222_C:
+  content: Communication with clients
+  question: question_222
+question_222_D:
+  content: Networking platform with &samhoud BV's
+  question: question_222
+
+question_223_A:
+  content: A football player
+  question: question_223
+question_223_B:
+  content: A swimmer
+  question: question_223
+question_223_C:
+  content: A basketball player
+  question: question_223
+question_223_D:
+  content: A volleyball player
+  question: question_223
+
+question_224_A:
+  content: A hockey player
+  question: question_224
+question_224_B:
+  content: An athlete
+  question: question_224
+question_224_C:
+  content: A basketball player
+  question: question_224
+question_224_D:
+  content: A volleyball player
+  question: question_224
+
+question_225_A:
+  content: Waterpolo
+  question: question_225
+question_225_B:
+  content: Football
+  question: question_225
+question_225_C:
+  content: Hockey
+  question: question_225
+question_225_D:
+  content: Athletics
+  question: question_225
+
+question_226_A:
+  content: Welcome Integrate Great People program
+  question: question_226
+question_226_B:
+  content: Fishbowl
+  question: question_226
+question_226_C:
+  content: Meet & greet program
+  question: question_226
+question_226_D:
+  content: International exchange program
+  question: question_226
+
+question_227_A:
+  content: Tablet with &-sign
+  question: question_227
+question_227_B:
+  content: iPhone with an &-sign
+  question: question_227
+question_227_C:
+  content: Blue ball of connection
+  question: question_227
+question_227_D:
+  content: &samhoud pullover
+  question: question_227
+
+question_228_A:
+  content: An open MT meeting
+  question: question_228
+question_228_B:
+  content: An HR meeting
+  question: question_228
+question_228_C:
+  content: A view into company strategy
+  question: question_228
+question_228_D:
+  content: Mentor/Trainee meetings
+  question: question_228
+
+question_229_A:
+  content: Giving feedback
+  question: question_229
+question_229_B:
+  content: Scheduling appointments
+  question: question_229
+question_229_C:
+  content: Annual feedback to the MT
+  question: question_229
+question_229_D:
+  content: Keeping track of pay slips
+  question: question_229
+
+question_230_A:
+  content: Realizing personal development goals
+  question: question_230
+question_230_B:
+  content: Creating ownership
+  question: question_230
+question_230_C:
+  content: Set your higher goals
+  question: question_230
+question_230_D:
+  content: Formulate your Personal breakthroughs
+  question: question_230
+
+question_231_A:
+  content: That is the color of inspiration
+  question: question_231
+question_231_B:
+  content: It's Salem's favourite colour
+  question: question_231
+question_231_C:
+  content: It's the most binding color
+  question: question_231
+question_231_D:
+  content: It has a calming effect
+  question: question_231
+
+question_232_A:
+  content: You are who you become
+  question: question_232
+question_232_B:
+  content: You are who you had been
+  question: question_232
+question_232_C:
+  content: Become who you were
+  question: question_232
+question_232_D:
+  content: You were who you are
+  question: question_232
+
+question_233_A:
+  content: Nobody
+  question: question_233
+question_233_B:
+  content: Your collegue
+  question: question_233
+question_233_C:
+  content: Your People Leader
+  question: question_233
+question_233_D:
+  content: Your peer group
+  question: question_233
+
+question_234_A:
+  content: No
+  question: question_234
+question_234_B:
+  content: Only when a customer calls
+  question: question_234
+question_234_C:
+  content: Yes, always
+  question: question_234
+question_234_D:
+  content: Only when your people leader calls
+  question: question_234
+
+question_235_A:
+  content: It stands for connection
+  question: question_235
+question_235_B:
+  content: It was once a typo at the KvK
+  question: question_235
+question_235_C:
+  content: "@samhoud was already forgiven"
+  question: question_235
+question_235_D:
+  content: To boost our Google search results
+  question: question_235
+
+question_236_A:
+  content: Our higher goal
+  question: question_236
+question_236_B:
+  content: Our audacious goal
+  question: question_236
+question_236_C:
+  content: Our core values
+  question: question_236
+question_236_D:
+  content: Our core qualities
+  question: question_236
+
+question_237_A:
+  content: Transparency
+  question: question_237
+question_237_B:
+  content: Each fish = 1M turnover
+  question: question_237
+question_237_C:
+  content: Connection
+  question: question_237
+question_237_D:
+  content: Each fish = potential client
+  question: question_237
+
+question_238_A:
+  content: Fishbowl
+  question: question_238
+question_238_B:
+  content: &samhoud places
+  question: question_238
+question_238_C:
+  content: Sports class
+  question: question_238
+question_238_D:
+  content: Joeke
+  question: question_238
+
+question_239_A:
+  content: Flowers and the door key
+  question: question_239
+question_239_B:
+  content: A key chain with the door keys
+  question: question_239
+question_239_C:
+  content: An Ollie plushie
+  question: question_239
+question_239_D:
+  content: An &samhoud umbrella
+  question: question_239
+
+question_240_A:
+  content: Say 'gezondheid' when someone sneezes
+  question: question_240
+question_240_B:
+  content: Put your own cups in the dishwasher
+  question: question_240
+question_240_C:
+  content: Book your hours on time
+  question: question_240
+question_240_D:
+  content: Never give anyone your alarm code
+  question: question_240
+
+question_241_A:
+  content: The Hilbert room
+  question: question_241
+question_241_B:
+  content: World café
+  question: question_241
+question_241_C:
+  content: The gallery
+  question: question_241
+question_241_D:
+  content: The sauna
+  question: question_241
+
+question_242_A:
+  content: Only true friends give feedback
+  question: question_242
+question_242_B:
+  content: Your colleagues are your friends
+  question: question_242
+question_242_C:
+  content: Clients are your friends
+  question: question_242
+question_242_D:
+  content: No connection without friendship
+  question: question_242
+
+question_243_A:
+  content: Harvard Business School
+  question: question_243
+question_243_B:
+  content: Oerol
+  question: question_243
+question_243_C:
+  content: Philosophy in Greece
+  question: question_243
+question_243_D:
+  content: Santiago de Compostella
+  question: question_243
+
+question_244_A:
+  content: Harvard Business Review
+  question: question_244
+question_244_B:
+  content: Slow management
+  question: question_244
+question_244_C:
+  content: Fin magazine
+  question: question_244
+question_244_D:
+  content: Auto visie
+  question: question_244
+
+question_245_A:
+  content: Eva Jane
+  question: question_245
+question_245_B:
+  content: Ellen van Lisdonk
+  question: question_245
+question_245_C:
+  content: Marit van Egmond
+  question: question_245
+question_245_D:
+  content: Pip Roest
+  question: question_245
+
+question_246_A:
+  content: &samhoud orchestra
+  question: question_246
+question_246_B:
+  content: &samhoud song
+  question: question_246
+question_246_C:
+  content: &samhoud coffee & employee recipes
+  question: question_246
+question_246_D:
+  content: &samhoud perfume
+  question: question_246
+
+question_247_A:
+  content: Celebration Moment in the kitchen
+  question: question_247
+question_247_B:
+  content: Cake with coffee
+  question: question_247
+question_247_C:
+  content: Only with your team
+  question: question_247
+question_247_D:
+  content: Singing mailman
+  question: question_247
+
+question_248_A:
+  content: In the attic
+  question: question_248
+question_248_B:
+  content: On the couch in world café
+  question: question_248
+question_248_C:
+  content: Waterbed in the wellness area
+  question: question_248
+question_248_D:
+  content: In a sleeping bag under your desk
+  question: question_248
+
+question_249_A:
+  content: Friday 23.59
+  question: question_249
+question_249_B:
+  content: Monday 11:59
+  question: question_249
+question_249_C:
+  content: Sunday 19:59
+  question: question_249
+question_249_D:
+  content: End of the month
+  question: question_249
+
+question_250_A:
+  content: Sharepoint
+  question: question_250
+question_250_B:
+  content: Profit
+  question: question_250
+question_250_C:
+  content: PowerPoint
+  question: question_250
+question_250_D:
+  content: Yammer
+  question: question_250
+
+question_251_A:
+  content: PA's
+  question: question_251
+question_251_B:
+  content: Marijke
+  question: question_251
+question_251_C:
+  content: Sivita
+  question: question_251
+question_251_D:
+  content: Student Trainees themselves
+  question: question_251
+
+question_252_A:
+  content: You approach them (and are approachable)
+  question: question_252
+question_252_B:
+  content: You talk to your team lead
+  question: question_252
+question_252_C:
+  content: You talk to HR
+  question: question_252
+question_252_D:
+  content: You tell them to stop it
+  question: question_252
+
+question_253_A:
+  content: Breakthrough
+  question: question_253
+question_253_B:
+  content: Friendship
+  question: question_253
+question_253_C:
+  content: Inspiration
+  question: question_253
+question_253_D:
+  content: Creativity
+  question: question_253
+
+question_254_A:
+  content: The Netherlands
+  question: question_254
+question_254_B:
+  content: All the countries we operate in
+  question: question_254
+question_254_C:
+  content: Worldwide
+  question: question_254
+question_254_D:
+  content: Europe
+  question: question_254
+
+question_255_A:
+  content: 2030
+  question: question_255
+question_255_B:
+  content: 2020
+  question: question_255
+question_255_C:
+  content: 2035
+  question: question_255
+question_255_D:
+  content: 2025
+  question: question_255
+
+question_256_A:
+  content: We are business 2 business
+  question: question_256
+question_256_B:
+  content: Foods are perishable.
+  question: question_256
+question_256_C:
+  content: We do not have a presence in America
+  question: question_256
+question_256_D:
+  content: We have too few blue balls
+  question: question_256
+
+question_257_A:
+  content: Specific skills training
+  question: question_257
+question_257_B:
+  content: People getting drunk
+  question: question_257
+question_257_C:
+  content: There is an inspiration speech Salem
+  question: question_257
+question_257_D:
+  content: A peer component
+  question: question_257
+
+question_258_A:
+  content: "From our KSF: \"cash is king\""
+  question: question_258
+question_258_B:
+  content: Because of the potential for connection
+  question: question_258
+question_258_C:
+  content: The sense of friendship
+  question: question_258
+question_258_D:
+  content: Because of our core values
+  question: question_258
+
+question_259_A:
+  content: &samhoud University
+  question: question_259
+question_259_B:
+  content: &samhoud Food
+  question: question_259
+question_259_C:
+  content: &ranj
+  question: question_259
+question_259_D:
+  content: &samhoud Dusseldorf
+  question: question_259
+
+question_260_A:
+  content: Leusden
+  question: question_260
+question_260_B:
+  content: Rotterdam
+  question: question_260
+question_260_C:
+  content: Utrecht
+  question: question_260
+question_260_D:
+  content: Amsterdam
+  question: question_260
+
+question_261_A:
+  content: Sharing the same vision
+  question: question_261
+question_261_B:
+  content: Sharing the same method
+  question: question_261
+question_261_C:
+  content: Sharing a higher goal
+  question: question_261
+question_261_D:
+  content: Everyone in one office
+  question: question_261
+
+question_262_A:
+  content: &samhoud strategy
+  question: question_262
+question_262_B:
+  content: Competences
+  question: question_262
+question_262_C:
+  content: Core values
+  question: question_262
+question_262_D:
+  content: Core qualities
+  question: question_262
+
+question_263_A:
+  content: The Icon
+  question: question_263
+question_263_B:
+  content: Petronas Towers
+  question: question_263
+question_263_C:
+  content: The Eye
+  question: question_263
+question_263_D:
+  content: The Needle
+  question: question_263
+
+question_264_A:
+  content: Marrakech
+  question: question_264
+question_264_B:
+  content: Istanbul
+  question: question_264
+question_264_C:
+  content: Terschelling
+  question: question_264
+question_264_D:
+  content: New York
+  question: question_264
+
+question_265_A:
+  content: Being a top brand in the Netherlands
+  question: question_265
+question_265_B:
+  content: Turnover of 20 million
+  question: question_265
+question_265_C:
+  content: 400+ Employees
+  question: question_265
+question_265_D:
+  content: Offices in 20 countries
+  question: question_265
+
+question_266_A:
+  content: To reach the higher goal
+  question: question_266
+question_266_B:
+  content: We do stick to our core business
+  question: question_266
+question_266_C:
+  content: Diversification is good
+  question: question_266
+question_266_D:
+  content: To have brand stores
+  question: question_266
+
+question_267_A:
+  content: A transportation specialist
+  question: question_267
+question_267_B:
+  content: A communication consultancy
+  question: question_267
+question_267_C:
+  content: An organization consultancy
+  question: question_267
+question_267_D:
+  content: A fun factory
+  question: question_267
+
+question_268_A:
+  content: Arends & Samhoud
+  question: question_268
+question_268_B:
+  content: Albert & Samhoud
+  question: question_268
+question_268_C:
+  content: Van Empel & Samhoud
+  question: question_268
+question_268_D:
+  content: Ahrend & Samhoud
+  question: question_268
+
+question_269_A:
+  content: Gaming is the future of learning
+  question: question_269
+question_269_B:
+  content: There was chemistry between shareholders
+  question: question_269
+question_269_C:
+  content: &samhoud desired more playfulness
+  question: question_269
+question_269_D:
+  content: The old Ranj was looking for help
+  question: question_269
+
+question_270_A:
+  content: All of these
+  question: question_270
+question_270_B:
+  content: Valuable future
+  question: question_270
+question_270_C:
+  content: Beautiful future
+  question: question_270
+question_270_D:
+  content: Happy future
+  question: question_270
+
+question_271_A:
+  content: Criticism
+  question: question_271
+question_271_B:
+  content: Trust
+  question: question_271
+question_271_C:
+  content: Belief
+  question: question_271
+question_271_D:
+  content: Empathy
+  question: question_271
+
+question_272_A:
+  content: Yourself, others, organization and society
+  question: question_272
+question_272_B:
+  content: Others, yourself, organization and society
+  question: question_272
+question_272_C:
+  content: Society, organization, others and yourself
+  question: question_272
+question_272_D:
+  content: None of these
+  question: question_272
+
+question_273_A:
+  content: To breathe in
+  question: question_273
+question_273_B:
+  content: To motivate
+  question: question_273
+question_273_C:
+  content: Creativity
+  question: question_273
+question_273_D:
+  content: Getting matters done
+  question: question_273
+
+question_274_A:
+  content: A mini-internship for a week
+  question: question_274
+question_274_B:
+  content: Interviewing colleagues
+  question: question_274
+question_274_C:
+  content: Request an additional meeting
+  question: question_274
+question_274_D:
+  content: Do a trial period
+  question: question_274
+
+question_275_A:
+  content: A football tournament
+  question: question_275
+question_275_B:
+  content: Playing an escape room
+  question: question_275
+question_275_C:
+  content: A volleyball tournament
+  question: question_275
+question_275_D:
+  content: A vision day
+  question: question_275
+
+question_276_A:
+  content: Get a clear view of the company
+  question: question_276
+question_276_B:
+  content: Get to know co-applicants
+  question: question_276
+question_276_C:
+  content: Discover application procedures
+  question: question_276
+question_276_D:
+  content: Talk to many employees
+  question: question_276
+
+question_277_A:
+  content: Microgame
+  question: question_277
+question_277_B:
+  content: &samhoud vision game
+  question: question_277
+question_277_C:
+  content: &samhoud core value game
+  question: question_277
+question_277_D:
+  content: Multiplayer Quiz Battle
+  question: question_277
+
+question_278_A:
+  content: All the   answers are correct
+  question: question_278
+question_278_B:
+  content: MBTI-test
+  question: question_278
+question_278_C:
+  content: Personal vision training
+  question: question_278
+question_278_D:
+  content: Management drives
+  question: question_278
+
+question_279_A:
+  content: Be Useful
+  question: question_279
+question_279_B:
+  content: Together we build a brighter future
+  question: question_279
+question_279_C:
+  content: Brilliant Business Models
+  question: question_279
+question_279_D:
+  content: Creating lasting value
+  question: question_279
+
+question_280_A:
+  content: Your vision on work and private life
+  question: question_280
+question_280_B:
+  content: Your vision on your work
+  question: question_280
+question_280_C:
+  content: Your vision on your personal goals
+  question: question_280
+question_280_D:
+  content: Your vision on &samhoud
+  question: question_280
+
+question_281_A:
+  content: All the   answers are correct
+  question: question_281
+question_281_B:
+  content: Balance
+  question: question_281
+question_281_C:
+  content: Openness
+  question: question_281
+question_281_D:
+  content: General satisfaction
+  question: question_281
+
+question_282_A:
+  content: All the   answers are correct
+  question: question_282
+question_282_B:
+  content: Salary and Appraisal
+  question: question_282
+question_282_C:
+  content: Involvement
+  question: question_282
+question_282_D:
+  content: Degrees of freedom
+  question: question_282
+
+question_283_A:
+  content: Fun at work
+  question: question_283
+question_283_B:
+  content: Your personal vision
+  question: question_283
+question_283_C:
+  content: 365 tool
+  question: question_283
+question_283_D:
+  content: Leadership Developer.
+  question: question_283
+
+question_284_A:
+  content: Celebration moments
+  question: question_284
+question_284_B:
+  content: Teambuilding
+  question: question_284
+question_284_C:
+  content: Personal contracts
+  question: question_284
+question_284_D:
+  content: Leadership developer
+  question: question_284
+
+question_285_A:
+  content: 250 euro
+  question: question_285
+question_285_B:
+  content: A Wellness program
+  question: question_285
+question_285_C:
+  content: A luxurious lunch menu
+  question: question_285
+question_285_D:
+  content: A blue bike
+  question: question_285
+
+question_286_A:
+  content: &Tomeato cordon bleu
+  question: question_286
+question_286_B:
+  content: &lasagne
+  question: question_286
+question_286_C:
+  content: &Tomeato cordon rouge
+  question: question_286
+question_286_D:
+  content: &schnitzel
+  question: question_286
+
+question_287_A:
+  content: The twenties
+  question: question_287
+question_287_B:
+  content: Back to the future
+  question: question_287
+question_287_C:
+  content: Halloween
+  question: question_287
+question_287_D:
+  content: Connection
+  question: question_287
+
+question_288_A:
+  content: Red cabbage
+  question: question_288
+question_288_B:
+  content: Cauliflower
+  question: question_288
+question_288_C:
+  content: Carrot
+  question: question_288
+question_288_D:
+  content: Eggplant
+  question: question_288
+
+question_289_A:
+  content: Rijkswaterstaat team room
+  question: question_289
+question_289_B:
+  content: Former property of Rijkswaterstaat
+  question: question_289
+question_289_C:
+  content: RWS as a building material
+  question: question_289
+question_289_D:
+  content: Room Without Sound
+  question: question_289
+
+question_290_A:
+  content: Food Meets Fashion show
+  question: question_290
+question_290_B:
+  content: With a cannon salvo
+  question: question_290
+question_290_C:
+  content: Wouter Kolk prepared the first one
+  question: question_290
+question_290_D:
+  content: Harry Piekema had a burger stall
+  question: question_290
+
+question_291_A:
+  content: Connexxion
+  question: question_291
+question_291_B:
+  content: Achmea
+  question: question_291
+question_291_C:
+  content: Rijkswaterstaat
+  question: question_291
+question_291_D:
+  content: Fokker
+  question: question_291
+
+question_292_A:
+  content: It is our meeting place
+  question: question_292
+question_292_B:
+  content: Good Wi-Fi connection
+  question: question_292
+question_292_C:
+  content: It used to be an old hospital
+  question: question_292
+question_292_D:
+  content: It was formerly a brothel
+  question: question_292
+
+question_293_A:
+  content: Financial analysis
+  question: question_293
+question_293_B:
+  content: Vision strategy process
+  question: question_293
+question_293_C:
+  content: Leadership development
+  question: question_293
+question_293_D:
+  content: Cultural programs
+  question: question_293
+
+question_294_A:
+  content: Albert Heijn
+  question: question_294
+question_294_B:
+  content: Riscure
+  question: question_294
+question_294_C:
+  content: Rabobank West-Friesland
+  question: question_294
+question_294_D:
+  content: ICS
+  question: question_294
+
+question_295_A:
+  content: Collines & Porras
+  question: question_295
+question_295_B:
+  content: Kaplan
+  question: question_295
+question_295_C:
+  content: Stephen Covey
+  question: question_295
+question_295_D:
+  content: Salem Samhoud
+  question: question_295
+
+question_296_A:
+  content: Employee Value
+  question: question_296
+question_296_B:
+  content: Customer Value
+  question: question_296
+question_296_C:
+  content: Financial Value
+  question: question_296
+question_296_D:
+  content: Social Value
+  question: question_296
+
+question_297_A:
+  content: 12 Tons
+  question: question_297
+question_297_B:
+  content: 18 Tons
+  question: question_297
+question_297_C:
+  content: 15 Tons
+  question: question_297
+question_297_D:
+  content: 20 Tons
+  question: question_297
+
+question_298_A:
+  content: 25.000-27.000
+  question: question_298
+question_298_B:
+  content: 23.000-25.000
+  question: question_298
+question_298_C:
+  content: 20.000-23.000
+  question: question_298
+question_298_D:
+  content: 27.000-30.000
+  question: question_298
+
+question_299_A:
+  content: 24
+  question: question_299
+question_299_B:
+  content: 20
+  question: question_299
+question_299_C:
+  content: 22
+  question: question_299
+question_299_D:
+  content: 18
+  question: question_299
+
+question_300_A:
+  content: Caravan
+  question: question_300
+question_300_B:
+  content: Hummer
+  question: question_300
+question_300_C:
+  content: Green graffiti
+  question: question_300
+question_300_D:
+  content: Ping pong table
+  question: question_300
+
+question_301_A:
+  content: Driven by vision
+  question: question_301
+question_301_B:
+  content: Driven by profit
+  question: question_301
+question_301_C:
+  content: Low risk, high reward
+  question: question_301
+question_301_D:
+  content: Cornering the market
+  question: question_301
+
+question_302_A:
+  content: Translate vision to business
+  question: question_302
+question_302_B:
+  content: Market and communicate your vision
+  question: question_302
+question_302_C:
+  content: Keep tweaking the vision
+  question: question_302
+question_302_D:
+  content: Balance vision and realism
+  question: question_302
+
+question_303_A:
+  content: Focus on all stakeholders
+  question: question_303
+question_303_B:
+  content: Low-risk, high reward
+  question: question_303
+question_303_C:
+  content: Focus on people
+  question: question_303
+question_303_D:
+  content: Going all-in
+  question: question_303
+
+question_304_A:
+  content: &andijvie stamppot
+  question: question_304
+question_304_B:
+  content: &lasagne
+  question: question_304
+question_304_C:
+  content: &pasta Siciliaans
+  question: question_304
+question_304_D:
+  content: &couscous
+  question: question_304
+
+question_305_A:
+  content: Perfecte ei
+  question: question_305
+question_305_B:
+  content: &tomeato appetizer
+  question: question_305
+question_305_C:
+  content: "Foie gras \"Dali lips\""
+  question: question_305
+question_305_D:
+  content: Vegetable ravioli
+  question: question_305
+
+question_307_A:
+  content: Yuzu
+  question: question_307
+question_307_B:
+  content: Finger lime
+  question: question_307
+question_307_C:
+  content: Pomelo
+  question: question_307
+question_307_D:
+  content: Mandarin
+  question: question_307
+
+question_308_A:
+  content: Mobilise energy
+  question: question_308
+question_308_B:
+  content: Take ownership
+  question: question_308
+question_308_C:
+  content: Vision and strategy
+  question: question_308
+question_308_D:
+  content: Leadership
+  question: question_308
+
+question_309_A:
+  content: Tjeertje
+  question: question_309
+question_309_B:
+  content: Ingrid
+  question: question_309
+question_309_C:
+  content: Salem
+  question: question_309
+question_309_D:
+  content: Leonie
+  question: question_309
+
+question_310_A:
+  content: Jacha
+  question: question_310
+question_310_B:
+  content: Otie
+  question: question_310
+question_310_C:
+  content: Jeroen S
+  question: question_310
+question_310_D:
+  content: Nur
+  question: question_310
+
+question_311_A:
+  content: &samhoud speaks
+  question: question_311
+question_311_B:
+  content: 365 tool
+  question: question_311
+question_311_C:
+  content: leadership developer
+  question: question_311
+question_311_D:
+  content: culture scan
+  question: question_311
+
+question_312_A:
+  content: Fun & performance survey
+  question: question_312
+question_312_B:
+  content: customer satisfaction survey
+  question: question_312
+question_312_C:
+  content: leadership developer
+  question: question_312
+question_312_D:
+  content: culture scan
+  question: question_312
+
+question_313_A:
+  content: 60000
+  question: question_313
+question_313_B:
+  content: 3000
+  question: question_313
+question_313_C:
+  content: 25000
+  question: question_313
+question_313_D:
+  content: 44000
+  question: question_313
+
+question_314_A:
+  content: 2008
+  question: question_314
+question_314_B:
+  content: 2006
+  question: question_314
+question_314_C:
+  content: 2007
+  question: question_314
+question_314_D:
+  content: 2015
+  question: question_314
+
+question_315_A:
+  content: 4
+  question: question_315
+question_315_B:
+  content: 3
+  question: question_315
+question_315_C:
+  content: 5
+  question: question_315
+question_315_D:
+  content: 2
+  question: question_315
+
+question_316_A:
+  content: 25-40%
+  question: question_316
+question_316_B:
+  content: 10-15%
+  question: question_316
+question_316_C:
+  content: 80-90%
+  question: question_316
+question_316_D:
+  content: 2-5%
+  question: question_316
+
+question_317_A:
+  content: 10% better
+  question: question_317
+question_317_B:
+  content: 0,2% better
+  question: question_317
+question_317_C:
+  content: 0,8% better
+  question: question_317
+question_317_D:
+  content: 2,5% better
+  question: question_317
+
+question_318_A:
+  content: Create value for all stakeholders
+  question: question_318
+question_318_B:
+  content: Which stakeholders to prioritize
+  question: question_318
+question_318_C:
+  content: What order to do things
+  question: question_318
+question_318_D:
+  content: A step-by-step guide
+  question: question_318
+
+question_319_A:
+  content: DeLong
+  question: question_319
+question_319_B:
+  content: Covey
+  question: question_319
+question_319_C:
+  content: Quinn
+  question: question_319
+question_319_D:
+  content: Schein
+  question: question_319
+
+question_320_A:
+  content: Entrepreneurship
+  question: question_320
+question_320_B:
+  content: Personal vision
+  question: question_320
+question_320_C:
+  content: &samhoud Foundation
+  question: question_320
+question_320_D:
+  content: Authenticity
+  question: question_320
+
+question_321_A:
+  content: 12 million
+  question: question_321
+question_321_B:
+  content: 12,5 million
+  question: question_321
+question_321_C:
+  content: 11,5 million
+  question: question_321
+question_321_D:
+  content: 10,5 million
+  question: question_321
+
+question_322_A:
+  content: Employee health
+  question: question_322
+question_322_B:
+  content: Employee satisfaction
+  question: question_322
+question_322_C:
+  content: Client satisfaction
+  question: question_322
+question_322_D:
+  content: Reputation
+  question: question_322
+
+question_323_A:
+  content: Portable massageband
+  question: question_323
+question_323_B:
+  content: Salem's personal chauffeur
+  question: question_323
+question_323_C:
+  content: Ilona's substitute
+  question: question_323
+question_323_D:
+  content: Student trainee @ parkstraat
+  question: question_323
+
+question_324_A:
+  content: &samhoud DNA restaurant
+  question: question_324
+question_324_B:
+  content: &samhoud gardens
+  question: question_324
+question_324_C:
+  content: &samhoud fun factory
+  question: question_324
+question_324_D:
+  content: &samhoud Spain
+  question: question_324
+
+question_325_A:
+  content: Chatbox of Connection
+  question: question_325
+question_325_B:
+  content: Fussball table
+  question: question_325
+question_325_C:
+  content: Mobile chalkboards
+  question: question_325
+question_325_D:
+  content: A grass floor and beanbags
+  question: question_325
+
+question_326_A:
+  content: Mooks
+  question: question_326
+question_326_B:
+  content: Maggs
+  question: question_326
+question_326_C:
+  content: Muggs
+  question: question_326
+question_326_D:
+  content: Ernie
+  question: question_326
+
+question_327_A:
+  content: A blue ball on a skyscraper
+  question: question_327
+question_327_B:
+  content: Famous Malaysian singer
+  question: question_327
+question_327_C:
+  content: Giving out 250 blue balls
+  question: question_327
+question_327_D:
+  content: A tango dance
+  question: question_327
+
+question_328_A:
+  content: Audacious goal and higher goal
+  question: question_328
+question_328_B:
+  content: High goal, behavioral rules
+  question: question_328
+question_328_C:
+  content: Audacious goal, higher goal and core values
+  question: question_328
+question_328_D:
+  content: Core values and core qualities
+  question: question_328
+
+question_329_A:
+  content: Otie
+  question: question_329
+question_329_B:
+  content: Anneke
+  question: question_329
+question_329_C:
+  content: Margreet
+  question: question_329
+question_329_D:
+  content: Tim
+  question: question_329
+
+question_330_A:
+  content: DELA
+  question: question_330
+question_330_B:
+  content: PGGM
+  question: question_330
+question_330_C:
+  content: APG
+  question: question_330
+question_330_D:
+  content: MN Services
+  question: question_330
+
+question_331_A:
+  content: Ingrid
+  question: question_331
+question_331_B:
+  content: Leonie
+  question: question_331
+question_331_C:
+  content: Edwin
+  question: question_331
+question_331_D:
+  content: Wouter van der Weijden
+  question: question_331
+
+question_332_A:
+  content: Brussels
+  question: question_332
+question_332_B:
+  content: Köln
+  question: question_332
+question_332_C:
+  content: Madrid
+  question: question_332
+question_332_D:
+  content: Stockholm
+  question: question_332
+
+question_333_A:
+  content: Ingrid
+  question: question_333
+question_333_B:
+  content: Rob
+  question: question_333
+question_333_C:
+  content: Jacha
+  question: question_333
+question_333_D:
+  content: Jeroen vBV
+  question: question_333
