@@ -1,5 +1,5 @@
 class Answer < ActiveRecord::Base
-  belongs_to :question
+  belongs_to :question, inverse_of: :answers
   has_one :content_image
   has_one :learnable
 

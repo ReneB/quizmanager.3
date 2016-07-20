@@ -3,7 +3,7 @@ class Question < ActiveRecord::Base
   belongs_to :learnable
   belongs_to :content_image
 
-  has_many :answers
+  has_many :answers, inverse_of: :question
   belongs_to :correct_answer, class_name: Answer
 
   has_and_belongs_to_many :categories
