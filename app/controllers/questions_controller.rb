@@ -4,7 +4,7 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
-    @questions = Question.all.order(:id)
+    @questions = Question.includes(:categories, :learnable, :answers).all.order(:id)
   end
 
   # GET /questions/1
