@@ -24,8 +24,8 @@
     <tbody class="list">
       <% @questions.each do |question| %>
         <tr>
-          <td class='id'><%= question.id %></td>
-          <td>
+          <td class='id col-md-1'><%= question.id %></td>
+          <td class='col-md-10'>
             <%= content_tag :div, class: 'text collapsed', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
               <%= glyph('triangle-right') %>
               <%= glyph('triangle-bottom') %>
@@ -35,24 +35,30 @@
               <div class='row'>
                 <div class='col-md-6'>
                   <h4>Answers</h4>
-                  <dl class="answers">
+                  <div class="answers">
                     <% question.answers.each do |answer| %>
-                      <dd><%= render answer %></dd>
+                      <%= render answer %>
                     <% end %>
-                  </dl>
+                  </div>
+                  <% if question.learnable %>
+                    <h4>Key message</h4>
+                    <div class="learnable">
+                      <%= question.learnable.body %>
+                    </div>
+                  <% end %>
                 </div>
                 <div class='col-md-6'>
                   <h4>Topics</h4>
-                  <dl class="topics">
+                  <div class="topics">
                     <% question.categories.each do |category| %>
                       <dd><%= category.title %></dd>
                     <% end %>
-                  </dl>
+                  </div>
                 </div>
               </div>
             <% end %>
           </td>
-          <td class="actions">
+          <td class="actions col-md-1">
             <%= link_to question_path(question), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do %>
               <%= glyph 'info-sign' %>
             <%- end -%>
@@ -92,7 +98,7 @@
     document.removeEventListener("page:change", buildQuestionList);
 
     var options = {
-      valueNames: ['id', 'text', 'answers', 'topics']
+      valueNames: ['id', 'text', 'answers', 'topics', 'learnable']
     };
 
     new List('questions', options);

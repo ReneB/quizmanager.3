@@ -29,6 +29,19 @@
           </ul>
         </dd>
       </div>
+      <% if @question.learnable %>
+        <div class='well'>
+          <dt>Key message</dt>
+          <dd class='well'>
+            <dl class='dl-vertical'>
+              <dt>Title</dt>
+              <dd><%= @question.learnable.title %></dd>
+              <dt>Body</dt>
+              <dd><%= @question.learnable.body %></dd>
+            </dl>
+          </dd>
+        </div>
+      <% end %>
     </dl>
   </div>
 
