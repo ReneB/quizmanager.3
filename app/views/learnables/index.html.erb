@@ -10,10 +10,6 @@
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th class='sort' data-sort="id">
-          <%= model_class.human_attribute_name :id %>
-          <%= sorting_icons(:attributes) %>
-        </th>
         <th class='sort' data-sort="title">
           <%= model_class.human_attribute_name(:title) %>
           <%= sorting_icons(:alphabet) %>
@@ -28,7 +24,6 @@
     <tbody class="list">
       <% @learnables.each do |learnable| %>
         <tr>
-          <td class='id'><%= learnable.id %></td>
           <td class='title'><%= learnable.title %></td>
           <td class='body'><%= learnable.body %></td>
           <td class='actions'>
@@ -59,7 +54,7 @@
     document.removeEventListener("page:change", buildLearnableList);
 
     var options = {
-      valueNames: ['id', 'title', 'body']
+      valueNames: ['title', 'body']
     };
 
     new List('learnables', options);
