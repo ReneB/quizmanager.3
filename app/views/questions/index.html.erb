@@ -77,6 +77,11 @@
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_question_path,
               :class => 'btn btn-primary' %>
+
+  <%= link_to questions_path(format: :json), :class => 'btn btn-secondary pull-right' do %>
+    <%= t('.download', :default => t("download")) %>
+    <%= glyph(:download) %>
+  <% end %>
 </div>
 
 <div class="col-md-3">

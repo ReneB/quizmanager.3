@@ -5,6 +5,13 @@ class QuestionsController < ApplicationController
   # GET /questions.json
   def index
     @questions = Question.includes(:categories, :learnable, :answers, :correct_answer).all.order(:id)
+
+    respond_to do |format|
+      format.html
+      format.json {
+        response.headers['Content-Disposition'] = 'attachment'
+      }
+    end
   end
 
   # GET /questions/1
