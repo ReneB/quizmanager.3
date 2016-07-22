@@ -18,6 +18,6 @@
 
 //= require_tree .
 
-document.addEventListener("page:change", function() {
+document.addEventListener("turbolinks:load", function() {
   jQuery('[data-multi-select=dropdown]').multiselect();
 });

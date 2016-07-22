@@ -101,10 +101,10 @@
 </div>
 
 <%= javascript_tag do %>
-  document.addEventListener("page:change", buildQuestionList);
+  document.addEventListener("turbolinks:load", buildQuestionList);
 
   function buildQuestionList() {
-    document.removeEventListener("page:change", buildQuestionList);
+    document.removeEventListener("turbolinks:load", buildQuestionList);
 
     var options = {
       valueNames: ['id', 'text', 'answers', 'topics', 'learnable']
