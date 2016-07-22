@@ -1,5 +1,5 @@
 class Answer < ActiveRecord::Base
-  belongs_to :question, inverse_of: :answers
+  belongs_to :question, inverse_of: :answers, touch: true
   belongs_to :content_image
 
   def is_correct?

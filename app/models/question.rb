@@ -20,6 +20,10 @@ class Question < ActiveRecord::Base
   validate :has_categories?
   validates :answers, presence: true, length: { is: 4 }
 
+  def cache_key
+    ([super] + [learnable, content_image, categories].compact.map(&:cache_key)).join('-')
+  end
+
 private
   def has_categories?
     categories.present? || errors.add(:categories, 'Must have at least one category')

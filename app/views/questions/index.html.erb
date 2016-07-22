@@ -22,7 +22,9 @@
       </tr>
     </thead>
     <tbody class="list">
+      <% cache @questions do %>
       <% @questions.each do |question| %>
+        <% cache question do %>
         <tr>
           <td class='id col-md-1'><%= question.id %></td>
           <td class='col-md-10'>
@@ -70,6 +72,8 @@
             <%- end -%>
           </td>
         </tr>
+        <% end %>
+      <% end %>
       <% end %>
     </tbody>
   </table>
