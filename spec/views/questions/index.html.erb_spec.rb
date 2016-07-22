@@ -3,12 +3,8 @@ require 'rails_helper'
 RSpec.describe "questions/index", type: :view do
   before(:each) do
     assign(:questions, [
-      Question.create!(
-        :user => nil
-      ),
-      Question.create!(
-        :user => nil
-      )
+      FactoryGirl.create(:question),
+      FactoryGirl.create(:question)
     ])
   end
 

@@ -10,9 +10,6 @@ RSpec.describe "questions/new", type: :view do
   it "renders new question form" do
     render
 
-    assert_select "form[action=?][method=?]", questions_path, "post" do
-
-      assert_select "input#question_user_id[name=?]", "question[user_id]"
-    end
+    assert_select "form[action=?][method=?]", questions_path, "post"
   end
 end
