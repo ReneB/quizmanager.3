@@ -42,7 +42,7 @@ gem 'bundler'
 
 gem 'validates_formatting_of'
 gem 'tzinfo-data'
-gem 'simple_form'
+gem 'simple_form', github: 'plataformatec/simple_form'
 gem 'devise', github: 'plataformatec/devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
@@ -66,5 +66,5 @@ group :test do
   gem 'shoulda-matchers'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
-  gem 'rails-controller-testing', require: false
+  gem 'rails-controller-testing'
 end
