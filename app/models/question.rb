@@ -6,7 +6,7 @@ class Question < ActiveRecord::Base
   has_many :answers, inverse_of: :question
   belongs_to :correct_answer, class_name: Answer
 
-  has_and_belongs_to_many :categories, inverse_of: :questions
+  has_and_belongs_to_many :categories, inverse_of: :questions, after_add: :break_cache, after_remove: :break_cache
 
   accepts_nested_attributes_for :answers
 
@@ -22,6 +22,10 @@ class Question < ActiveRecord::Base
 
   def cache_key
     ([super] + [learnable, content_image, categories].compact.map(&:cache_key)).join('-')
+  end
+
+  def break_cache(_)
+    touch if persisted?
   end
 
 private
