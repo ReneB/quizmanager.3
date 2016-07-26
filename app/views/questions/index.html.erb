@@ -94,14 +94,10 @@
 
 <div class="col-md-3">
   <div class="well sidebar-nav">
-    <h3>Sidebar</h3>
+    <h3>Filters</h3>
     <ul class="nav">
       <li class="nav-header">Topics</li>
-      <% Category.order(:title).each do |category| %>
-        <%= content_tag :li do %>
-          <%= button_to category.title, "#", class: 'btn btn-success', data: { behavior: 'filter-list', category: category.title } %>
-        <% end %>
-      <% end %>
+      <%= active_category_dropdown %>
     </ul>
   </div>
 </div>

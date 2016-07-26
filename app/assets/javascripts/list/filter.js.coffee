@@ -7,6 +7,15 @@ document.registerListForFiltering = (list, attribute, possibleValues) ->
   activeList = list
   attributeName = attribute
 
+document.filterList = (values) ->
+  values ||= []
+
+  activeList.filter (item) ->
+    for value in $(item.elm).data("#{attributeName}-list")
+      return true if value in values
+
+    return false
+
 $(document).on 'click', '[data-behavior=filter-list]', (event) ->
   event.preventDefault()
 
@@ -18,8 +27,5 @@ $(document).on 'click', '[data-behavior=filter-list]', (event) ->
   else
     activeValues.push selectedValue
 
-  activeList.filter (item) ->
-    for value in $(item.elm).data("#{attributeName}-list")
-      return true if value in activeValues
+  filter(activeValues)
 
-    return false
