@@ -1,60 +1,48 @@
 clients_and_business:
-  name: temp_cb
   title: Our markets
   body: "&ranj focuses primarily on the corporate training and health markets. Many people associate serious gaming with education, however that represents only a small minority of &ranj's output in the past decade."
 
 communication_and_colleagues:
-  name: temp_cc
   title: Friendship
   body: "Friendship is related to being honest and approachable, giving feedback, inspiring and connecting with eachother. We're in this together."
 
 culture:
-  name: temp_cu
   title: Playful company
   body: "&ranj is a playful company. However, this does not mean we play around! Playfulness describes our way of doing business and solving problems. We see things differently and are not afraid to fail and learn."
 
 organization_and_strategy:
-  name: temp_os
   title: The road to killer apps
   body: "Blockbusters are scalable products that can be rebranded and sold to multiple clients. They are an intermediate step on the way to Killer Apps: products with mass appeal that we bring to the market ourselves."
 
 products_and_services:
-  name: temp_ps
   title: Terminology
   body: "Serious games and gamification are not the same. Serious games are actual games involving play, whereas gamification merely applies game elements and gamethinking to otherwise dry tasks."
 
 daily_practice:
-  name: temp_dp
   title: The &ranj way of working
   body: "The &ranj way of working describes, among others, our approach to serious games, our process, how we interact with one another and what we value in our products."
 
 clients_and_business_samhoud:
-  name: temp_&cb
   title: Widespread
   body: "&samhoud is active in different industries worldwide: management consulting, personal development, media, hospitality, food and serious gaming."
 
 communication_and_colleagues_samhoud:
-  name: temp_&cc
   title: Connection
   body: "Our theme is connection, this is why our company’s name starts with the &-sign. We believe it’s crucial in life to live, have fun but also to win. People who are connected with themselves are better able to connect with others."
 
 culture_samhoud:
-  name: temp_&cu
   title: Higher goal
   body: "We are connected by our shared higher goal: Together we build a brighter future."
 
 organization_and_strategy_samhoud:
-  name: temp_&os
   title: Our brands
   body: "The &samhoud brands are &samhoud consultancy, &samhoud places, &samhoud foundation, &samhoud food, &samhoud media, &samhoud women and &ranj games."
 
 products_and_services_samhoud:
-  name: temp_&ps
   title: Our contributions
   body: "We achieve breakthroughs by inspiring and connecting people. We give gastronomy to the world by inspiring and connecting people. We inspire and connect people by creating breakthrough media content. We achieve positive behavioral change though play."
 
 daily_practice_samhoud:
-  name: temp_&dp
   title: Our values
   body: "Who we are and how we do things is based on three core values: authenticity, intensity and friendship. &ranj added playfulness as a fourth core value."
 
