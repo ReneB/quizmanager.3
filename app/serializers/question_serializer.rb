@@ -43,11 +43,6 @@ class QuestionSerializer < SimpleDelegator
   end
 
   # TODO
-  def published?
-    true
-  end
-
-  # TODO
   def campaign_id
     1.to_s
   end

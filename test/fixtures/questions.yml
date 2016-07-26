@@ -1,1991 +1,2323 @@
 question_1:
   question_text: "Being critical towards each other fits best with which core value?"
+  published: true
   correct_answer: question_1_A
   learnable: communication_and_colleagues
   categories: communication_and_colleagues, culture
 
 question_2:
   question_text: "What new strategy contributes most directly to reaching our audacious goal?"
+  published: false
   correct_answer: question_2_A
   learnable: organization_and_strategy
   categories: organization_and_strategy
 
 question_3:
   question_text: "In a project pipeline, which task is not part of the programmer's role?"
+  published: false
   correct_answer: question_3_A
   learnable: 
   categories: communication_and_colleagues
 
 question_4:
   question_text: "In which language has &ranj never released a game?"
+  published: false
   correct_answer: question_4_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_5:
   question_text: "What does real friendship mean?"
+  published: false
   correct_answer: question_5_A
   learnable: communication_and_colleagues
   categories: communication_and_colleagues, culture
 
 question_6:
   question_text: "What is most important in connecting people as friends?"
+  published: false
   correct_answer: question_6_A
   learnable: communication_and_colleagues
   categories: culture
 
 question_7:
   question_text: "What role does a product owner fulfill?"
+  published: false
   correct_answer: question_7_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_8:
   question_text: "Applied at &ranj during recent projects, what is Kanban?"
+  published: false
   correct_answer: question_8_A
   learnable: 
   categories: daily_practice
 
 question_9:
   question_text: "In the project plan there is often a mention of \"MVP\". What does that mean?"
+  published: false
   correct_answer: question_9_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_10:
   question_text: "As one of the &ranj core values, what best describes intensity?"
+  published: false
   correct_answer: question_10_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_11:
   question_text: "What is not a format project?"
+  published: false
   correct_answer: question_11_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_12:
   question_text: "What is scrum?"
+  published: false
   correct_answer: question_12_A
   learnable: 
   categories: daily_practice
 
 question_13:
   question_text: "What is the &ranj audacious goal?"
+  published: false
   correct_answer: question_13_A
   learnable: 
   categories: organization_and_strategy
 
 question_14:
   question_text: "What is the higher goal of &samhoud?"
+  published: false
   correct_answer: question_14_A
   learnable: 
   categories: organization_and_strategy
 
 question_15:
   question_text: "What does &Samhoud believe you should invest in first to grow your company?"
+  published: false
   correct_answer: question_15_A
   learnable: 
   categories: organization_and_strategy
 
 question_16:
   question_text: "Where did the inspiration for 'building a brighter future together' come from?"
+  published: false
   correct_answer: question_16_A
   learnable: 
   categories: organization_and_strategy
 
 question_17:
   question_text: "Who is in charge of studio staffing?"
+  published: false
   correct_answer: question_17_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_18:
   question_text: "During this studio-wide meeting we discuss plans, results and strive for transparency. What is it called?"
+  published: false
   correct_answer: question_18_A
   learnable: 
   categories: culture, daily_practice
 
 question_19:
   question_text: "What is the key purpose of the Fishbowl meetings?"
+  published: false
   correct_answer: question_19_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_20:
   question_text: "Where did the name Fishbowl come from?"
+  published: false
   correct_answer: question_20_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_21:
   question_text: "Who is not a people leader?"
+  published: false
   correct_answer: question_21_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_22:
   question_text: "Who is the people leader for the Game Design team?"
+  published: false
   correct_answer: question_22_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_23:
   question_text: "You want more time to dedicate to your personal development. Who do you talk to first?"
+  published: false
   correct_answer: question_23_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_24:
   question_text: "What is one of the tasks of a people leader?"
+  published: false
   correct_answer: question_24_A
   learnable: daily_practice
   categories: communication_and_colleagues, organization_and_strategy
 
 question_25:
   question_text: "Many legendary anecdotes come from this weekly event, that has traditionally been held on the same day."
+  published: false
   correct_answer: question_25_A
   learnable: 
   categories: culture
 
 question_26:
   question_text: "On what day can you discuss events, socialize with colleagues and get drinks around 5pm?"
+  published: false
   correct_answer: question_26_A
   learnable: 
   categories: culture
 
 question_27:
   question_text: "What shouldn't you do when giving constructive criticism to someone?"
+  published: false
   correct_answer: question_27_A
   learnable: 
   categories: communication_and_colleagues, culture
 
 question_28:
   question_text: "Which of these events never took place?"
+  published: true
   correct_answer: question_28_A
   learnable: 
   categories: daily_practice
 
 question_29:
   question_text: "Client X wants to do a project. What is the strongest reason to turn them down?"
+  published: true
   correct_answer: question_29_A
   learnable: 
   categories: clients_and_business, organization_and_strategy
 
 question_30:
   question_text: "Fill in the blanks: \"We achieve … behavioral change through …\""
+  published: false
   correct_answer: question_30_A
   learnable: products_and_services
   categories: organization_and_strategy
 
 question_31:
   question_text: "A colleague delivers low quality work and presents it to the team. What is the most authentic way to respond?"
+  published: false
   correct_answer: question_31_A
   learnable: 
   categories: communication_and_colleagues, culture
 
 question_32:
   question_text: "What was &ranj's largest market segment in 2014?"
+  published: false
   correct_answer: question_32_A
   learnable: client_and_business
   categories: clients_and_business, products_and_services
 
 question_33:
   question_text: "What is the dress code at the &ranj studio?"
+  published: false
   correct_answer: question_33_A
   learnable: 
   categories: culture, daily_practice
 
 question_34:
   question_text: "As of 2015 which technology is still considered future proof?"
+  published: false
   correct_answer: question_34_A
   learnable: 
   categories: products_and_services
 
 question_35:
   question_text: "How are interns forever remembered at &ranj when they finish their internships?"
+  published: false
   correct_answer: question_35_A
   learnable: 
   categories: communication_and_colleagues, culture
 
 question_36:
   question_text: "How many games has &ranj developed since the founding of the studio?"
+  published: false
   correct_answer: question_36_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_37:
   question_text: "We have a high end VR set, but what is it called?"
+  published: false
   correct_answer: question_37_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_38:
   question_text: "What is NOT a module of the Oz platform?"
+  published: false
   correct_answer: question_38_A
   learnable: 
   categories: products_and_services
 
 question_39:
   question_text: "What is the nickname of the closed-off meeting room?"
+  published: false
   correct_answer: question_39_A
   learnable: 
   categories: daily_practice
 
 question_40:
   question_text: "What type of fun is associated with autonomy?"
+  published: false
   correct_answer: question_40_A
   learnable: 
   categories: products_and_services
 
 question_41:
   question_text: "Which game designer did not do an internship at &ranj?"
+  published: false
   correct_answer: question_41_A
   learnable: 
   categories: communication_and_colleagues
 
 question_42:
   question_text: "Which core quality is most directly related to the &ranj audacious goal?"
+  published: false
   correct_answer: question_42_A
   learnable: 
   categories: organization_and_strategy
 
 question_43:
   question_text: "Which industry has &ranj never worked for?"
+  published: false
   correct_answer: question_43_A
   learnable: 
   categories: clients_and_business
 
 question_44:
   question_text: "Which of the following aspects is not associated with \"Friendship\"?"
+  published: false
   correct_answer: question_44_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_45:
   question_text: "Which of the following games doesn't fit &ranj's higher goal \"We achieve positive behavioral change through play\"?"
+  published: true
   correct_answer: question_45_A
   learnable: products_and_services
   categories: organization_and_strategy, products_and_services
 
 question_46:
   question_text: "Which of the following market segments is not within the current and future focus of &ranj?"
+  published: true
   correct_answer: question_46_A
   learnable: client_and_business
   categories: clients_and_business, organization_and_strategy
 
 question_47:
   question_text: "Which of the following narrative formats is NOT a &ranj format?"
+  published: false
   correct_answer: question_47_A
   learnable: 
   categories: products_and_services
 
 question_48:
   question_text: "Which of the following things doesn't happen when it's someone's birthday within &ranj?"
+  published: false
   correct_answer: question_48_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_49:
   question_text: "Which of the work processes listed below are not done internally within &ranj?"
+  published: false
   correct_answer: question_49_A
   learnable: 
   categories: daily_practice
 
 question_50:
   question_text: "Which of the following words doesn't belong here?"
+  published: false
   correct_answer: question_50_A
   learnable: 
   categories: organization_and_strategy
 
 question_51:
   question_text: "Which of these project managers is a metal fan?"
+  published: false
   correct_answer: question_51_A
   learnable: 
   categories: communication_and_colleagues, culture
 
 question_52:
   question_text: "Who takes care of watering the plants?"
+  published: false
   correct_answer: question_52_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_53:
   question_text: "Who is the Visual Design People Leader?"
+  published: true
   correct_answer: question_53_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy
 
 question_54:
   question_text: "What does the acronym RJP stand for?"
+  published: false
   correct_answer: question_54_A
   learnable: 
   categories: products_and_services
 
 question_55:
   question_text: "How can you tell it is someone's birthday at &ranj?"
+  published: false
   correct_answer: question_55_A
   learnable: 
   categories: culture, daily_practice
 
 question_56:
   question_text: "What should you do when it's your birthday at &ranj?"
+  published: false
   correct_answer: question_56_A
   learnable: 
   categories: culture, daily_practice
 
 question_57:
   question_text: "When is the traditional yearly management speech?"
+  published: false
   correct_answer: question_57_A
   learnable: 
   categories: culture
 
 question_58:
   question_text: "What is the traditional timing for the &ranj parties?"
+  published: false
   correct_answer: question_58_A
   learnable: 
   categories: culture
 
 question_59:
   question_text: "In ancient &ranj history, how did Frank Bovenkerk say goodbye to his interns?"
+  published: false
   correct_answer: question_59_A
   learnable: 
   categories: culture
 
 question_60:
   question_text: "In what city is &samhoud's German subsidiary located?"
+  published: false
   correct_answer: question_60_A
   learnable: 
   categories: clients_and_business
 
 question_61:
   question_text: "In what language has a &ranj game NEVER been translated?"
+  published: false
   correct_answer: question_61_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_62:
   question_text: "In which cities did &ranj facilitate a rapid design session?"
+  published: false
   correct_answer: question_62_A
   learnable: 
   categories: clients_and_business
 
 question_63:
   question_text: "What is not a core feature of the Changing The Dialog format?"
+  published: false
   correct_answer: question_63_A
   learnable: 
   categories: products_and_services
 
 question_64:
   question_text: "What is not a responsibility of the product owner?"
+  published: false
   correct_answer: question_64_A
   learnable: 
   categories: communication_and_colleagues, organization_and_strategy, daily_practice
 
 question_65:
   question_text: "What is the difference between playful and gaming?"
+  published: true
   correct_answer: question_65_A
   learnable: culture
   categories: products_and_services
 
 question_66:
   question_text: "What is the self determination theory about?"
+  published: false
   correct_answer: question_66_A
   learnable: 
   categories: products_and_services
 
 question_67:
   question_text: "Which of the following companies never was a client of &ranj?"
+  published: false
   correct_answer: question_67_A
   learnable: 
   categories: clients_and_business
 
 question_68:
   question_text: "To inspire and connect relates strongest to which core value?"
+  published: false
   correct_answer: question_68_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_69:
   question_text: "Being in it together relates strongest to which core value?"
+  published: false
   correct_answer: question_69_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_70:
   question_text: "Being honest, approachable and able to give feedback relates strongest to which core value?"
+  published: false
   correct_answer: question_70_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_71:
   question_text: "Being yourself and knowing yourself relate strongest to which core value?"
+  published: false
   correct_answer: question_71_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_72:
   question_text: "Daring to be out of the ordinary relates strongest to which core value?"
+  published: false
   correct_answer: question_72_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_73:
   question_text: "Believing in the power of diversity relates strongest to which core value?"
+  published: false
   correct_answer: question_73_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_74:
   question_text: "Seeing things differently, as a game, relates strongest to which core value?"
+  published: false
   correct_answer: question_74_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_75:
   question_text: "Being fun and good humored relates strongest to which core value?"
+  published: false
   correct_answer: question_75_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_76:
   question_text: "Daring to fail and learn relates strongest to which core value?"
+  published: false
   correct_answer: question_76_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_77:
   question_text: "Striving to be the best and exceeding expectations relate strongest to which core value?"
+  published: false
   correct_answer: question_77_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_78:
   question_text: "Taking ownership and being passionate relate strongest to which core value?"
+  published: false
   correct_answer: question_78_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_79:
   question_text: "Managing your energy relates strongest to which core value?"
+  published: false
   correct_answer: question_79_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_80:
   question_text: "What most clearly embodies Playfulness?"
+  published: false
   correct_answer: question_80_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_81:
   question_text: "What most clearly embodies Playfulness?"
+  published: false
   correct_answer: question_81_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_82:
   question_text: "What most clearly embodies Playfulness?"
+  published: false
   correct_answer: question_82_A
   learnable: culture
   categories: culture, organization_and_strategy
 
 question_83:
   question_text: "What most clearly embodies Intensity?"
+  published: false
   correct_answer: question_83_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_84:
   question_text: "What most clearly embodies Intensity?"
+  published: false
   correct_answer: question_84_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_85:
   question_text: "What most clearly embodies Intensity?"
+  published: false
   correct_answer: question_85_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_86:
   question_text: "What most clearly embodies Authenticity?"
+  published: false
   correct_answer: question_86_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_87:
   question_text: "What most clearly embodies Authenticity?"
+  published: false
   correct_answer: question_87_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_88:
   question_text: "What most clearly embodies Authenticity?"
+  published: false
   correct_answer: question_88_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_89:
   question_text: "What most clearly embodies Friendship?"
+  published: false
   correct_answer: question_89_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_90:
   question_text: "What most clearly embodies Friendship?"
+  published: false
   correct_answer: question_90_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_91:
   question_text: "What most clearly embodies Friendship?"
+  published: false
   correct_answer: question_91_A
   learnable: communication_and_colleagues
   categories: culture, organization_and_strategy
 
 question_92:
   question_text: "Which of these is not a core value?"
+  published: false
   correct_answer: question_92_A
   learnable: 
   categories: organization_and_strategy
 
 question_93:
   question_text: "Which of these is not a core value?"
+  published: false
   correct_answer: question_93_A
   learnable: 
   categories: organization_and_strategy
 
 question_94:
   question_text: "Which of these is not a core value?"
+  published: false
   correct_answer: question_94_A
   learnable: 
   categories: organization_and_strategy
 
 question_95:
   question_text: "Which of these is not a core value?"
+  published: false
   correct_answer: question_95_A
   learnable: 
   categories: organization_and_strategy
 
 question_96:
   question_text: "Which of these is not a core value?"
+  published: false
   correct_answer: question_96_A
   learnable: 
   categories: organization_and_strategy
 
 question_97:
   question_text: "Which of these is not a core quality?"
+  published: false
   correct_answer: question_97_A
   learnable: 
   categories: organization_and_strategy
 
 question_98:
   question_text: "Which of these is not a core quality?"
+  published: false
   correct_answer: question_98_A
   learnable: 
   categories: organization_and_strategy
 
 question_99:
   question_text: "Which of these is not a core quality?"
+  published: false
   correct_answer: question_99_A
   learnable: 
   categories: organization_and_strategy
 
 question_100:
   question_text: "Which of these is not a core quality?"
+  published: false
   correct_answer: question_100_A
   learnable: 
   categories: organization_and_strategy
 
 question_101:
   question_text: "Which of these is not a core quality?"
+  published: false
   correct_answer: question_101_A
   learnable: daily_practice
   categories: organization_and_strategy
 
 question_102:
   question_text: "Which of these is not a strategy pillar?"
+  published: false
   correct_answer: question_102_A
   learnable: organization_and_strategy
   categories: organization_and_strategy
 
 question_103:
   question_text: "Which of these is not a strategy pillar?"
+  published: false
   correct_answer: question_103_A
   learnable: 
   categories: organization_and_strategy
 
 question_104:
   question_text: "Which of these is not a strategy pillar?"
+  published: false
   correct_answer: question_104_A
   learnable: 
   categories: organization_and_strategy
 
 question_105:
   question_text: "Which of these is not a strategy pillar?"
+  published: false
   correct_answer: question_105_A
   learnable: 
   categories: organization_and_strategy
 
 question_106:
   question_text: "Which of these is not a strategy pillar?"
+  published: false
   correct_answer: question_106_A
   learnable: 
   categories: organization_and_strategy
 
 question_107:
   question_text: "What is not part of a game designer's responsibilities?"
+  published: true
   correct_answer: question_107_A
   learnable: daily_practice
   categories: communication_and_colleagues, daily_practice
 
 question_108:
   question_text: "What part of a game's audio does a game designer usually not deal with?"
+  published: false
   correct_answer: question_108_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_109:
   question_text: "When adding a new feature to a game, which is not part of the game designer's responsibilities?"
+  published: false
   correct_answer: question_109_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_110:
   question_text: "Which part of a game's visual style is a game designer usually involved in?"
+  published: false
   correct_answer: question_110_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_111:
   question_text: "Which role is responsible for translating client wishes to mechanics?"
+  published: false
   correct_answer: question_111_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_112:
   question_text: "Which role is responsible for translating features to designs?"
+  published: false
   correct_answer: question_112_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_113:
   question_text: "Which role is responsible for collecting and prioritizing client wishes?"
+  published: false
   correct_answer: question_113_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_114:
   question_text: "Which role is responsible for a game's architecture?"
+  published: false
   correct_answer: question_114_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_115:
   question_text: "Which role is responsible for coordinating people in a project?"
+  published: false
   correct_answer: question_115_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_116:
   question_text: "Which role is responsible for maintaining the product backlog?"
+  published: false
   correct_answer: question_116_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_117:
   question_text: "Which role is responsible for optimizing and tracking team velocity?"
+  published: false
   correct_answer: question_117_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_118:
   question_text: "The earliest version of a product you could release to market is also called …?"
+  published: false
   correct_answer: question_118_A
   learnable: 
   categories: organization_and_strategy, products_and_services
 
 question_119:
   question_text: "\"MVC\" can often be found in the technical planning - what does it mean?"
+  published: false
   correct_answer: question_119_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_120:
   question_text: "\"RJP\" is often used during sales and project planning - what does it mean?"
+  published: false
   correct_answer: question_120_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_121:
   question_text: "\"SME\" is an abbreviation often used during game development - what does it mean?"
+  published: false
   correct_answer: question_121_A
   learnable: 
   categories: clients_and_business, daily_practice
 
 question_122:
   question_text: "In Agile, this is the smallest unit of value for a user or client that we can translate to a design. What is it?"
+  published: false
   correct_answer: question_122_A
   learnable: 
   categories: daily_practice
 
 question_123:
   question_text: "The set of goals the team commits to for a certain Agile cycle are called …"
+  published: false
   correct_answer: question_123_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_124:
   question_text: "We use this digital tool to keep track of tasks and sprint progress. What is it called?"
+  published: false
   correct_answer: question_124_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_125:
   question_text: "We use this tool to help each other improve on a personal level and as a professional. What is it called?"
+  published: false
   correct_answer: question_125_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_126:
   question_text: "This is an agile method focusing on flow and making blocks/dependencies noticeable over predictability. What is it called?"
+  published: false
   correct_answer: question_126_A
   learnable: 
   categories: daily_practice
 
 question_127:
   question_text: "This is an agile method focusing on predictability, planning and a steady 'cycle'. What is it called?"
+  published: false
   correct_answer: question_127_A
   learnable: 
   categories: daily_practice
 
 question_128:
   question_text: "This in-house tool is used to control the flow of content through a narrative game. What is it called?"
+  published: false
   correct_answer: question_128_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_129:
   question_text: "This is an event where we make a project's business case and design more concrete together with a client."
+  published: false
   correct_answer: question_129_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_130:
   question_text: "This is an update on results, current plans and a means of achieving transparency in management. What is it?"
+  published: false
   correct_answer: question_130_A
   learnable: 
   categories: communication_and_colleagues, culture, organization_and_strategy
 
 question_131:
   question_text: "This event is intended for a younger audience and aimed at generating new business opportunities and ideas."
+  published: false
   correct_answer: question_131_A
   learnable: 
   categories: culture
 
 question_132:
   question_text: "This agreement helps us set goals and benchmarks to measure and promote personal development. What is it?"
+  published: false
   correct_answer: question_132_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_133:
   question_text: "During this activity, a team evaluates product state and selects high-priority goals to work on next. What is it?"
+  published: false
   correct_answer: question_133_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_134:
   question_text: "During this activity, a team looks back on the previous cycle and identifies ways to improve the process."
+  published: false
   correct_answer: question_134_A
   learnable: 
   categories: communication_and_colleagues, daily_practice
 
 question_135:
   question_text: "This activity is intended to share knowledge throughout the studio, across disciplines and teams."
+  published: false
   correct_answer: question_135_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_136:
   question_text: "This deliverable is intended to detail a project's features, experience and design to stakeholders and the team."
+  published: false
   correct_answer: question_136_A
   learnable: 
   categories: clients_and_business
 
 question_137:
   question_text: "This document contains all spoken and written dialog in a narrative game. What is it?"
+  published: false
   correct_answer: question_137_A
   learnable: 
   categories: daily_practice
 
 question_138:
   question_text: "A composition expressing a certain visual style, theme or feel, intended to guide and inspire the visual team. What is it?"
+  published: false
   correct_answer: question_138_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_139:
   question_text: "A set of principles, guidelines and rules that ensure a coherent visual identity in a game's design."
+  published: false
   correct_answer: question_139_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_140:
   question_text: "Images expressing the form and function of a screen, separate from its presentation and styling. What are they called?"
+  published: false
   correct_answer: question_140_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_141:
   question_text: "This 'faked' snapshot of a game or feature can be interactive or not, high-fi or not. What is it?"
+  published: false
   correct_answer: question_141_A
   learnable: 
   categories: products_and_services, daily_practice
 
 question_142:
   question_text: "What do we call an internal, often technical, proof-of-concept milestone of a project?"
+  published: false
   correct_answer: question_142_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_143:
   question_text: "This stage of a project is intended to validate the product in a real-world context. What is it called?"
+  published: false
   correct_answer: question_143_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_144:
   question_text: "Our preferred way of sharing short information, it's 3 by 3 inches and multicolored. What is it?"
+  published: false
   correct_answer: question_144_A
   learnable: 
   categories: culture, daily_practice
 
 question_145:
   question_text: "This game format helps salespeople learn to explore the customer's needs and serve them better."
+  published: false
   correct_answer: question_145_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_146:
   question_text: "Which format would the following game fall under: Live a day in the life of a car salesperson and learn to sell cars!"
+  published: false
   correct_answer: question_146_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_147:
   question_text: "Which game format allows you to tackle difficult problems and find solutions, related to your job?"
+  published: false
   correct_answer: question_147_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_148:
   question_text: "Guess the game: Train your fine motor skills in a playful way!"
+  published: false
   correct_answer: question_148_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_149:
   question_text: "Guess the game: Give psychotrauma- and addiction patients control over their life back using self-management."
+  published: false
   correct_answer: question_149_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_150:
   question_text: "Guess the game: Give factory workers insight into the context of their job and involve them into the production process."
+  published: false
   correct_answer: question_150_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_151:
   question_text: "Guess the game: Train a wide range of behavioral competences in various games and shape your profile."
+  published: false
   correct_answer: question_151_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_152:
   question_text: "Guess the game: What kind of salesperson are you and how does the typical sales process go?"
+  published: false
   correct_answer: question_152_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_153:
   question_text: "Guess the game: You're a policy advisor, balance different interests to make a local festival into a success."
+  published: false
   correct_answer: question_153_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_154:
   question_text: "Guess the game: Practice consultative sales and advice skills in a DIY chain store."
+  published: false
   correct_answer: question_154_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_155:
   question_text: "Guess the game: Help control a global crisis and learn the effects of preparation, prevention and remedy."
+  published: false
   correct_answer: question_155_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_156:
   question_text: "Guess the game: Learn strategic buying,  risk analysis and negotiation by helping develop a wind turbine park."
+  published: false
   correct_answer: question_156_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_157:
   question_text: "What is the set of cards we use during an RDS to make it more playful called?"
+  published: false
   correct_answer: question_157_A
   learnable: 
   categories: clients_and_business, culture, daily_practice
 
 question_158:
   question_text: "What is an example of playful communication with a client?"
+  published: false
   correct_answer: question_158_A
   learnable: 
   categories: clients_and_business, culture
 
 question_159:
   question_text: "What is a big advantage of format games?"
+  published: false
   correct_answer: question_159_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_160:
   question_text: "What core value relates most closely to trying to get the most out of a project?"
+  published: false
   correct_answer: question_160_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_161:
   question_text: "What is not an example of an idea generation technique?"
+  published: false
   correct_answer: question_161_A
   learnable: 
   categories: daily_practice
 
 question_162:
   question_text: "What is not an example of a user research technique?"
+  published: false
   correct_answer: question_162_A
   learnable: 
   categories: daily_practice
 
 question_163:
   question_text: "What is not a thing that a programmer will do regularly?"
+  published: false
   correct_answer: question_163_A
   learnable: 
   categories: communication_and_colleagues, products_and_services
 
 question_164:
   question_text: "What game has been most popular to play in the studio in the past?"
+  published: false
   correct_answer: question_164_A
   learnable: 
   categories: culture
 
 question_165:
   question_text: "On what epic journey did Michael and Marcus embark before founding Ranj with GAF?"
+  published: false
   correct_answer: question_165_A
   learnable: 
   categories: culture
 
 question_166:
   question_text: "What is the primary purpose of the Blockbuster team?"
+  published: false
   correct_answer: question_166_A
   learnable: organization_and_strategy
   categories: clients_and_business, organization_and_strategy
 
 question_167:
   question_text: "Fill in the blanks: The Blockbuster team aims for … by building …"
+  published: false
   correct_answer: question_167_A
   learnable: 
   categories: organization_and_strategy, products_and_services
 
 question_168:
   question_text: "Giving a team member honest feedback, positive and negative, is an example of what core value?"
+  published: false
   correct_answer: question_168_A
   learnable: communication_and_colleagues
   categories: communication_and_colleagues, culture
 
 question_169:
   question_text: "What is an important downside of the Waterfall process?"
+  published: false
   correct_answer: question_169_A
   learnable: 
   categories: clients_and_business, organization_and_strategy
 
 question_170:
   question_text: "Guess the game: Help autistic adolescents deal with common and everyday situations."
+  published: false
   correct_answer: question_170_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_171:
   question_text: "Guess the game: Measure current team atmosphere and productivity."
+  published: false
   correct_answer: question_171_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_172:
   question_text: "Guess the game: Manage the opening of an aquarium in China and learn project management skills 'on the job'."
+  published: false
   correct_answer: question_172_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_173:
   question_text: "Who do the portraits hanging in the entrance hallway of &ranj depict?"
+  published: false
   correct_answer: question_173_A
   learnable: 
   categories: culture, daily_practice
 
 question_174:
   question_text: "Guess the game: Helping domestic violence victims cope and deal with their situation."
+  published: false
   correct_answer: question_174_A
   learnable: 
   categories: clients_and_business, products_and_services
 
 question_175:
   question_text: "What changed in the &ranj logo after the fusion with &Samhoud?"
+  published: false
   correct_answer: question_175_A
   learnable: 
   categories: culture, organization_and_strategy
 
 question_176:
   question_text: "Who designed the original Ranj logo?"
+  published: false
   correct_answer: question_176_A
   learnable: 
   categories: culture
 
 question_177:
   question_text: "What is given to you when someone throws you the blue ball of connection?"
+  published: false
   correct_answer: question_177_A
   learnable: 
   categories: culture, daily_practice
 
 question_178:
   question_text: "What is the main symbol of &Samhoud?"
+  published: false
   correct_answer: question_178_A
   learnable: 
   categories: culture
 
 question_179:
   question_text: "What industry is &Samhoud involved in themselves, among others?"
+  published: false
   correct_answer: question_179_A
   learnable: 
   categories: clients_and_business, organization_and_strategy
 
 question_180:
   question_text: "\"Ranj\" is a shortened version of a word from what language?"
+  published: false
   correct_answer: question_180_A
   learnable: 
   categories: culture
 
 question_181:
   question_text: "The name \"Ranj\" is a shortened version of a Sanskrit word. What does that word mean?"
+  published: false
   correct_answer: question_181_A
   learnable: 
   categories: culture
 
 question_182:
   question_text: "Which of these is part of the &ranj higher goal?"
+  published: false
   correct_answer: question_182_A
   learnable: 
   categories: organization_and_strategy
 
 question_183:
   question_text: "Often used by management, the P in \"RFP\" stands for…?"
+  published: false
   correct_answer: question_183_A
   learnable: 
   categories: clients_and_business, daily_practice
 
 question_184:
   question_text: "What is the traditional celebration at 'advies' if a big assignment has been won?"
+  published: false
   correct_answer: question_184_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_185:
   question_text: "What is not a market that the consultancy firm works in?"
+  published: false
   correct_answer: question_185_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_186:
   question_text: "Wat is needed for change, according to &samhoud's vision?"
+  published: false
   correct_answer: question_186_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_187:
   question_text: "At &samhoud, \"PE\" stands for:"
+  published: false
   correct_answer: question_187_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_188:
   question_text: "Which customer was at the core of the creation of Otie's book \"Lean, ten minste houdbaar tot\"?"
+  published: false
   correct_answer: question_188_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_189:
   question_text: "With which client did we celebrate winning the GPTW 2015 award?"
+  published: false
   correct_answer: question_189_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_190:
   question_text: "Which company has not yet been &samhoud's client?"
+  published: false
   correct_answer: question_190_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_191:
   question_text: "In what way do we want to distinguish ourselves as &samhoud?"
+  published: false
   correct_answer: question_191_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_192:
   question_text: "What usual / unusual intervention we have never done?"
+  published: false
   correct_answer: question_192_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_193:
   question_text: "In which city did we work with an elephant in a public park?"
+  published: false
   correct_answer: question_193_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_194:
   question_text: "With which animals have we worked before?"
+  published: false
   correct_answer: question_194_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_195:
   question_text: "Which business line have we not operated in yet?"
+  published: false
   correct_answer: question_195_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_196:
   question_text: "What is NOT a usual/unusual intervention that took place?"
+  published: false
   correct_answer: question_196_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_197:
   question_text: "Which of these companies is NOT an &samhoud client?"
+  published: false
   correct_answer: question_197_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_198:
   question_text: "What is the correct pronunciation of &samhoud in English?"
+  published: false
   correct_answer: question_198_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_199:
   question_text: "What was &samhoud consultancy's turnover in 2015?"
+  published: false
   correct_answer: question_199_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_200:
   question_text: "In what year did &samhoud win Great Place To Work Europe?"
+  published: false
   correct_answer: question_200_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_201:
   question_text: "For which client would we love to work again sometime?"
+  published: false
   correct_answer: question_201_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_202:
   question_text: "Where was the sign saying \"together we build a brighter future\" located?"
+  published: false
   correct_answer: question_202_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_203:
   question_text: "Which of these Dutch food companies is &samhoud food currently in business with?"
+  published: false
   correct_answer: question_203_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_204:
   question_text: "Which of these Dutch food companies is &samhoud food currently NOT in business with?"
+  published: false
   correct_answer: question_204_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_205:
   question_text: "What &samhoud-log-branded piece of clothing can you NOT find in the cupboard?"
+  published: false
   correct_answer: question_205_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_206:
   question_text: "Which of these was an actual usual/unusual intervention with a client?"
+  published: false
   correct_answer: question_206_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_207:
   question_text: "Which animal has &samhoud consultancy never used during an intervention?"
+  published: false
   correct_answer: question_207_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_208:
   question_text: "Which of these was the largest client ever?"
+  published: false
   correct_answer: question_208_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_209:
   question_text: "What isn't an outward message by &samhoud?"
+  published: false
   correct_answer: question_209_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_210:
   question_text: "Which &samhoud peer groups have their own app?"
+  published: false
   correct_answer: question_210_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_211:
   question_text: "How long do fathers get paid paternity leave?"
+  published: false
   correct_answer: question_211_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_212:
   question_text: "What is the easiest way to get a parking spot at Schuttevaer?"
+  published: false
   correct_answer: question_212_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_213:
   question_text: "How do you make friends with our colleagues at the Maliebaan reception?"
+  published: false
   correct_answer: question_213_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_214:
   question_text: "What communication tool don't we use officially at &samhoud?"
+  published: false
   correct_answer: question_214_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_215:
   question_text: "The doorbell rings after 18:00, what do you do?"
+  published: false
   correct_answer: question_215_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_216:
   question_text: "What are you given on 'hoogtijdagen' and goodbyes?"
+  published: false
   correct_answer: question_216_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_217:
   question_text: "What medium doesn't allow you to see whether someone is online?"
+  published: false
   correct_answer: question_217_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_218:
   question_text: "How many colleagues do you have at &samhoud incl all business lines?"
+  published: false
   correct_answer: question_218_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_219:
   question_text: "Which colleague, apart from Salem, has worked at &samhoud longest?"
+  published: false
   correct_answer: question_219_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_220:
   question_text: "Why did our name change from &Samhoud to &samhoud?"
+  published: false
   correct_answer: question_220_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_221:
   question_text: "This is a networking platform where interested parties can track job openings at &samhoud:"
+  published: false
   correct_answer: question_221_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_222:
   question_text: "What kind of tool is Magnet Me?"
+  published: false
   correct_answer: question_222_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_223:
   question_text: "What kind of top athlete works at &samhoud?"
+  published: false
   correct_answer: question_223_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_224:
   question_text: "What kind of top athlete works at &samhoud?"
+  published: false
   correct_answer: question_224_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_225:
   question_text: "One of &samhoud's employees is a top coach for which sport?"
+  published: false
   correct_answer: question_225_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_226:
   question_text: "Which program will new colleagues participate in?"
+  published: false
   correct_answer: question_226_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_227:
   question_text: "What doesn't a new employee receive?"
+  published: false
   correct_answer: question_227_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_228:
   question_text: "What is the Fishbowl?"
+  published: false
   correct_answer: question_228_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_229:
   question_text: "What is the 365 used for?"
+  published: false
   correct_answer: question_229_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_230:
   question_text: "What is the purpose of a personal contract?"
+  published: false
   correct_answer: question_230_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_231:
   question_text: "Why is the blue ball blue?"
+  published: false
   correct_answer: question_231_A
   learnable: culture_samhoud
   categories: culture
 
 question_232:
   question_text: "The title of the book on Personal Vision is:"
+  published: false
   correct_answer: question_232_A
   learnable: culture_samhoud
   categories: culture
 
 question_233:
   question_text: "Who should you ask whether you can go to a private appointment in the afternoon?"
+  published: false
   correct_answer: question_233_A
   learnable: culture_samhoud
   categories: culture
 
 question_234:
   question_text: "On your holiday, do you pick up your phone?"
+  published: false
   correct_answer: question_234_A
   learnable: culture_samhoud
   categories: culture
 
 question_235:
   question_text: "Why the &-sign?"
+  published: false
   correct_answer: question_235_A
   learnable: culture_samhoud
   categories: culture
 
 question_236:
   question_text: "What does the artwork in the hall on the Maliebaan represent?"
+  published: false
   correct_answer: question_236_A
   learnable: culture_samhoud
   categories: culture
 
 question_237:
   question_text: "What does the Fishbowl meeting symbolize?"
+  published: false
   correct_answer: question_237_A
   learnable: culture_samhoud
   categories: culture
 
 question_238:
   question_text: "Where can everyone go each Monday?"
+  published: false
   correct_answer: question_238_A
   learnable: culture_samhoud
   categories: culture
 
 question_239:
   question_text: "What are you given on your first day on the job?"
+  published: false
   correct_answer: question_239_A
   learnable: culture_samhoud
   categories: culture
 
 question_240:
   question_text: "Which of these is NOT an unwritten rule?"
+  published: false
   correct_answer: question_240_A
   learnable: culture_samhoud
   categories: culture
 
 question_241:
   question_text: "What is not a space in an &samhoud office?"
+  published: false
   correct_answer: question_241_A
   learnable: culture_samhoud
   categories: culture
 
 question_242:
   question_text: "Why is Friendship an important core value?"
+  published: false
   correct_answer: question_242_A
   learnable: culture_samhoud
   categories: culture
 
 question_243:
   question_text: "What inspirational trip did &samhoud make in 2009?"
+  published: false
   correct_answer: question_243_A
   learnable: culture_samhoud
   categories: culture
 
 question_244:
   question_text: "What is the most read magazine at &samhoud consultancy?"
+  published: false
   correct_answer: question_244_A
   learnable: culture_samhoud
   categories: culture
 
 question_245:
   question_text: "Who sang the song 'brighter future'?"
+  published: false
   correct_answer: question_245_A
   learnable: culture_samhoud
   categories: culture
 
 question_246:
   question_text: "What does &samhoud not have?"
+  published: false
   correct_answer: question_246_A
   learnable: culture_samhoud
   categories: culture
 
 question_247:
   question_text: "How do you celebrate your birthday?"
+  published: false
   correct_answer: question_247_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_248:
   question_text: "What is the best spot to take a nap?"
+  published: false
   correct_answer: question_248_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_249:
   question_text: "When should you have logged your hours?"
+  published: false
   correct_answer: question_249_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_250:
   question_text: "What is the least popular communications platform at &samhoud?"
+  published: false
   correct_answer: question_250_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_251:
   question_text: "To whom do you turn in your student trainee staffing requests?"
+  published: false
   correct_answer: question_251_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_252:
   question_text: "You are getting annoyed by the behaviour of a teammate. What do you do?"
+  published: false
   correct_answer: question_252_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_253:
   question_text: "What is the theme of the attic in the House of Connection?"
+  published: false
   correct_answer: question_253_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_254:
   question_text: "Where do we want to be a top brand in 2020?"
+  published: false
   correct_answer: question_254_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_255:
   question_text: "In what year do we want to be a top brand?"
+  published: false
   correct_answer: question_255_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_256:
   question_text: "What makes &samhoud's audacious goal, to be a top brand, especially challenging?"
+  published: false
   correct_answer: question_256_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_257:
   question_text: "What doesn't happen during a learning day?"
+  published: false
   correct_answer: question_257_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_258:
   question_text: "Why do we organize the learning days at a Stayokay?"
+  published: false
   correct_answer: question_258_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_259:
   question_text: "What is the newest &samhoud BV?"
+  published: false
   correct_answer: question_259_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_260:
   question_text: "What isn't a location of &samhoud?"
+  published: false
   correct_answer: question_260_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_261:
   question_text: "What do we mean by the one-firm culture?"
+  published: false
   correct_answer: question_261_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_262:
   question_text: "What subject don't you receive feedback on?"
+  published: false
   correct_answer: question_262_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_263:
   question_text: "What is the building in Kuala Lumpur, where we have our office, called?"
+  published: false
   correct_answer: question_263_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_264:
   question_text: "Where has an &samhoud learning day never taken place?"
+  published: false
   correct_answer: question_264_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_265:
   question_text: "What is &samhoud's higher goal in 2020?"
+  published: false
   correct_answer: question_265_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_266:
   question_text: "Why does &samhoud diversify instead of sticking to our core business?"
+  published: false
   correct_answer: question_266_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_267:
   question_text: "As what did &samhoud once start out?"
+  published: false
   correct_answer: question_267_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_268:
   question_text: "What did &samhoud use to be called?"
+  published: false
   correct_answer: question_268_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_269:
   question_text: "Why did &samhoud invest in Ranj?"
+  published: false
   correct_answer: question_269_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_270:
   question_text: "What does 'a brighter future' mean?"
+  published: false
   correct_answer: question_270_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_271:
   question_text: "Connection to one another has the following property:"
+  published: false
   correct_answer: question_271_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_272:
   question_text: "Fill in the gaps: \"Connection with ..., ..., ... and ...\""
+  published: false
   correct_answer: question_272_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_273:
   question_text: "Inspiration literally means:"
+  published: false
   correct_answer: question_273_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_274:
   question_text: "What opportunities does an applicant have if he is not sure whether &samhoud is the right company for them?"
+  published: false
   correct_answer: question_274_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_275:
   question_text: "Which of these was organized as an application platform by &samhoud?"
+  published: false
   correct_answer: question_275_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_276:
   question_text: "The Applicants Carrousel gives the candidate the opportunity to:"
+  published: false
   correct_answer: question_276_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_277:
   question_text: "Which game is not an &samhoud game?"
+  published: false
   correct_answer: question_277_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_278:
   question_text: "What are the training possibilities at &samhoud?"
+  published: false
   correct_answer: question_278_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_279:
   question_text: "Which book is about developing entrepreneurship."
+  published: false
   correct_answer: question_279_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_280:
   question_text: "What is your Personal Vision?"
+  published: false
   correct_answer: question_280_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_281:
   question_text: "Which topics are covered by Employee satisfaction survey?"
+  published: false
   correct_answer: question_281_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_282:
   question_text: "Which topics are covered by Employee satisfaction survey?"
+  published: false
   correct_answer: question_282_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_283:
   question_text: "Which topics are covered by Employee satisfaction survey?"
+  published: false
   correct_answer: question_283_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_284:
   question_text: "Which topics are covered by Employee satisfaction survey?"
+  published: false
   correct_answer: question_284_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_285:
   question_text: "What is the bonus you receive when you don't use your phone?"
+  published: false
   correct_answer: question_285_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_286:
   question_text: "What &samhoud food product is not available in the supermarket?"
+  published: false
   correct_answer: question_286_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_287:
   question_text: "What was the theme of the first &samhoud VR pop-up cinema?"
+  published: false
   correct_answer: question_287_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_288:
   question_text: "Which of these vegetables DOESN'T &samhoud food use to produce meat substitutes?"
+  published: false
   correct_answer: question_288_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_289:
   question_text: "Where did the name \"RWS room\" come from?"
+  published: false
   correct_answer: question_289_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_290:
   question_text: "In what way did we launch the &tomeato burger at AH To Go?"
+  published: false
   correct_answer: question_290_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_291:
   question_text: "Who was the first client of &samhoud?"
+  published: false
   correct_answer: question_291_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_292:
   question_text: "Why is the House of Connection called that?"
+  published: false
   correct_answer: question_292_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_293:
   question_text: "What don't we sell?"
+  published: false
   correct_answer: question_293_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_294:
   question_text: "We didn't make an animation for..."
+  published: false
   correct_answer: question_294_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_295:
   question_text: "Who is the inspiration for &samhoud's vision model?"
+  published: false
   correct_answer: question_295_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_296:
   question_text: "What is the logical starting point in the value profit chain?"
+  published: false
   correct_answer: question_296_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_297:
   question_text: "How many tons of tomato have been used in Tomeato products in 2015?"
+  published: false
   correct_answer: question_297_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_298:
   question_text: "How many guests has &samhoud places welcomed during 2015?"
+  published: false
   correct_answer: question_298_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_299:
   question_text: "How many VR films does Media want to sell during 2016?"
+  published: false
   correct_answer: question_299_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_300:
   question_text: "What has &samhoud never owned?"
+  published: false
   correct_answer: question_300_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_301:
   question_text: "What is an ingredient of a brilliant business model?"
+  published: false
   correct_answer: question_301_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_302:
   question_text: "What is an ingredient of a brilliant business model?"
+  published: false
   correct_answer: question_302_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_303:
   question_text: "What is an ingredient of a brilliant business model?"
+  published: false
   correct_answer: question_303_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_304:
   question_text: "What is not a fresh meal that is currently available at Albert Heijn?"
+  published: false
   correct_answer: question_304_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_305:
   question_text: "Which of these dishes is a recurring element in Moshik's menus?"
+  published: false
   correct_answer: question_305_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_307:
   question_text: "Which fruit is represented in the &samhoud fragrance?"
+  published: false
   correct_answer: question_307_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_308:
   question_text: "What is the first element of the value creation cycle?"
+  published: false
   correct_answer: question_308_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_309:
   question_text: "Who is the owner of the leadership propositions?"
+  published: false
   correct_answer: question_309_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_310:
   question_text: "Who is the owner of the marketing & branding proposition?"
+  published: false
   correct_answer: question_310_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_311:
   question_text: "Which tool you can use for creating a vision in a participative way?"
+  published: false
   correct_answer: question_311_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_312:
   question_text: "What was the first survey tool of &samhoud?"
+  published: false
   correct_answer: question_312_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_313:
   question_text: "How many respondents are in the Fun & performance database?"
+  published: false
   correct_answer: question_313_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_314:
   question_text: "In which year was \"Kus de visie wakker\" nominated for Management Book of the Year?"
+  published: false
   correct_answer: question_314_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_315:
   question_text: "How many times has &samhoud been #1 GPTW in the Netherlands?"
+  published: false
   correct_answer: question_315_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_316:
   question_text: "A 10% increase in employee satisfaction leads to how many % profit increase, according to David Maister?"
+  published: false
   correct_answer: question_316_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_317:
   question_text: "How much better do stakeholder oriented companies perform financially compared to the average (S&P500) on a 15 year horizon?"
+  published: false
   correct_answer: question_317_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_318:
   question_text: "What is the core message of the value profit chain?"
+  published: false
   correct_answer: question_318_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_319:
   question_text: "&samhoud's leadership model is based on the model by:"
+  published: false
   correct_answer: question_319_A
   learnable: products_and_services_samhoud
   categories: products_and_services
 
 question_320:
   question_text: "The book \"Be useful\" is about:"
+  published: false
   correct_answer: question_320_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_321:
   question_text: "What is the 2016 revenue target for &samhoud consultancy in the Netherlands?"
+  published: false
   correct_answer: question_321_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_322:
   question_text: "What do we not systematically measure?"
+  published: false
   correct_answer: question_322_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_323:
   question_text: "Who is James?"
+  published: false
   correct_answer: question_323_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_324:
   question_text: "What has never been an official entity of the &samhoud businesses?"
+  published: false
   correct_answer: question_324_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_325:
   question_text: "Which elements can NOT be found in the office in Kuala Lumpur?"
+  published: false
   correct_answer: question_325_A
   learnable: daily_practice_samhoud
   categories: daily_practice
 
 question_326:
   question_text: "What is the name of a (former) colleague on our team in Asia?"
+  published: false
   correct_answer: question_326_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_327:
   question_text: "What was one of the many forms of entertainment during the amazing launch of our Asia office in January 2015?"
+  published: false
   correct_answer: question_327_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_328:
   question_text: "Which things do all &samhoud entities have EXACTLY in common?"
+  published: false
   correct_answer: question_328_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_329:
   question_text: "Who is infamous for inquiring about every new employee's 'top three' at &samhoud?"
+  published: false
   correct_answer: question_329_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_330:
   question_text: "Which big client did we almost lose due to a 'singing intervention' gone bad, at a leadership conference organized by Wouter van D?"
+  published: false
   correct_answer: question_330_A
   learnable: client_and_business_samhoud
   categories: clients_and_business
 
 question_331:
   question_text: "Which one of the parners of &samhoud consultancy did not 'grow up' within &samhoud?"
+  published: false
   correct_answer: question_331_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues
 
 question_332:
   question_text: "In which city has &samhoud NOT opened an office?"
+  published: false
   correct_answer: question_332_A
   learnable: organization_and_strategy_samhoud
   categories: organization_and_strategy
 
 question_333:
   question_text: "Which colleague did NOT encounter us as a client before they came to work with us?"
+  published: false
   correct_answer: question_333_A
   learnable: communication_and_colleagues_samhoud
   categories: communication_and_colleagues

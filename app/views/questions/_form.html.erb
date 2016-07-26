@@ -24,11 +24,22 @@
   </div>
 
   <div class="row">
-    <div class="form-group col-md-12">
-      <%= f.label :key_message %>
-      <%= f.collection_select :learnable_id, Learnable.all, :id, :description, { include_blank: true }, class: 'form-control' %>
+    <div class="form-group">
+      <div class="col-md-10">
+        <%= f.label :key_message %>
+        <%= f.collection_select :learnable_id, Learnable.all, :id, :description, { include_blank: true }, class: 'form-control' %>
+      </div>
+      <div class="col-md-2 pull-right">
+        <div>
+          <%= f.label :active? %>
+        </div>
+        <div>
+          <%= f.check_box :published %>
+        </div>
+      </div>
     </div>
   </div>
+
 
   <div class="row">
     <div class="form-group">

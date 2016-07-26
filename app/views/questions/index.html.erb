@@ -14,6 +14,9 @@
           ID
           <%= sorting_icons(:attributes) %>
         </th>
+        <th>
+          Active
+        </th>
         <th class='sort' data-sort="text">
           <%= model_class.human_attribute_name(:question_text) -%>
           <%= sorting_icons(:alphabet) %>
@@ -27,7 +30,8 @@
         <% cache question do %>
         <tr data-category-list="<%= question.categories.map(&:title).to_json %>">
           <td class='id col-md-1'><%= question.id %></td>
-          <td class='col-md-10'>
+          <td class='published col-md-1'><%= glyph(:ok) if question.published? %></td>
+          <td class='col-md-9'>
             <%= content_tag :div, class: 'text collapsed', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do %>
               <%= glyph('triangle-right') %>
               <%= glyph('triangle-bottom') %>
