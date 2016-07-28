@@ -10,6 +10,10 @@ class Learnable < ActiveRecord::Base
     end
   end
 
+  before_update do
+    questions.find_each(&:touch)
+  end
+
   def description
     "#{title} - #{body}".truncate(100)
   end
