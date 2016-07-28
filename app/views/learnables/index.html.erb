@@ -18,6 +18,10 @@
           <%= model_class.human_attribute_name(:body) %>
           <%= sorting_icons(:alphabet) %>
         </th>
+        <th class='sort' data-sort='num_questions'>
+          <%= t 'learnable.number_of_questions' %>
+          <%= sorting_icons(:order) %>
+        </th>
         <th><%=t '.actions', :default => t("helpers.actions") %></th>
       </tr>
     </thead>
@@ -26,6 +30,7 @@
         <tr>
           <td class='title'><%= learnable.title %></td>
           <td class='body'><%= learnable.body %></td>
+          <td class='num_questions'><%= learnable.questions.count %></td>
           <td class='actions'>
             <%= link_to learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do %>
               <%= glyph 'info-sign' %>
@@ -54,7 +59,7 @@
     document.removeEventListener("turbolinks:load", buildLearnableList);
 
     var options = {
-      valueNames: ['title', 'body']
+      valueNames: ['title', 'body', 'num_questions']
     };
 
     new List('learnables', options);
