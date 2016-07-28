@@ -4,7 +4,7 @@ class LearnablesController < ApplicationController
   # GET /learnables
   # GET /learnables.json
   def index
-    @learnables = Learnable.all
+    @learnables = Learnable.all.order(:title)
   end
 
   # GET /learnables/1
