@@ -219,7 +219,7 @@ question_32:
   question_text: "What was &ranj's largest market segment in 2014?"
   published: false
   correct_answer: question_32_A
-  learnable: client_and_business
+  learnable: clients_and_business
   categories: clients_and_business, products_and_services
 
 question_33:
@@ -317,7 +317,7 @@ question_46:
   question_text: "Which of the following market segments is not within the current and future focus of &ranj?"
   published: true
   correct_answer: question_46_A
-  learnable: client_and_business
+  learnable: clients_and_business
   categories: clients_and_business, organization_and_strategy
 
 question_47:
@@ -1283,175 +1283,175 @@ question_184:
   question_text: "What is the traditional celebration at 'advies' if a big assignment has been won?"
   published: false
   correct_answer: question_184_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_185:
   question_text: "What is not a market that the consultancy firm works in?"
   published: false
   correct_answer: question_185_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_186:
   question_text: "Wat is needed for change, according to &samhoud's vision?"
   published: false
   correct_answer: question_186_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_187:
   question_text: "At &samhoud, \"PE\" stands for:"
   published: false
   correct_answer: question_187_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_188:
   question_text: "Which customer was at the core of the creation of Otie's book \"Lean, ten minste houdbaar tot\"?"
   published: false
   correct_answer: question_188_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_189:
   question_text: "With which client did we celebrate winning the GPTW 2015 award?"
   published: false
   correct_answer: question_189_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_190:
   question_text: "Which company has not yet been &samhoud's client?"
   published: false
   correct_answer: question_190_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_191:
   question_text: "In what way do we want to distinguish ourselves as &samhoud?"
   published: false
   correct_answer: question_191_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_192:
   question_text: "What usual / unusual intervention we have never done?"
   published: false
   correct_answer: question_192_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_193:
   question_text: "In which city did we work with an elephant in a public park?"
   published: false
   correct_answer: question_193_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_194:
   question_text: "With which animals have we worked before?"
   published: false
   correct_answer: question_194_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_195:
   question_text: "Which business line have we not operated in yet?"
   published: false
   correct_answer: question_195_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_196:
   question_text: "What is NOT a usual/unusual intervention that took place?"
   published: false
   correct_answer: question_196_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_197:
   question_text: "Which of these companies is NOT an &samhoud client?"
   published: false
   correct_answer: question_197_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_198:
   question_text: "What is the correct pronunciation of &samhoud in English?"
   published: false
   correct_answer: question_198_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_199:
   question_text: "What was &samhoud consultancy's turnover in 2015?"
   published: false
   correct_answer: question_199_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_200:
   question_text: "In what year did &samhoud win Great Place To Work Europe?"
   published: false
   correct_answer: question_200_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_201:
   question_text: "For which client would we love to work again sometime?"
   published: false
   correct_answer: question_201_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_202:
   question_text: "Where was the sign saying \"together we build a brighter future\" located?"
   published: false
   correct_answer: question_202_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_203:
   question_text: "Which of these Dutch food companies is &samhoud food currently in business with?"
   published: false
   correct_answer: question_203_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_204:
   question_text: "Which of these Dutch food companies is &samhoud food currently NOT in business with?"
   published: false
   correct_answer: question_204_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_205:
   question_text: "What &samhoud-log-branded piece of clothing can you NOT find in the cupboard?"
   published: false
   correct_answer: question_205_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_206:
   question_text: "Which of these was an actual usual/unusual intervention with a client?"
   published: false
   correct_answer: question_206_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_207:
   question_text: "Which animal has &samhoud consultancy never used during an intervention?"
   published: false
   correct_answer: question_207_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_208:
   question_text: "Which of these was the largest client ever?"
   published: false
   correct_answer: question_208_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_209:
@@ -2186,14 +2186,14 @@ question_314:
   question_text: "In which year was \"Kus de visie wakker\" nominated for Management Book of the Year?"
   published: false
   correct_answer: question_314_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_315:
   question_text: "How many times has &samhoud been #1 GPTW in the Netherlands?"
   published: false
   correct_answer: question_315_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_316:
@@ -2235,7 +2235,7 @@ question_321:
   question_text: "What is the 2016 revenue target for &samhoud consultancy in the Netherlands?"
   published: false
   correct_answer: question_321_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_322:
@@ -2277,7 +2277,7 @@ question_327:
   question_text: "What was one of the many forms of entertainment during the amazing launch of our Asia office in January 2015?"
   published: false
   correct_answer: question_327_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_328:
@@ -2298,7 +2298,7 @@ question_330:
   question_text: "Which big client did we almost lose due to a 'singing intervention' gone bad, at a leadership conference organized by Wouter van D?"
   published: false
   correct_answer: question_330_A
-  learnable: client_and_business_samhoud
+  learnable: clients_and_business_samhoud
   categories: clients_and_business
 
 question_331:
