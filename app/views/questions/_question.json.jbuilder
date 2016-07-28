@@ -3,7 +3,7 @@ json.ignore_nil!
 
 json.ID                     s.id
 json.UnversionedID          s.unversioned_id
-json.Version                s.version_number
+json.Version                s.version_number.to_s
 json.Description            s.question_text
 json.CampaignID             s.campaign_id
 
