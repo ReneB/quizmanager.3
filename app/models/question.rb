@@ -17,6 +17,10 @@ class Question < ActiveRecord::Base
     end
   end
 
+  before_update do
+    self.version_number += 1 if changed?
+  end
+
   validate :has_categories?
   validates :answers, presence: true, length: { is: 4 }
 

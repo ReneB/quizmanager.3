@@ -30,16 +30,11 @@ class QuestionSerializer < SimpleDelegator
   end
 
   def id
-    "#{unversioned_id}v#{version}"
+    "#{unversioned_id}v#{version_number}"
   end
 
   def unversioned_id
     __getobj__.id.to_s
-  end
-
-  # TODO
-  def version
-    1.to_s
   end
 
   # TODO
@@ -60,17 +55,4 @@ class QuestionSerializer < SimpleDelegator
       }
     end
   end
-
-  # CampaignID
-  # Question type
-  # Published
-  # Answers:
-  #   ID
-  #   Description
-  #   Correct
-  # Categories
-  # Learnable
-  #   ID
-  #   Title
-  #   Description
 end
