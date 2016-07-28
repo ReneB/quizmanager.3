@@ -1,6 +1,6 @@
 class Question < ActiveRecord::Base
   belongs_to :user
-  belongs_to :learnable, inverse_of: :questions
+  belongs_to :learnable, inverse_of: :questions, touch: true
   belongs_to :content_image
 
   has_many :answers, inverse_of: :question

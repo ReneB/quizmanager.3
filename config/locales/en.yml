@@ -21,3 +21,8 @@
 
 en:
   download: "Download"
+  learnable:
+    remove:
+      confirm:
+        one: "This Key Message is being used in %{count} question. Are you sure you want to remove it?"
+        other: "This Key Message is being used in %{count} questions. Are you sure you want to remove it?"

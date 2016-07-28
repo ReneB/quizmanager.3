@@ -4,6 +4,12 @@ class Learnable < ActiveRecord::Base
   validates :title, presence: true, allow_blank: false
   validates :body, presence: true, allow_blank: false
 
+  before_destroy do
+    questions.find_each do |question|
+      question.update(learnable: nil)
+    end
+  end
+
   def description
     "#{title} - #{body}".truncate(100)
   end
