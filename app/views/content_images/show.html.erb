@@ -5,6 +5,10 @@
 
 <div class="fieldset">
   <dl>
+    <dt>Question image:</dt>
+    <dd><%= image_tag @content_image.question_image.url(:thumbnail) %></dt>
+    <dt>Answer image:</dt>
+    <dd><%= image_tag @content_image.answer_image.url(:thumbnail) %></dt>
   </dl>
 </div>
 

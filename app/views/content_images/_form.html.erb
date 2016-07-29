@@ -1,9 +1,109 @@
+<div class="row">
+  <div class="col-md-2">
+    <div class="form-group">
+      <label class="btn btn-default btn-file form-control">
+        Upload image
+        <input type="file" style="display: none;" accept="image" id="upload">
+      </label>
+      <button class="btn btn-primary upload-result form-control">Preview</button>
+    </div>
+  </div>
+</div>
+
+<div class="row question">
+  <div class="col-md-6">
+    <div id="crop-for-question"></div>
+  </div>
+  <div class="col-md-6">
+    <img id="preview-question" width="750" height="330">
+  </div>
+</div>
+
+<div class="row answer">
+  <div class="col-md-6">
+    <div id="crop-for-answer"></div>
+  </div>
+  <div class="col-md-6">
+    <img id="preview-answer" width="270" height="186">
+  </div>
+</div>
+
 <%= form_for @content_image, :html => { :class => 'form-horizontal form-model' } do |f| %>
+  <%= f.hidden_field :answer_image, id: :answer_image %>
+  <%= f.hidden_field :question_image, id: :question_image %>
+
   <div class="form-group">
     <div class='col-md-offset-2 col-md-10'>
       <%= f.submit nil, :class => 'btn btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                  content_images_path, :class => 'btn btn-default' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")), content_images_path, :class => 'btn btn-default' %>
     </div>
   </div>
+<% end %>
+
+<%= javascript_tag do %>
+  $( document ).ready(function() {
+    var questionCrop, answerCrop;
+
+    function readFile(input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+          questionCrop.croppie('bind', {
+            url: e.target.result
+          });
+          answerCrop.croppie('bind', {
+            url: e.target.result
+          });
+        }
+
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+
+    questionCrop = $('#crop-for-question').croppie({
+      viewport: {
+        width: 750,
+        height: 330,
+      },
+      boundary: {
+        width: 900,
+        height: 480
+      }
+    });
+
+    answerCrop = $('#crop-for-answer').croppie({
+      viewport: {
+        width: 270,
+        height: 186,
+      },
+      boundary: {
+        width: 420,
+        height: 336
+      }
+    });
+
+    $('#upload').on('change', function () { readFile(this); });
+
+    $('.upload-result').on('click', function (ev) {
+      answerCrop.croppie('result', {
+        type: 'canvas',
+        size: 'viewport',
+        format: 'png'
+      }).then(function (resp) {
+        $('#answer_image').val(resp);
+
+        $('#preview-answer').attr('src', resp);
+      });
+
+      questionCrop.croppie('result', {
+        type: 'canvas',
+        size: 'viewport',
+        format: 'png'
+      }).then(function (resp) {
+        $('#question_image').val(resp);
+
+        $('#preview-question').attr('src', resp);
+      });
+    });
+  });
 <% end %>
