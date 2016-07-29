@@ -12,7 +12,7 @@
 
 <div class="row question">
   <div class="col-md-6">
-    <div id="crop-for-question"></div>
+    <%= content_tag :div, "", id: "crop-for-question", data: { viewport: { width: 750, height: 300 } } %>
   </div>
   <div class="col-md-6">
     <img id="preview-question" width="750" height="330">
@@ -21,7 +21,7 @@
 
 <div class="row answer">
   <div class="col-md-6">
-    <div id="crop-for-answer"></div>
+    <%= content_tag :div, "", id: "crop-for-answer", data: { viewport: { width: 270, height: 186 } } %>
   </div>
   <div class="col-md-6">
     <img id="preview-answer" width="270" height="186">
@@ -41,45 +41,53 @@
 <% end %>
 
 <%= javascript_tag do %>
-  $( document ).ready(function() {
-    var questionCrop, answerCrop;
+  document.addEventListener('turbolinks:load', function() {
+    var questionCrop, answerCrop, margin = 75;
 
     function readFile(input) {
       if (input.files && input.files[0]) {
         var reader = new FileReader();
-        reader.onload = function (e) {
-          questionCrop.croppie('bind', {
-            url: e.target.result
-          });
-          answerCrop.croppie('bind', {
-            url: e.target.result
-          });
-        }
+        reader.onload = (function (file) {
+          return function(e) {
+            questionCrop.croppie('bind', {
+              url: e.target.result
+            });
+            answerCrop.croppie('bind', {
+              url: e.target.result
+            });
+
+            alert(file.name);
+          }
+        })(input.files[0]);
 
         reader.readAsDataURL(input.files[0]);
       }
     }
 
-    questionCrop = $('#crop-for-question').croppie({
-      viewport: {
-        width: 750,
-        height: 330,
-      },
-      boundary: {
-        width: 900,
-        height: 480
-      }
+    var cropElement, viewport, boundary;
+
+    cropElement = $('#crop-for-question');
+    viewport = cropElement.data('viewport');
+    boundary = {
+      width: viewport.width + 2 * margin,
+      height: viewport.height + 2 * margin
+    };
+
+    questionCrop = cropElement.croppie({
+      viewport: viewport,
+      boundary: boundary
     });
 
-    answerCrop = $('#crop-for-answer').croppie({
-      viewport: {
-        width: 270,
-        height: 186,
-      },
-      boundary: {
-        width: 420,
-        height: 336
-      }
+    cropElement = $('#crop-for-answer');
+    viewport = cropElement.data('viewport');
+    boundary = {
+      width: viewport.width + 2 * margin,
+      height: viewport.height + 2 * margin
+    };
+
+    answerCrop = cropElement.croppie({
+      viewport: viewport,
+      boundary: boundary
     });
 
     $('#upload').on('change', function () { readFile(this); });
