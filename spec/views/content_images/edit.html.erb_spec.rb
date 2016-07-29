@@ -9,7 +9,6 @@ RSpec.describe "content_images/edit", type: :view do
     render
 
     assert_select "form[action=?][method=?]", content_image_path(@content_image), "post" do
-      assert_select "input#content_image_file_path[name=?]", "content_image[file_path]"
     end
   end
 end
