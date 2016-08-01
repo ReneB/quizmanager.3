@@ -4,7 +4,7 @@ class ContentImagesController < ApplicationController
   # GET /content_images
   # GET /content_images.json
   def index
-    @content_images = ContentImage.includes(:questions, :answers).all.order(:id)
+    @content_images = ContentImage.all.order(:id)
   end
 
   # GET /content_images/1
