@@ -5,5 +5,12 @@ class ContentImage < ActiveRecord::Base
   validates_attachment :question_image, content_type: { content_type: 'image/png' }
   validates_attachment :answer_image,   content_type: { content_type: 'image/png' }
 
+  has_many :questions, inverse_of: :content_image
+  has_many :answers, inverse_of: :content_image
+
   validates :filename, presence: true
+
+  def times_used
+    @times_used ||= (questions.count + answers.count)
+  end
 end

@@ -7,6 +7,7 @@
     <tr>
       <th>ID</th>
       <th><%= model_class.human_attribute_name(:filename) %></th>
+      <th><%=t 'content_image.times_used' %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -15,6 +16,7 @@
       <tr>
         <td><%= content_image.id %></td>
         <td><%= content_image.filename %></td>
+        <td><%= content_image.times_used %></td>
         <td>
           <%= link_to content_image_path(content_image), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do %>
             <%= glyph 'info-sign' %>
