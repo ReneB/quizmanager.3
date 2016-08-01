@@ -1,30 +1,33 @@
 <div class="row">
+  <div class="col-md-6">
+    <%= content_tag :div, "", id: "crop-for-question", data: {
+      viewport: { width: 750, height: 330 },
+      cropper: true
+    } %>
+  </div>
+  <div class="col-md-6">
+    <%= content_tag :div, "", id: "crop-for-answer", data: { viewport: { width: 270, height: 186 } } %>
+  </div>
+</div>
+
+<div class="row">
   <div class="col-md-offset-2 col-md-2">
     <div class="form-group">
-      <label class="btn btn-default btn-file form-control">
+      <label class="btn btn-default btn-file form-control col-md-2">
         Upload image
         <input type="file" style="display: none;" accept="image" id="upload">
       </label>
-      <button class="btn btn-primary upload-result form-control">Preview</button>
+      <button class="btn btn-primary upload-result form-control col-md-2">Preview</button>
     </div>
   </div>
 </div>
 
-<div class="row question">
+<div class="row">
   <div class="col-md-6">
-    <%= content_tag :div, "", id: "crop-for-question", data: { viewport: { width: 750, height: 300 } } %>
+    <img id="preview-question" class="center-block" width="750" height="330">
   </div>
   <div class="col-md-6">
-    <img id="preview-question" width="750" height="330">
-  </div>
-</div>
-
-<div class="row answer">
-  <div class="col-md-6">
-    <%= content_tag :div, "", id: "crop-for-answer", data: { viewport: { width: 270, height: 186 } } %>
-  </div>
-  <div class="col-md-6">
-    <img id="preview-answer" width="270" height="186">
+    <img id="preview-answer" class="center-block" width="270" height="186">
   </div>
 </div>
 
@@ -40,85 +43,4 @@
       <%= link_to t('.cancel', :default => t("helpers.links.cancel")), content_images_path, :class => 'btn btn-default' %>
     </div>
   </div>
-<% end %>
-
-<%= javascript_tag do %>
-  document.addEventListener('turbolinks:load', function() {
-    var questionCrop, answerCrop, margin = 75;
-
-    function setFilename(filename) {
-      jQuery('#filename').val(filename.split('.')[0]);
-    }
-
-    function readFile(input) {
-      if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = (function (file) {
-          return function(e) {
-            questionCrop.croppie('bind', {
-              // e.target.result = base64-encoded version of the file
-              url: e.target.result
-            });
-            answerCrop.croppie('bind', {
-              url: e.target.result
-            });
-
-            setFilename(file.name);
-          }
-        })(input.files[0]);
-
-        reader.readAsDataURL(input.files[0]);
-      }
-    }
-
-    var cropElement, viewport, boundary;
-
-    cropElement = jQuery('#crop-for-question');
-    viewport = cropElement.data('viewport');
-    boundary = {
-      width: viewport.width + 2 * margin,
-      height: viewport.height + 2 * margin
-    };
-
-    questionCrop = cropElement.croppie({
-      viewport: viewport,
-      boundary: boundary
-    });
-
-    cropElement = jQuery('#crop-for-answer');
-    viewport = cropElement.data('viewport');
-    boundary = {
-      width: viewport.width + 2 * margin,
-      height: viewport.height + 2 * margin
-    };
-
-    answerCrop = cropElement.croppie({
-      viewport: viewport,
-      boundary: boundary
-    });
-
-    jQuery('#upload').on('change', function () { readFile(this); });
-
-    jQuery('.upload-result').on('click', function (ev) {
-      answerCrop.croppie('result', {
-        type: 'canvas',
-        size: 'viewport',
-        format: 'png'
-      }).then(function (resp) {
-        jQuery('#answer_image').val(resp);
-
-        jQuery('#preview-answer').attr('src', resp);
-      });
-
-      questionCrop.croppie('result', {
-        type: 'canvas',
-        size: 'viewport',
-        format: 'png'
-      }).then(function (resp) {
-        jQuery('#question_image').val(resp);
-
-        jQuery('#preview-question').attr('src', resp);
-      });
-    });
-  });
 <% end %>

@@ -33,3 +33,5 @@ en:
   content_image:
     index:
       title: "Image Library"
+    new:
+      title: "Add image to Library"
