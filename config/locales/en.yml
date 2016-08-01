@@ -21,9 +21,15 @@
 
 en:
   download: "Download"
+  question:
+    title: "Questions"
   learnable:
+    title: "Key Messages"
     remove:
       confirm:
         one: "This Key Message is being used in %{count} question. Are you sure you want to remove it?"
         other: "This Key Message is being used in %{count} questions. Are you sure you want to remove it?"
     number_of_questions: "# questions"
+  content_image:
+    index:
+      title: "Image Library"
