@@ -73,7 +73,7 @@
 
     var cropElement, viewport, boundary;
 
-    cropElement = $('#crop-for-question');
+    cropElement = jQuery('#crop-for-question');
     viewport = cropElement.data('viewport');
     boundary = {
       width: viewport.width + 2 * margin,
@@ -85,7 +85,7 @@
       boundary: boundary
     });
 
-    cropElement = $('#crop-for-answer');
+    cropElement = jQuery('#crop-for-answer');
     viewport = cropElement.data('viewport');
     boundary = {
       width: viewport.width + 2 * margin,
@@ -97,17 +97,17 @@
       boundary: boundary
     });
 
-    $('#upload').on('change', function () { readFile(this); });
+    jQuery('#upload').on('change', function () { readFile(this); });
 
-    $('.upload-result').on('click', function (ev) {
+    jQuery('.upload-result').on('click', function (ev) {
       answerCrop.croppie('result', {
         type: 'canvas',
         size: 'viewport',
         format: 'png'
       }).then(function (resp) {
-        $('#answer_image').val(resp);
+        jQuery('#answer_image').val(resp);
 
-        $('#preview-answer').attr('src', resp);
+        jQuery('#preview-answer').attr('src', resp);
       });
 
       questionCrop.croppie('result', {
@@ -115,9 +115,9 @@
         size: 'viewport',
         format: 'png'
       }).then(function (resp) {
-        $('#question_image').val(resp);
+        jQuery('#question_image').val(resp);
 
-        $('#preview-question').attr('src', resp);
+        jQuery('#preview-question').attr('src', resp);
       });
     });
   });
