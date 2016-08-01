@@ -1,20 +1,24 @@
 Rails.application.routes.draw do
-  get 'landings/index'
+  authenticate :user do
+    get 'landings/index'
 
-  resources :content_images
+    resources :content_images
 
-  resources :learnables
+    resources :learnables
 
-  resources :questions
+    resources :questions
 
-  devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
-  devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+    devise_for :admin_users, ActiveAdmin::Devise.config
+    ActiveAdmin.routes(self)
+    devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
+    # The priority is based upon order of creation: first created -> highest priority.
+    # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  root 'landings#index'
+    # You can have the root of your site routed with "root"
+    root 'landings#index'
+  end
+
+  root to: redirect('/login')
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
