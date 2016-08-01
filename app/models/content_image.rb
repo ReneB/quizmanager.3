@@ -18,6 +18,12 @@ class ContentImage < ActiveRecord::Base
     end
   end
 
+  before_update do
+    [questions, answers].each do |relation|
+      relation.update_all(updated_at: Time.now)
+    end
+  end
+
   def times_used
     @times_used ||= (questions_count + answers_count)
   end
