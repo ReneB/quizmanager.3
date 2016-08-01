@@ -1,0 +1,2 @@
+class VisualOverloadQuestion < Question
+end

@@ -5,7 +5,7 @@ class ContentImage < ActiveRecord::Base
   validates_attachment :question_image, content_type: { content_type: 'image/png' }
   validates_attachment :answer_image,   content_type: { content_type: 'image/png' }
 
-  has_many :questions, inverse_of: :content_image
+  has_many :questions, class_name: 'ShowAndTellQuestion', inverse_of: :content_image
   has_many :answers, inverse_of: :content_image
 
   validates :filename, presence: true

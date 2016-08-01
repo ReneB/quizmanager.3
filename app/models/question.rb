@@ -1,7 +1,6 @@
 class Question < ActiveRecord::Base
   belongs_to :user
   belongs_to :learnable, inverse_of: :questions, touch: true, counter_cache: true
-  belongs_to :content_image, counter_cache: true
 
   has_many :answers, inverse_of: :question
   belongs_to :correct_answer, class_name: Answer
@@ -25,7 +24,11 @@ class Question < ActiveRecord::Base
   validates :answers, presence: true, length: { is: 4 }
 
   def cache_key
-    ([super] + [learnable, content_image, categories].compact.map(&:cache_key)).join('-')
+    ([super] + cache_key_components.compact.map(&:cache_key)).join('-')
+  end
+
+  def cache_key_components
+    [learnable, categories]
   end
 
   def break_cache(_)
