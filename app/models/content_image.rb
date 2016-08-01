@@ -19,7 +19,7 @@ class ContentImage < ActiveRecord::Base
   end
 
   def times_used
-    @times_used ||= (questions.count + answers.count)
+    @times_used ||= (questions_count + answers_count)
   end
 
   def in_use?
