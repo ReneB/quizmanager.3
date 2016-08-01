@@ -4,4 +4,6 @@ class ContentImage < ActiveRecord::Base
 
   validates_attachment :question_image, content_type: { content_type: 'image/png' }
   validates_attachment :answer_image,   content_type: { content_type: 'image/png' }
+
+  validates :filename, presence: true
 end

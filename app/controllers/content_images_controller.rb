@@ -69,6 +69,6 @@ class ContentImagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def content_image_params
-      params.require(:content_image).permit(:question_image, :answer_image)
+      params.require(:content_image).permit(:question_image, :answer_image, :filename)
     end
 end
