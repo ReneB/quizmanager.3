@@ -10,6 +10,14 @@ class ContentImage < ActiveRecord::Base
 
   validates :filename, presence: true
 
+  before_destroy do
+    if in_use?
+      errors[:base] << "Cannot delete images that are still being used in questions or answers"
+
+      throw :abort
+    end
+  end
+
   def times_used
     @times_used ||= (questions.count + answers.count)
   end
