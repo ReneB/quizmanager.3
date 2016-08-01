@@ -32,8 +32,8 @@
 </div>
 
 <%= form_for @content_image, :html => { multipart: true, class: 'form-horizontal form-model' } do |f| %>
-  <%= f.hidden_field :answer_image, id: :answer_image %>
-  <%= f.hidden_field :question_image, id: :question_image %>
+  <%= f.hidden_field :answer_image, value: nil, id: :answer_image %>
+  <%= f.hidden_field :question_image, value: nil, id: :question_image %>
 
   <div class="form-group">
     <div class='col-md-offset-2 col-md-10'>
