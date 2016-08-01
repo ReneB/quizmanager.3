@@ -35,3 +35,6 @@ en:
       title: "Image Library"
     new:
       title: "Add image to Library"
+    remove:
+      hover:
+        inactive: "This image is still being used in %{count} questions/answers and therefore cannot be removed."

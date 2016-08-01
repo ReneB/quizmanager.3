@@ -51,6 +51,10 @@
 
   &-remove {
     color: red;
+
+    .inactive & {
+      color: lightgrey;
+    }
   }
 }
 

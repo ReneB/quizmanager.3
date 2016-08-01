@@ -13,4 +13,8 @@ class ContentImage < ActiveRecord::Base
   def times_used
     @times_used ||= (questions.count + answers.count)
   end
+
+  def in_use?
+    times_used > 0
+  end
 end
