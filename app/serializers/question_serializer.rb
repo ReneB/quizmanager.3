@@ -42,11 +42,6 @@ class QuestionSerializer < SimpleDelegator
     1.to_s
   end
 
-  # TODO
-  def question_type
-    "Textual"
-  end
-
   def serialize_learnable
     if learnable.present?
       {

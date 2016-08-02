@@ -23,6 +23,10 @@ class Question < ActiveRecord::Base
   validate :has_categories?
   validates :answers, presence: true, length: { is: 4 }
 
+  def question_type
+    "Textual"
+  end
+
   def cache_key
     ([super] + cache_key_components.compact.map(&:cache_key)).join('-')
   end
