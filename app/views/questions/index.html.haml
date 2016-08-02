@@ -1,0 +1,79 @@
+- model_class = Question
+.page-header
+  %h1= t 'question.title'
+#questions.col-md-9
+  .form-group
+    %label.control-label{:for => "search"} Search:
+    = search_field '', '', class: 'search form-control', placeholder: "Type your search text here"
+  %table.table.table-striped.table-hover
+    %thead
+      %tr
+        %th.sort{"data-sort" => "id"}
+          ID
+          \#{sorting_icons(:order)}
+        %th
+          Active
+        %th.sort{"data-sort" => "text"}
+          = model_class.human_attribute_name(:question_text)
+          = sorting_icons(:alphabet)
+        %th= t '.actions', :default => t("helpers.actions")
+    %tbody.list
+      - cache @questions do
+        - @questions.each do |question|
+          - cache question do
+            %tr{"data-category-list" => "#{question.categories.map(&:title).to_json}"}
+              %td.id.col-md-1= question.id
+              %td.published.col-md-1= glyph(:ok) if question.published?
+              %td.col-md-9
+                = content_tag :div, class: 'text collapsed', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do
+                  = glyph('triangle-right')
+                  = glyph('triangle-bottom')
+                  = question.question_text
+                = content_tag :div, class: :collapse, id: "answers_for_question_#{question.id}" do
+                  .row
+                    .col-md-6
+                      %h4 Answers
+                      .answers
+                        - question.answers.each do |answer|
+                          = render answer
+                      - if question.learnable
+                        %h4 Key message
+                        .learnable
+                          = question.learnable.body
+                    .col-md-6
+                      %h4 Topics
+                      .topics
+                        - question.categories.each do |category|
+                          %dd= category.title
+              %td.actions.col-md-1
+                = link_to question_path(question), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do
+                  = glyph 'info-sign'
+                = link_to edit_question_path(question), :class => 'btn btn-xs', :title => "#{ t('.edit', :default => t('helpers.links.edit')) }" do
+                  = glyph 'pencil'
+                = link_to question_path(question), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-xs', :title => "#{ t('.destroy', :default => t('helpers.links.destroy')) }" do
+                  = glyph 'remove'
+  = link_to t('.new', :default => t("helpers.links.new")), new_question_path, :class => 'btn btn-primary'
+  = link_to questions_path(format: :json), :class => 'btn btn-secondary pull-right' do
+    = t('.download', :default => t("download"))
+    = glyph(:download)
+.col-md-3
+  .row
+    / repeat the col-md-3 since the box below is floating now
+    .well.sidebar-nav-fixed.pull-right.affix.col-md-3
+      %h3 Filters
+      %ul.nav
+        %li.nav-header Topics
+        = active_category_dropdown
+= javascript_tag do
+  document.addEventListener("turbolinks:load", buildQuestionList);
+
+  function buildQuestionList() {
+  document.removeEventListener("turbolinks:load", buildQuestionList);
+
+  var options = {
+  valueNames: ['id', 'text', 'answers', 'topics', 'learnable']
+  };
+
+  var questionList = new List('questions', options);
+  document.registerListForFiltering(questionList, 'category', #{Category.all.map(&:title).to_json.html_safe});
+  }

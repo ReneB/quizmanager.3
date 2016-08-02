@@ -1,0 +1,30 @@
+- model_class = ContentImage
+.page-header
+  %h1= t '.title', :default => ContentImage
+.fieldset
+  %dl
+    %dt Filename:
+    %dd
+      = @content_image.filename
+    %dt Question image:
+    %dd
+      = image_tag @content_image.question_image.url(:thumbnail)
+    %dt Answer image:
+    %dd
+      = image_tag @content_image.answer_image.url(:thumbnail)
+.form-group
+  = link_to t('.back', :default => t("helpers.links.back")), |
+    content_images_path, :class => 'btn btn-default'
+  = link_to t('.edit', :default => t("helpers.links.edit")),             |
+    edit_content_image_path(@content_image), :class => 'btn btn-default'
+  - if @content_image.in_use?
+    = link_to t('.destroy', :default => t("helpers.links.destroy")),                       |
+      'javascript:void(0)',                                                                |
+      :class => 'btn btn-danger disabled',                                                 |
+      :title => t('content_image.remove.hover.inactive', count: @content_image.times_used)
+  - else
+    = link_to t('.destroy', :default => t("helpers.links.destroy")),                                               |
+      content_image_path(@content_image),                                                                          |
+      :method => 'delete',                                                                                         |
+      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, |
+      :class => 'btn btn-danger'

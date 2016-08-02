@@ -39,6 +39,7 @@ gem 'paperclip'
 
 gem 'bundler'
 
+gem 'haml-rails'
 gem 'validates_formatting_of'
 gem 'tzinfo-data'
 gem 'simple_form', github: 'plataformatec/simple_form'

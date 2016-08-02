@@ -1,0 +1,30 @@
+= form_for @question, :html => { :class => 'form-horizontal form-model' } do |f|
+  .row
+    .col-md-10
+      .form-group
+        = f.label :question_text, class: 'control-label'
+        = f.text_area :question_text, :class => 'text-area form-control'
+    - validation_error_class = f.object.errors[:categories].any? ? 'has-error' : ''
+    = content_tag(:div, class: ['col-md-2', validation_error_class].join(' ')) do
+      = f.label(:topics, class: 'control-label')
+      = category_dropdown(f)
+  .row
+    .form-group
+      = f.fields_for :answers do |builder|
+        = render "answers/form_fields", :f => builder
+  .row
+    .form-group
+      .col-md-10
+        = f.label :key_message
+        = f.collection_select :learnable_id, Learnable.all, :id, :description, { include_blank: true }, class: 'form-control'
+      .col-md-2.pull-right
+        %div
+          = f.label :active?
+        %div
+          = f.check_box :published
+  .row
+    .form-group
+      .col-md-offset-2.col-md-10
+        = f.submit nil, :class => 'btn btn-primary'
+        = link_to t('.cancel', :default => t("helpers.links.cancel")), |
+          questions_path, :class => 'btn btn-default'                  |

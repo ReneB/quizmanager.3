@@ -1,0 +1,48 @@
+- model_class = Learnable
+.page-header
+  %h1= t 'learnable.title'
+#learnables
+  .form-group
+    %label.control-label{:for => "search"} Search:
+    = search_field '', '', class: 'search form-control', placeholder: "Type your search text here"
+  %table.table.table-striped.table-hover
+    %thead
+      %tr
+        %th.sort{"data-sort" => "title"}
+          = model_class.human_attribute_name(:title)
+          = sorting_icons(:alphabet)
+        %th.sort{"data-sort" => "body"}
+          = model_class.human_attribute_name(:body)
+          = sorting_icons(:alphabet)
+        %th.sort{"data-sort" => "num_questions"}
+          = t 'learnable.number_of_questions'
+          = sorting_icons(:order)
+        %th= t '.actions', :default => t("helpers.actions")
+    %tbody.list
+      - @learnables.each do |learnable|
+        %tr
+          %td.title= learnable.title
+          %td.body= learnable.body
+          %td.num_questions= learnable.questions_count
+          %td.actions
+            = link_to learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.show', :default => t('helpers.links.show')) }" do
+              = glyph 'info-sign'
+            = link_to edit_learnable_path(learnable), :class => 'btn btn-xs', :title => "#{ t('.edit', :default => t('helpers.links.edit')) }" do
+              = glyph 'pencil'
+            = link_to learnable_path(learnable), :method => :delete, :data => { :confirm => t('.confirm', :default => t("learnable.remove.confirm", count: learnable.questions_count)) }, :class => 'btn btn-xs', :title => "#{ t('.destroy', :default => t('helpers.links.destroy')) }" do
+              = glyph 'remove'
+= link_to t('.new', :default => t("helpers.links.new")), |
+  new_learnable_path,                                    |
+  :class => 'btn btn-primary'                            |
+= javascript_tag do
+  document.addEventListener("turbolinks:load", buildLearnableList);
+  
+  function buildLearnableList() {
+  document.removeEventListener("turbolinks:load", buildLearnableList);
+  
+  var options = {
+  valueNames: ['title', 'body', 'num_questions']
+  };
+  
+  new List('learnables', options);
+  }

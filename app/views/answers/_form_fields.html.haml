@@ -1,0 +1,8 @@
+%span.col-md-10
+  = f.label :content, label_text_for_answer(f), :class => 'control-label'
+  = f.text_field :content, :class => 'text-field form-control'
+- unless f.object.new_record?
+  %span.col-md-2
+    = f.label :is_correct?, :class => 'control-label'
+    %div
+      = radio_button_for_correctness_of_answer(f)
