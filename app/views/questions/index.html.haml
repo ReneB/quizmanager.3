@@ -58,9 +58,9 @@
                   = glyph 'remove'
 
   / Form buttons ////////////////////////////////////////
-  = link_to t('.new', :default => t("helpers.links.new")), new_question_path, :class => 'btn btn-primary'
-  = link_to questions_path(format: :json), :class => 'btn btn-secondary pull-right' do
-    = t('.download', :default => t("download"))
+  = link_to t('.new'), "", data: { toggle: :modal, target: '#questionTypeSelector' }, class: 'btn btn-primary'
+  = link_to questions_path(format: :json), class: 'btn btn-secondary pull-right' do
+    = t('download')
     = glyph(:download)
 
 / Sidebar ////////////////////////////////////////
@@ -72,6 +72,23 @@
       %ul.nav
         %li.nav-header Topics
         = active_category_dropdown
+
+#questionTypeSelector.modal.modal-wide.fade
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %h1= t('question.selectType')
+      .modal-body
+        - [:textual, :show_and_tell, :visual_overload].each do |type|
+          .col-md-4
+            = link_to new_question_path(type: type) do
+              .panel.panel-default
+                .panel-heading.text-center
+                  %h4= ActiveSupport::Inflector.titleize type
+                .panel-body.text-center
+                  = image_tag(type)
+      .modal-footer
+        %button.btn.btn-default{data: { dismiss: "modal" }}= t('.cancel')
 
 / Activation for List controls
 = javascript_tag do

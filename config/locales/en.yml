@@ -23,6 +23,7 @@ en:
   download: "Download"
   question:
     title: "Questions"
+    selectType: "Select question type"
   learnable:
     title: "Key Messages"
     remove:
