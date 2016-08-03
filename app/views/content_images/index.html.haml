@@ -3,7 +3,8 @@
   .page-header
     %h1= t 'content_image.index.title'
   .col-md-9
-    #content_images.row
+    #content_images.row{data: { behavior: 'list',
+                                value_names: %w(id filename times_used) } }
       .form-group
         %label.control-label{:for => "search"} Search:
         = search_field '', '', class: 'search form-control', placeholder: "Type your search text here"
@@ -41,15 +42,3 @@
       = link_to t('.new', :default => t("helpers.links.new")), |
         new_content_image_path,                                |
         :class => 'btn btn-primary'                            |
-= javascript_tag do
-  document.addEventListener("turbolinks:load", buildContentImageList);
-  
-  function buildContentImageList() {
-  document.removeEventListener("turbolinks:load", buildContentImageList);
-  
-  var options = {
-  valueNames: ['id', 'filename', 'times_used']
-  };
-  
-  var contentImageList = new List('content_images', options);
-  }

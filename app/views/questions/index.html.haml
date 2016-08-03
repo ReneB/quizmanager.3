@@ -2,7 +2,9 @@
 .page-header
   %h1= t 'question.title'
 
-#questions.col-md-9
+#questions.col-md-9{data: { behavior: 'list',
+                            value_names: %w(id text answers topics learnable),
+                            filters: { category: Category.all.map(&:title) }.to_json } }
   / Search box ////////////////////////////////////////
   .form-group
     %label.control-label{:for => "search"} Search:
@@ -89,18 +91,3 @@
                   = image_tag(type)
       .modal-footer
         %button.btn.btn-default{data: { dismiss: "modal" }}= t('.cancel')
-
-/ Activation for List controls
-= javascript_tag do
-  document.addEventListener("turbolinks:load", buildQuestionList);
-
-  function buildQuestionList() {
-  document.removeEventListener("turbolinks:load", buildQuestionList);
-
-  var options = {
-  valueNames: ['id', 'text', 'answers', 'topics', 'learnable']
-  };
-
-  var questionList = new List('questions', options);
-  document.registerListForFiltering(questionList, 'category', #{Category.all.map(&:title).to_json.html_safe});
-  }

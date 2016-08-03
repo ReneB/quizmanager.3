@@ -1,7 +1,8 @@
 - model_class = Learnable
 .page-header
   %h1= t 'learnable.title'
-#learnables
+#learnables{data: { behavior: 'list',
+                    value_names: %w(title body num_questions) } }
   .form-group
     %label.control-label{:for => "search"} Search:
     = search_field '', '', class: 'search form-control', placeholder: "Type your search text here"
@@ -34,15 +35,3 @@
 = link_to t('.new', :default => t("helpers.links.new")), |
   new_learnable_path,                                    |
   :class => 'btn btn-primary'                            |
-= javascript_tag do
-  document.addEventListener("turbolinks:load", buildLearnableList);
-  
-  function buildLearnableList() {
-  document.removeEventListener("turbolinks:load", buildLearnableList);
-  
-  var options = {
-  valueNames: ['title', 'body', 'num_questions']
-  };
-  
-  new List('learnables', options);
-  }
