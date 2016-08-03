@@ -3,7 +3,7 @@
   %h1= t 'question.title'
 
 #questions.col-md-9{data: { behavior: 'list',
-                            value_names: %w(id text answers topics learnable),
+                            value_names: %w(id text answers topics learnable type),
                             filters: { category: Category.all.map(&:title) }.to_json } }
   / Search box ////////////////////////////////////////
   .form-group
@@ -17,8 +17,8 @@
         %th.sort{"data-sort" => "id"}
           ID
           \#{sorting_icons(:order)}
-        %th
-          Active
+        %th Active
+        %th Type
         %th.sort{"data-sort" => "text"}
           = model_class.human_attribute_name(:question_text)
           = sorting_icons(:alphabet)
@@ -30,6 +30,7 @@
             %tr{"data-category-list" => "#{question.categories.map(&:title).to_json}"}
               %td.id.col-md-1= question.id
               %td.published.col-md-1= glyph(:ok) if question.published?
+              %td.type= question.question_type
               %td.col-md-9
                 = content_tag :div, class: 'text collapsed', data: { toggle: :collapse, target: "#answers_for_question_#{question.id}" } do
                   = glyph('triangle-right')
