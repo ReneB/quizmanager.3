@@ -30,7 +30,8 @@ processResults = (name, cropper) ->
   cropper.croppie('result',
     type: 'canvas',
     size: 'viewport',
-    format: 'png'
+    format: 'png',
+    enableExif: true
   ).then((resp) ->
     targetFormField.val(resp)
     previewImage.attr('src', resp)
