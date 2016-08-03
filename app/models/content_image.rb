@@ -24,6 +24,12 @@ class ContentImage < ActiveRecord::Base
     end
   end
 
+  after_validation do
+    while self.class.where(filename: filename).any?
+      self.filename += "-1"
+    end
+  end
+
   def times_used
     @times_used ||= (questions_count + answers_count)
   end
