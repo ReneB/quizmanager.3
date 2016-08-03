@@ -1,31 +1,21 @@
 activeList = null
-activeValues = []
-attributeName = ""
+activeFilters = {}
+attributeNames = []
 
 document.registerListForFiltering = (list, attribute, possibleValues) ->
-  activeValues = possibleValues
+  activeFilters[attribute] = possibleValues
   activeList = list
-  attributeName = attribute
+  attributeNames.push(attribute)
 
-document.filterList = (values) ->
+document.filterList = (attributeName, values) ->
   values ||= []
+  activeFilters[attributeName] = values
 
   activeList.filter (item) ->
-    for value in $(item.elm).data("#{attributeName}-list")
-      return true if value in values
+    for attribute, activeValues of activeFilters
+      valuesForElement = jQuery(item.elm).data("#{attribute}-list")
 
-    return false
+      if activeValues.intersection(valuesForElement).length == 0
+        return false
 
-$(document).on 'click', '[data-behavior=filter-list]', (event) ->
-  event.preventDefault()
-
-  $(event.target).toggleClass('btn-success')
-  selectedValue = $(event.target).data(attributeName)
-
-  if (selectedValue in activeValues)
-    activeValues = activeValues.filter (value) -> value isnt selectedValue
-  else
-    activeValues.push selectedValue
-
-  filter(activeValues)
-
+    return true
