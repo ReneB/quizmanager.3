@@ -1,6 +1,14 @@
 class ContentImage < ActiveRecord::Base
-  has_attached_file :question_image, styles: { normal: "750x330", thumbnail: "250x110" }
-  has_attached_file :answer_image,   styles: { normal: "270x186", thumbnail:   "90x62" }
+  def self.question_image_size
+    Size.new(750, 330)
+  end
+
+  def self.answer_image_size
+    Size.new(270, 186)
+  end
+
+  has_attached_file :question_image, styles: { normal: question_image_size, thumbnail: question_image_size / 3 }
+  has_attached_file :answer_image,   styles: { normal: answer_image_size, thumbnail:   answer_image_size / 3 }
 
   validates_attachment :question_image, content_type: { content_type: 'image/png' }
   validates_attachment :answer_image,   content_type: { content_type: 'image/png' }

@@ -1,8 +1,8 @@
 .row
   .col-md-6
-    = content_tag :div, "", id: "crop-for-question", data: { cropper: { for: :question, viewport: { width: 750, height: 330 } } }
+    = content_tag :div, "", id: "crop-for-question", data: { cropper: { for: :question, viewport: ContentImage.question_image_size.to_h } }
   .col-md-6
-    = content_tag :div, "", id: "crop-for-answer", data: { cropper: { for: :answer, viewport: { width: 270, height: 186 } } }
+    = content_tag :div, "", id: "crop-for-answer", data: { cropper: { for: :answer, viewport: ContentImage.answer_image_size.to_h } }
 .row
   .col-md-offset-2.col-md-2
     .form-group
@@ -12,9 +12,9 @@
       %button.btn.btn-primary.preview.form-control.col-md-2{data: { behavior: 'cropper-create-preview' } } Preview
 .row
   .col-md-6
-    %img.center-block{ height: "330", width: "750", data: { 'preview-of': :question } }
+    %img.center-block{ ContentImage.question_image_size.to_h.merge(data: { 'preview-of': :question }) }
   .col-md-6
-    %img.center-block{ height: "186", width: "270", data: { 'preview-of': :answer } }
+    %img.center-block{ ContentImage.answer_image_size.to_h.merge(data: { 'preview-of': :answer }) }
 
 = form_for @content_image, html: { multipart: true, class: 'form-horizontal form-model' } do |f|
   = f.hidden_field :question_image, value: nil, id: :question_image, data: { 'cropped-version-of': :question }
