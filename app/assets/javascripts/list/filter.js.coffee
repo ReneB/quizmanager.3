@@ -1,4 +1,9 @@
+# The list that is active on the current page.
 activeList = null
+
+# List of currently active filters.
+#   Key = filter attribute
+#   Value = array of values that will pass the filter
 activeFilters = {}
 attributeNames = []
 
