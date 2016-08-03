@@ -7,8 +7,8 @@ class ContentImage < ActiveRecord::Base
     Size.new(270, 186)
   end
 
-  has_attached_file :question_image, styles: { normal: question_image_size, thumbnail: question_image_size / 3 }
-  has_attached_file :answer_image,   styles: { normal: answer_image_size, thumbnail:   answer_image_size / 3 }
+  has_attached_file :question_image, styles: { normal: question_image_size, thumbnail: question_image_size / 2 }
+  has_attached_file :answer_image,   styles: { normal: answer_image_size, thumbnail:   answer_image_size / 2 }
 
   validates_attachment :question_image, content_type: { content_type: 'image/png' }
   validates_attachment :answer_image,   content_type: { content_type: 'image/png' }
