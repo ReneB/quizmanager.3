@@ -1,80 +1,73 @@
-window.prepareCroppers = () ->
+croppers = {}
+
+tearDownCroppers = ->
+  for name, element of croppers
+    element?.croppie('destroy')
+
+    delete croppers[name]
+
+setupCropper = (cropElement) ->
   margin = 75
 
-  setFilename = (filename) ->
-    jQuery('#filename').val(filename.split('.')[0])
+  config = cropElement.data('cropper')
+  viewport = config.viewport
+  name = config.for
 
-  bindCroppers = (file) ->
-    return (e) ->
-      questionCrop.croppie('bind',
+  boundary = {
+    width: viewport.width + 2 * margin,
+    height: viewport.height + 2 * margin
+  }
+
+  croppers[name] = cropElement.croppie(
+    viewport: viewport,
+    boundary: boundary
+  )
+
+processResults = (name, cropper) ->
+  targetFormField = jQuery("[data-cropped-version-of='#{name}']")
+  previewImage = jQuery("img[data-preview-of='#{name}']")
+
+  cropper.croppie('result',
+    type: 'canvas',
+    size: 'viewport',
+    format: 'png'
+  ).then((resp) ->
+    targetFormField.val(resp)
+    previewImage.attr('src', resp)
+  )
+
+setFilename = (filename) ->
+  # FIXME: this is an implicit dependency
+  jQuery('#filename').val(filename.split('.')[0])
+
+bindCroppers = (file) ->
+  return (e) ->
+    for _, cropper of croppers
+      cropper.croppie('bind',
         # e.target.result = base64-encoded version of the file
         url: e.target.result
       )
 
-      answerCrop.croppie('bind',
-        url: e.target.result
-      )
+    setFilename(file.name)
 
-      setFilename(file.name)
+readFile = (input) ->
+  if (input.files && input.files[0])
+    reader = new FileReader()
 
-  readFile = (input) ->
-    if (input.files && input.files[0])
-      reader = new FileReader()
+    reader.onload = bindCroppers(input.files[0])
 
-      reader.onload = bindCroppers(input.files[0])
+    reader.readAsDataURL(input.files[0])
 
-      reader.readAsDataURL(input.files[0])
+prepareCroppers = () ->
+  jQuery('[data-cropper]').each (_, element) ->
+    setupCropper(jQuery(element))
 
-  cropElement = jQuery('#crop-for-question')
+  #FIXME: this is an implicit dependency
+  jQuery('#upload').on('change', -> readFile(@))
 
-  return unless cropElement.length > 0
-
-  viewport = cropElement.data('viewport')
-  boundary = {
-    width: viewport.width + 2 * margin,
-    height: viewport.height + 2 * margin
-  }
-
-  questionCrop = cropElement.croppie(
-    viewport: viewport,
-    boundary: boundary
-  )
-
-  cropElement = jQuery('#crop-for-answer')
-  viewport = cropElement.data('viewport')
-  boundary = {
-    width: viewport.width + 2 * margin,
-    height: viewport.height + 2 * margin
-  }
-
-  answerCrop = cropElement.croppie(
-    viewport: viewport,
-    boundary: boundary
-  )
-
-  jQuery('#upload').on('change', () -> readFile(this))
-
-  jQuery('.upload-result').on('click', (ev) ->
-    answerCrop.croppie('result',
-      type: 'canvas',
-      size: 'viewport',
-      format: 'png'
-    ).then((resp) ->
-      jQuery('#answer_image').val(resp)
-
-      jQuery('#preview-answer').attr('src', resp)
-    )
-
-    questionCrop.croppie('result',
-      type: 'canvas',
-      size: 'viewport',
-      format: 'png'
-    ).then((resp) ->
-      jQuery('#question_image').val(resp)
-
-      jQuery('#preview-question').attr('src', resp)
-    )
-  )
+  jQuery('[data-behavior="cropper-create-preview"]').on 'click', (ev) ->
+    for name, cropper of croppers
+      processResults(name, cropper)
 
 document.addEventListener('turbolinks:load', prepareCroppers)
-
+document.addEventListener('turbolinks:visit', tearDownCroppers)
