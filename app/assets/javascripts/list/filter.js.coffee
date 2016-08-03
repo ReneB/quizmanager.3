@@ -5,12 +5,10 @@ activeList = null
 #   Key = filter attribute
 #   Value = array of values that will pass the filter
 activeFilters = {}
-attributeNames = []
 
 document.registerListForFiltering = (list, attribute, possibleValues) ->
   activeFilters[attribute] = possibleValues
   activeList = list
-  attributeNames.push(attribute)
 
 document.filterList = (attributeName, values) ->
   values ||= []
