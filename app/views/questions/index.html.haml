@@ -18,7 +18,9 @@
           ID
           \#{sorting_icons(:order)}
         %th Active
-        %th Type
+        %th.sort{"data-sort" => "type"}
+          Type
+          = sorting_icons(:alphabet)
         %th.sort{"data-sort" => "text"}
           = model_class.human_attribute_name(:question_text)
           = sorting_icons(:alphabet)
