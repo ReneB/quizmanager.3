@@ -15,3 +15,10 @@ document.addEventListener 'turbolinks:load', ->
 
     for key, values of list.data('filters')
       document.registerListForFiltering(interactiveList, key, values)
+
+jQuery(document).on 'change', "[data-behavior='filter-select-box']", (event) ->
+  selectBox = jQuery(event.target)
+  filterValues = selectBox.val()
+  attribute = selectBox.data('attribute')
+
+  document.filterList(attribute, filterValues)
