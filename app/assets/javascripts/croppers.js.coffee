@@ -39,7 +39,7 @@ processResults = (name, cropper) ->
 
 setFilename = (filename) ->
   # FIXME: this is an implicit dependency
-  jQuery('#filename').val(filename.split('.')[0])
+  jQuery('input#filename').val(filename.split('.')[0])
 
 bindCroppers = (file) ->
   return (e) ->
@@ -64,7 +64,7 @@ prepareCroppers = () ->
     setupCropper(jQuery(element))
 
   #FIXME: this is an implicit dependency
-  jQuery('#upload').on('change', -> readFile(@))
+  jQuery('input[type=file]#upload').on('change', -> readFile(@))
 
   jQuery('[data-behavior="cropper-create-preview"]').on 'click', (ev) ->
     for name, cropper of croppers
