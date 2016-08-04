@@ -1,3 +1,26 @@
+# Elements needed to set this script up:
+# - input[type=file]#upload                     // when uploading a file to this element, the croppers get initialized
+# - *[data-cropper]                             // data-cropper attribute should contain JSON config like this:
+#                                               // {
+#                                               //   // this name is also the name that is being reused in the elements named above
+#                                               //   for: freeform-name-of-image,
+#                                               //   viewport: {
+#                                               //     width: int,
+#                                               //     height: int
+#                                               //   }
+#                                               // }
+
+# To generate previews
+# - img[data-preview-of="name"]                 // optional. this image will receive a preview of the cropper with the same name in the 'for'
+
+# To copy image to a form
+# - *[data-behavior="cropper-create-preview"]   // when this element is clicked, all croppers copy their image to the form elements
+# - input[data-cropped-version-of="name"]       // the form elements linked to the croppers. Match is made based on name variable
+
+# Convenience
+# - input#filename                              // optional. automatically set when file is selected
+
+
 croppers = {}
 
 tearDownCroppers = ->
