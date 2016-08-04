@@ -21,6 +21,26 @@
 # - input#filename                              // optional. automatically set when file is selected
 
 
+# A small, fully functional HTML snippet example is given below. This is a form for creating a resource called 'content_image'
+# which encapsulates a 'question_image' and an 'answer_image'. Both croppers have their own preview image, and both will respond
+# when a file is given and when 'preview' is pressed.
+
+# <div data-cropper='{"for":"question","viewport":{"width":750,"height":330}}'></div>
+# <div data-cropper='{"for":"answer","viewport":{"width":270,"height":186}}'></div>
+# <label>
+#   Upload image
+#   <input accept="image" id="upload" style="display: none;" type="file">
+# </label>
+# <button data-behavior="cropper-create-preview">Preview</button>
+# <img data-preview-of="question" height="330" width="750">
+# <img data-preview-of="answer" height="186" width="270">
+# <form enctype="multipart/form-data" action="/content_images" accept-charset="UTF-8" method="post">
+#   <input data-cropped-version-of="question" type="hidden" name="content_image[question_image]">
+#   <input data-cropped-version-of="answer" type="hidden" name="content_image[answer_image]">
+#   <input id="filename" type="text" name="content_image[filename]">
+#   <input type="submit" name="commit" value="Create Content image">
+# </form>
+
 croppers = {}
 
 tearDownCroppers = ->
